@@ -1,0 +1,196 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    }
+
+.header {
+ 	background-color:#333333;
+    }
+
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+    }
+
+.nav {
+    margin: 0;
+    padding: 20px 0;
+    text-align: center;
+    text-shadow: #EEEE00 0 0 10px;
+    }
+
+#contact {
+    text-shadow: #EEEE00 0 0 10px;
+    }
+
+a { 
+    color: inherit; 
+    text-decoration: none;
+    } 
+
+.nav li {
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    display: inline;
+    padding-right: 25px;
+    text-transform: uppercase;
+    }
+
+.nav i {
+    color: white;
+    }
+
+.jumbotron {
+    height: 700px;
+    background: url(https://suzanne.files.wordpress.com/2014/11/baby-blue-whale-and-mum.jpg);
+    background-size:cover;
+    }
+
+
+.main {
+    position: relative;
+    top: 180px;
+    text-align: center;
+    }
+
+.main h1 {
+    color: #333;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 75px;
+    margin-top: 0;
+    margin-bottom: 80px;
+    text-transform: uppercase;
+    }
+
+.btn-main a {
+    background-color: #333333;
+    color:white ;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 1.3px;
+    padding: 16px 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    }
+
+.supporting {
+    padding-top: 100px;
+    padding-bottom: 50px;
+  
+    }
+
+.btn-default a {
+    border: 1px solid #333;
+    color:  #333;
+    padding: 20px 60px 20px 60px;
+    margin-top: 1px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1.3px;
+    display: inline-block;
+    text-transform:uppercase; 
+    text-align: center;
+    margin-bottom:20px;
+    }
+
+.btn-in-progress a {
+    border: 1px solid #333;
+    color:  #333;
+    padding: 20px 38px 20px 38px;
+    margin-top: 1px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1.3px;
+    display: inline-block;
+    text-transform:uppercase; 
+    text-align: center;
+    margin-bottom:20px;
+    
+}
+
+.supporting .col {
+    float: left;
+    width: 33%;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin: .030em;
+    margin-top: 2
+    }
+
+.supporting .col-mid {
+    float: left;
+    width: 33%;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    }  
+
+.supporting img {
+    height: 32px;
+    }
+
+.supporting h2 {
+    font-weight: 600;
+    font-size: 23px;
+    text-transform: uppercase;
+    }
+
+.supporting p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 0 50px;
+    margin-bottom: 30px;
+    }
+
+.clearfix {
+    clear: both;
+    padding: 100px;
+    }
+
+.footer {
+    background-color:#333;
+    color: #fff;
+    padding: 015px 0;
+    margin-top: -50px;
+    margin-bottom: -350px;
+    }
+
+.footer p {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 11px;
+    }
+
+@media (max-width: 50px) {
+    .main h1 {
+        font-size: 200px;
+        padding: 0 40px;
+        }
+    }
+
+
+
+
+/*
+    
+ .row2 {
+ margin: 200em;
+border: 200em;
+padding 200em;
+ }
+    
+    */
+  
+  

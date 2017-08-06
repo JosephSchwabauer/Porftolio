@@ -1,0 +1,147 @@
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size:16px; 
+    }
+
+.header {
+    background-color:#333333;
+    }
+
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+    }
+
+.nav {
+    margin: 0;
+    padding: 20px 0;
+    text-align: center;
+    text-shadow: #EEEE00 0 0 10px;
+    }
+
+#home {
+    padding-left: 1.4em;
+    }
+
+body {
+    background-image: url('images/gilmore-beach.png');
+    background-size: 1550px 1550px;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+    }
+
+a { 
+    color: inherit; 
+    text-decoration: none;
+    } 
+
+.nav li {
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    display: inline;
+    padding-right: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    }
+
+.nav i {
+    color: white;
+    }
+
+.jumbotron {
+    height: 700px;
+    background-image: url(gilmore-beach);
+    background-size:cover;
+    }
+
+.section  {
+    margin-top: 10em;
+    margin-left: 4.7em;
+    margin-right: 35em;
+    }
+
+.section p {
+    font-size: 17px;
+    line-height: 1.75em;
+
+}
+
+footer {
+    color: white;
+    padding: 015px 0;
+    margin-top: 50px;
+    margin-bottom: -300px;
+    margin-left: 4.7em;
+    margin-right: 5em;
+    text-shadow: #EE0000 0 0 10px;
+    }
+
+#touch {
+    margin-left: 3em;
+    }
+#number {
+    margin-left: 3em;
+    
+}
+
+#icons {
+    margin-left: 2.5em;
+    margin-top: 1.5em;
+    }
+
+.main {
+    position: relative;
+    top: 180px;
+    text-align: center;
+    }
+
+
+.supporting img {
+  height: 32px;
+  }
+
+.supporting h2 {
+  font-weight: 600;
+  font-size: 23px;
+  text-transform: uppercase;
+  }
+
+.supporting p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 0 50px;
+  margin-bottom: 30px;
+  }
+
+.clearfix {
+  clear: both;
+  padding: 100px;
+  }
+
+.footer p {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-size: 16px;
+  }
+
+@media (max-width: 50px) {
+  .main h1 {
+    font-size: 200px;
+    padding: 0 40px;
+    }
+}
+
+
+/*
+address  {
+    margin-left: 5em;
+    margin-right: 5em;
+}
+*/
