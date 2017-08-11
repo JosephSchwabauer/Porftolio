@@ -1,0 +1,430 @@
+/* color scheme  
+#FFFFFF  white
+#81F4E1  aquamarine
+#68D0F9  (or is that an O?)  maya blue
+#FF729F  french pink
+#D3A2CD  light medium orchid
+*/
+
+html, body {
+  background-color: white; 
+  margin: 0;
+  padding: 0;
+  font-family: 'Libre Baskerville', sans-serif;
+  font-size: 16px;
+  }
+
+.header {
+    margin-bottom: 5.5em;
+    }
+
+.banners {
+    background-color: white;
+    text-align: center;
+    border-left: solid 210px #81F4E1 ;
+    border-right: solid 210px #81F4E1 ;
+    font-family: 'Codystar', cursive;
+    color: #FF729F;
+    } 
+
+ul, li {
+    list-style:none;
+    }
+
+a {
+    color: grey;
+    text-decoration: none;
+    }
+
+#title {
+    font-size: 22px;
+    }
+
+#subTitle {
+    font-size: 22px;
+    }
+
+#titleBlurb {
+    font-family: cursive;
+    }
+
+
+aside {
+    background-color: gold;
+    }
+
+aside li {
+    text-align: right;
+    }
+
+.row {
+    background-color: ; 
+    }
+
+
+.photo {
+    border: 12px solid #68D0F9;
+    border-radius: 280px 280px 280px 280px;
+    width: 45%;
+    float: left;    
+    }
+
+.caption {
+    font-size: 12px;
+    width: 45%;
+    margin-bottom: -4em;
+    border-radius: 280px 280px 280px 280px;
+    border: 12px solid #68D0F9;
+    float: left;
+    }
+
+
+.blurb_bubble {
+    border-radius: 280px 280px 280px 280px;
+    border: 12px solid #68D0F9;
+    border-top: -3em;
+    margin-right: 30em;
+    margin-left: 30em;
+    padding-left: 6px;
+    padding-right: 6px;
+    text-align: center;
+    }
+
+#hauts {
+    height: 20%;
+    background-color: ;
+    }
+
+#beachPhoto {
+    margin-top: 1.8em;
+    border: 12px solid #68D0F9;
+    border-radius: 280px 280px 280px 280px;
+    width: 45%;
+    }
+
+#hauts_caption {
+    text-align: left;
+    padding-top: -5px;
+    margin-bottom: 40px;
+    padding-bottom: -30px;
+    margin-top: 7px;
+    margin-left: 25px;
+    border-left: -88px;
+    border: 2px solid #;
+    float: none;
+    }
+
+#hauts_bubble {
+    background-color: darkseagreen;
+    }
+
+#est_bubble {
+
+}
+
+#grandEst_caption{
+    padding-top: -20px;
+    margin-bottom: 40px;
+    padding-bottom: -30px;
+    margin-top: -20px;
+    margin-left: 25px;
+    border-left: -88px;
+    border: 2px solid #;
+    float: none;
+    }
+
+#comte {
+    height: 450px;
+    }
+
+#comte_bubble {
+    height: 350px;
+    background-color: darkseagreen;
+
+    }
+
+#comte_caption {
+    padding-top: -20px;
+    margin-bottom: 40px;
+    padding-bottom: -30px;
+    margin-top: -20px;
+    margin-left: 25px;
+    border-left: -88px;
+    border: 2px solid #;
+    float: none;
+    }
+
+#auvergne {
+    height: 475px;
+    }
+
+#auvergne_bubble {
+    height: 400px;
+
+
+    }
+
+#auvergne_caption {
+     padding-top: -20px;
+    margin-bottom: 40px;
+    padding-bottom: -30px;
+    margin-top: -20px;
+    margin-left: 25px;
+    border-left: -88px;
+    border: 2px solid #;
+    float: none;
+    }
+
+#azur {
+    height: 445px;
+    
+    }
+
+#azur_bubble {
+    height: 400px;
+    background-color: darkseagreen;
+
+    }
+
+#azur_caption {
+     padding-top: -20px;
+    margin-bottom: 40px;
+    padding-bottom: -30px;
+    margin-top: -20px;
+    margin-left: 25px;
+    border-left: -88px;
+    border: 2px solid #;
+    float: none;
+    }
+
+#corse {
+    height: 445px;
+    }
+
+#corse_bubble {
+    height: 400px;
+
+
+    }
+
+#corse_caption {
+    padding-top: -20px;
+    margin-bottom: 40px;
+    padding-bottom: -30px;
+    margin-top: -20px;
+    margin-left: 25px;
+    border-left: -88px;
+    border: 2px solid #;
+    float: none;
+    }
+
+#occ {
+    height: 580px;
+    }
+
+#occ_bubble {
+    height: 480px;
+    background-color: darkseagreen;
+
+    }
+
+#aqui {
+    height: 485px;
+    }
+
+#aqui_bubble {
+    height: 430px;
+    }
+
+
+#aqui_caption {
+    padding-top: -20px;
+    margin-bottom: 40px;
+    padding-bottom: -30px;
+    margin-top: -20px;
+    margin-left: 25px;
+    border-left: -88px;
+    border: 2px solid #;
+    float: none;
+    }
+
+#centre {
+    height: 465px;
+    }
+
+#centre_bubble {
+    height: 400px;
+    background-color: darkseagreen;
+
+    }
+
+#centre_caption {
+    padding-top: -10px;
+    margin-bottom: 40px;
+    padding-bottom: -30px;
+    margin-top: -20px;
+    margin-left: 25px;
+    border-left: -88px;
+    border: 2px solid #;
+    float: none;
+    }
+
+#ile {
+    height: 485px;
+    }
+
+#ile_bubble {
+    height: 430px;
+    }
+
+#ile_caption {
+    margin-bottom: 40px;
+    padding-bottom: -30px;
+    margin-top: -20px;
+    margin-left: 25px;
+    border-left: -88px;
+    border: 2px solid #;
+    float: none;
+    }
+
+#loire {
+    height: 725px;
+    }
+
+#loire_bubble {
+    height: 580px;
+    background-color: darkseagreen;
+
+    }
+
+
+#loire_caption {
+    margin-bottom: 40px;
+    padding-bottom: -30px;
+    margin-top: -20px;
+    margin-left: 25px;
+    border-left: -88px;
+    border: 2px solid #;
+    float: none;
+    }
+
+#bert {
+    height: 475px;
+    }
+
+#bert_bubble{
+    height: 430px;
+    }
+
+#bertagne_caption {
+    margin-bottom: 40px;
+    padding-bottom: -30px;
+    margin-top: -20px;
+    margin-left: 25px;
+    border-left: -88px;
+    border: 2px solid #;
+    float: none;
+    }
+
+#normandie {
+    height: 465px;
+    }
+
+#normandie_bubble{
+    height: 435px;
+    background-color: darkseagreen;
+
+    }
+
+#normandie_caption {
+    margin-bottom: 40px;
+    padding-bottom: -30px;
+    margin-top: -20px;
+    margin-left: 25px;
+    border-left: -88px;
+    border: 2px solid #;
+    float: none;
+    }
+
+#estPhoto {
+    border : 12px solid #FF729F;
+    }
+    
+ #arboisPhoto {
+    height: 320px;
+    width: 400px;
+    border : 12px solid #D3A2CD;
+    }
+
+#alpsPhoto{
+    height: 400px;
+    width: 400px;
+    }
+
+#marseillePhoto {
+    height: 400px;
+    width: 400px;
+    }
+
+#ajaccioPhoto {
+    height: 400px;
+    width: 400px; 
+    }
+
+#occFlagPhoto {
+    }
+
+#aquitainePhoto{
+    }
+
+#parisPhoto {
+    height: 400px;
+    width: 400px;
+    }
+
+#versPhoto {
+    height: 400px;
+    width: 400px;
+    }
+
+#loirePhoto {
+    height: 600px;
+    width: 600px;
+    }
+
+#bertagnePhoto {
+    }
+
+
+#stMichPhoto {
+    height: 400px;
+    width: 400px;  
+    }
+
+
+
+/*footer styling*/
+.footer {
+    background-color:#FF729F;
+    color: white;
+    }
+
+.footer .col-md-4 {
+    display:align-left;
+    background-color:darkseagreen;
+    }
+  
+.footer p {
+    display: center;
+    }
+ 
+
+
+/*departmentMap.html styling*/
+#map{
+    text-align: center;
+    }
+    
+#map_return{
+    line-height: 3em;
+    }
