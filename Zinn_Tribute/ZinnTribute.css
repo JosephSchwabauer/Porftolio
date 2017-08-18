@@ -1,0 +1,151 @@
+/*
+
+color accent? how do I intelleginently change the border color without the discrepency of the added 1px border width for the image element?
+
+*/
+
+*{
+  font-family: georgia, times, serif;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Arimo', sans-serif;
+  list-style-type: none;
+
+
+}
+
+
+.container-fluid {
+  background-color: whitesmoke;
+  padding:  50px 45px;
+}
+
+
+body {
+  color: black;
+    background-color: whitesmoke;
+}
+
+#heading {
+  text-align:center;
+  font-size: 70px;
+      font-family: 'Sedgwick Ave', cursive;
+    color: white;
+    margin-top: 13x;
+
+}
+
+#caption {
+    color:white;
+    text-align: right;
+    padding-right: 1em;
+}
+
+.bold{
+    font-weight: 700;
+}
+h3 {
+  text-align:center;
+ font-family: 'Sedgwick Ave', cursive;
+        color: white;
+}
+
+#subtitle {
+    margin-bottom:6px;
+    font-size: xx-large;
+}
+
+#plane {
+    font-size: 2px;
+}
+
+.col-md-12 {
+  background-color: rgb(220, 220, 220);
+ }
+
+
+.image {
+  display:block;
+  margin: 0px, auto;
+  width: 100%;
+  
+  }
+
+.image-box {
+  padding-top: 40px;
+  background-color: grey;
+  font-family: 'Sedgwick Ave', cursive;
+  border-radius: 40px 40px 20px 20px;
+   
+
+  }
+.inner-image-box {
+  background-color: grey;
+   border width:  -40px -40px 10px -40px;
+    
+} 
+
+img {
+  border: 1px solid white;
+}
+
+h4 {
+  text-align: center;
+  
+}
+
+#timeline-intro {
+    margin-left: 25px;
+    padding-top: 15px;
+    text-align: center;
+    font-family: 'Zeyada', cursive;
+
+}
+
+.timeline {
+line-height: 1.5em;
+    
+}
+
+.indent {
+ 
+    padding-left: 3em;
+}
+
+#wikiLink {
+    text-align: left;
+    padding-top: 1.3em;
+    font-size: x-large;
+    
+}
+
+a:link {
+        text-decoration: none;
+    }
+
+ul {
+  width: 800px;
+  margin: 15px 100px 40px 100px;
+}
+
+#quote {
+font-family: 'Zeyada', cursive;
+font-size: 33px;
+margin:  0px 50px 40px 50px;
+  line-height: 1.2em;
+}
+
+.script {
+    font-family: 'Zeyada', cursive;
+}
+
+#attribute {
+    margin-bottom: -1.2em;
+    
+}
+.footer {
+  text-align:center;
+}
+
+
+

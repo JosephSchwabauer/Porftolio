@@ -1,0 +1,276 @@
+/* color scheme  
+#FFFFFF  white
+#81F4E1  aquamarine
+#68D0F9  (or is that an O?)  maya blue
+#FF729F  french pink
+#D3A2CD  light medium orchid
+background-color: darkseagreen;
+
+padding-bottom should be unique to every caption because the shape of the photo will change where the caption border touches the photo border
+*/
+
+html, body {
+    background-color: white; 
+    margin: 0;
+    padding: 0;
+    }
+
+.header {
+    margin-bottom: 5.5em;
+    min-width: 200px;
+    }
+
+.banners {
+    background-color: white;
+    text-align: center;
+    border-left: solid 210px #81F4E1;
+    border-radius: 280px 280px 280px 280px;
+    border-right: solid 210px #81F4E1;
+    font-family: 'Codystar', cursive;
+    color: #FF729F;
+    list-style:none;
+    } 
+
+.body {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 16px;
+    }
+
+.object {
+    margin-bottom: 4em;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: -20px;
+    }
+
+a {
+    color: grey;
+    text-decoration: none;
+    }
+
+
+#title {
+    font-size: 22px;
+    }
+
+
+#subTitle {
+    font-size: 22px;
+    }
+
+
+#titleBlurb {
+    font-family: cursive;
+    }
+
+
+.row {
+    height: 30em;
+    }
+
+.photo {
+    border: 12px solid #68D0F9;
+    border-radius: 280px 280px 280px 280px;
+    width: 45%;
+    float: left;
+    
+
+    }
+
+.caption {
+    width: 40%;  /*  this width setting is the only thing bringing the caption all the eway to the left  */
+    margin-bottom: -.2em;
+    border-radius: 280px 280px 280px 280px;
+    border: 6px solid #68D0F9;
+    text-align: left;
+    padding-left: 6px;
+    margin-left: 7px;  /* This brings the caption off the very edge of the left sied 
+    of the screen */
+    }
+
+
+.blurb_bubble {
+    border-radius: 40%;
+    border: 12px solid #68D0F9;
+    margin-left: 30em;
+    margin-top: 25px;
+    padding-right: 6px;  /*keeps the text in the bubble off the border */
+    height: 25em;
+    }
+
+.bubble_text {
+    text-align: right;
+    padding-top: 90px;
+    color: red;
+    }
+
+
+#beachPhoto {
+    border: 12px solid #81F4E1;
+    }
+
+#hauts_caption {
+    padding-bottom: -30px;  /*brings the caption in contact with the photo */
+    border: 6px solid #81F4E1;
+
+    }
+    
+#hauts_bubble {
+    }
+    
+#est_bubble {
+    }
+
+#grandEst_caption{
+    padding-bottom: -30px;  /*brings the caption in contact with the photo */
+    }
+
+
+#comte_bubble {
+    background-color: ;
+
+    }
+
+#comte_caption {
+    padding-bottom: -30px;
+    }
+
+#auvergne_bubble {
+    background-color: ;
+    }
+
+#auvergne_caption {
+    padding-bottom: -30px;  /*brings the caption in contact with the photo */
+}
+
+#marseillePhoto {
+    height: 445px;
+    border: 22px solid ##FF729F;
+    }
+
+#azur_bubble {
+   background-color:;
+
+    }
+
+#azur_caption {
+    padding-bottom: -30px; /*brings the caption in contact with the photo */
+    }
+
+
+#corse_bubble {
+    }
+
+#corse_caption {
+    padding-bottom: -30px;  /*brings the caption in contact with the photo */
+    }
+
+
+
+#occ_bubble {
+    background-color: ;
+
+    }
+
+
+#aqui_bubble {
+   
+    }
+
+
+#aqui_caption {
+    padding-bottom: -30px;  /*brings the caption in contact with the photo */
+    }
+
+
+
+#centre_bubble {
+    
+    background-color: ;
+
+    }
+
+#centre_caption {
+    padding-bottom: -30px;  /*brings the caption in contact with the photo */
+    }
+
+
+
+#ile_bubble {
+   
+    }
+
+#ile_caption {
+    padding-bottom: -30px;  /*brings the caption in contact with the photo */
+    }
+
+
+
+#loire_bubble {
+  background-color: ;
+
+    }
+
+
+#loire_caption {
+    padding-bottom: -30px;  /*brings the caption in contact with the photo */
+    }
+
+
+#bert_bubble{
+
+    }
+
+#bertagne_caption {
+    padding-bottom: -30px;  /*brings the caption in contact with the photo */
+    }
+
+
+
+#normandie_bubble{
+   
+    background-color:;
+
+    }
+
+#normandie_caption {
+    padding-bottom: -30px;  /*brings the caption in contact with the photo */
+    }
+
+
+
+
+
+#stMichPhoto {
+       /* This photo is the only outlier and may be adjusted smaller to look a bit more consistent the the other pictures */
+    }
+
+
+
+/*footer styling*/
+.footer {
+    background-color:#FF729F;
+    color: white;
+    }
+
+.footer .col-md-4 {
+    display:align-left;
+    background-color:darkseagreen;
+    }
+  
+.footer p {
+    display: center;
+    }
+ 
+
+
+/*departmentMap.html styling*/
+#map{
+    text-align: center;
+    }
+    
+#map_return{
+    line-height: 3em;
+    }
+
+
