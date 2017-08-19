@@ -55,6 +55,7 @@ body {
     background-size: 1550px 1550px;
     background-repeat: no-repeat;
     color: whitesmoke;
+    height: auto;
     }
 
 .blurb  {
@@ -99,3 +100,22 @@ footer p {
 
 
 
+
+
+/*
+
+.clearfix {
+  clear: both;
+  padding: 100px;
+  }
+
+
+
+@media (max-width: 50px) {
+  .main h1 {
+    font-size: 200px;
+    padding: 0 40px;
+    }
+}
+
+*/
