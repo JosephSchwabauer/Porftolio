@@ -61,7 +61,11 @@ body {
 .blurb  {
     margin-top: 10em;
     margin-left: 4.7em;
-    margin-right: 35em;
+    width: 600px;
+    
+    
+/*    margin-left: 4.7em;
+    margin-right: 35em;   */
     }
 
 .blurb p {
