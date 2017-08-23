@@ -4,31 +4,43 @@
 #68D0F9  (or is that an O?)  maya blue
 #FF729F  french pink
 #D3A2CD  light medium orchid
+background-color: darkseagreen;
+
+padding-bottom should be unique to every caption because the shape of the photo will change where the caption border touches the photo border
 */
 
 html, body {
-  background-color: white; 
-  margin: 0;
-  padding: 0;
-  font-family: 'Libre Baskerville', sans-serif;
-  font-size: 16px;
-  }
+    background-color:#f9fafc; 
+    margin: 0;
+    padding: 0;
+    }
 
 .header {
     margin-bottom: 5.5em;
+    min-width: 200px;
     }
 
 .banners {
-    background-color: white;
+    background-color: #f9fafc;
     text-align: center;
-    border-left: solid 210px #81F4E1 ;
-    border-right: solid 210px #81F4E1 ;
+    border-left: solid 210px #81F4E1;
+    border-radius: 280px 280px 280px 280px;
+    border-right: solid 210px #81F4E1;
     font-family: 'Codystar', cursive;
     color: #FF729F;
+    list-style:none;
     } 
 
-ul, li {
-    list-style:none;
+.body {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 16px;
+    }
+
+.object {
+    margin-bottom: 10em;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: -20px;
     }
 
 a {
@@ -36,388 +48,308 @@ a {
     text-decoration: none;
     }
 
+
+
 #title {
     font-size: 22px;
     }
 
+
 #subTitle {
     font-size: 22px;
     }
+
 
 #titleBlurb {
     font-family: cursive;
     }
 
 
-aside {
-    background-color: gold;
-    }
-
-aside li {
-    text-align: right;
-    }
-
 .row {
-    background-color: ; 
+    height: 30em;
     }
+
 
 
 .photo {
     border: 12px solid #68D0F9;
     border-radius: 280px 280px 280px 280px;
     width: 45%;
-    float: left;    
+    float: left;
     }
 
+h3 {
+    font-size: 30px;
+    text-decoration: underline;
+}
+
 .caption {
-    font-size: 12px;
-    width: 45%;
-    margin-bottom: -4em;
+    width: 16%;  /*  this width setting is the only thing bringing the caption all the eway to the left  */
+    margin-bottom: -.2em;
     border-radius: 280px 280px 280px 280px;
-    border: 12px solid #68D0F9;
-    float: left;
+    border: 6px solid #68D0F9;
+    text-align: left;
+    padding-left: 6px;
+    margin-left: 7px;  /* This brings the caption off the very edge of the left sied 
+    of the screen */
+    color: red;
     }
 
 
 .blurb_bubble {
-    border-radius: 280px 280px 280px 280px;
+    border-radius: 40%;
     border: 12px solid #68D0F9;
-    border-top: -3em;
-    margin-right: 30em;
     margin-left: 30em;
-    padding-left: 6px;
-    padding-right: 6px;
-    text-align: center;
+    margin-top: 25px;
+    padding-right: 6px;  /*keeps the text in the bubble off the border */
+    height: 25em;
+    background-color: darkseagreen;
+    
     }
 
+.bubble_text {
+    text-align: right;
+    padding-top: 90px;
+    color: black;
+    padding-right: 23px;
+    }
+
+
 #hauts {
-    height: 20%;
-    background-color: ;
+    margin-top: 10em;
+}
+
+#hauts_caption {
+    padding-bottom: -30px;  /*brings the caption in contact with the photo */
+    border: 6px solid #81F4E1;
     }
 
 #beachPhoto {
-    margin-top: 1.8em;
-    border: 12px solid #68D0F9;
-    border-radius: 280px 280px 280px 280px;
-    width: 45%;
-    }
-
-#hauts_caption {
-    text-align: left;
-    padding-top: -5px;
-    margin-bottom: 40px;
-    padding-bottom: -30px;
-    margin-top: 7px;
-    margin-left: 25px;
-    border-left: -88px;
-    border: 2px solid #;
-    float: none;
+    border: 12px solid #81F4E1;
     }
 
 #hauts_bubble {
-    background-color: darkseagreen;
+    }
+    
+
+#grandEst_caption{
+    padding-bottom: -30px;  /*brings the caption in contact with the photo */
     }
 
+
+
 #est_bubble {
+    }
+
+
+
+#comte_caption {
+    border: 12px solid #FF729F;
+    }
+
+#arboisPhoto {
+    margin-top: -3px;
+    border: 12px solid #FF729F;
 
 }
 
-#grandEst_caption{
-    padding-top: -20px;
-    margin-bottom: 40px;
-    padding-bottom: -30px;
-    margin-top: -20px;
-    margin-left: 25px;
-    border-left: -88px;
-    border: 2px solid #;
-    float: none;
-    }
-
-#comte {
-    height: 450px;
-    }
-
 #comte_bubble {
-    height: 350px;
-    background-color: darkseagreen;
+    background-color: ;
 
     }
 
-#comte_caption {
-    padding-top: -20px;
-    margin-bottom: 40px;
-    padding-bottom: -30px;
-    margin-top: -20px;
-    margin-left: 25px;
-    border-left: -88px;
-    border: 2px solid #;
-    float: none;
-    }
 
-#auvergne {
-    height: 475px;
-    }
-
-#auvergne_bubble {
-    height: 400px;
-
-
-    }
 
 #auvergne_caption {
-     padding-top: -20px;
-    margin-bottom: 40px;
-    padding-bottom: -30px;
-    margin-top: -20px;
-    margin-left: 25px;
-    border-left: -88px;
-    border: 2px solid #;
-    float: none;
+    padding-bottom: -30px;  /*brings the caption in contact with the photo */
+    border-color:#D3A2CD;
+}
+
+
+#alpsPhoto {
+    border-color:#D3A2CD;
+    
+}
+
+#auvergne_bubble {
+    background-color: ;
     }
 
-#azur {
+
+#azur_caption {
+    padding-bottom: -30px; /*brings the caption in contact with the photo */
+    border-color: #81F4E1;
+}
+
+#marseillePhoto {
     height: 445px;
-    
+    border: 22px solid ##FF729F;
+    margin-top: -3px;
+    border-color: #81F4E1;
+
     }
 
 #azur_bubble {
-    height: 400px;
-    background-color: darkseagreen;
+   background-color:;
 
     }
 
-#azur_caption {
-     padding-top: -20px;
-    margin-bottom: 40px;
-    padding-bottom: -30px;
-    margin-top: -20px;
-    margin-left: 25px;
-    border-left: -88px;
-    border: 2px solid #;
-    float: none;
-    }
 
-#corse {
-    height: 445px;
+
+
+#corse_caption {
+    padding-bottom: -30px;  /*brings the caption in contact with the photo */
+            border-color: #68D0F9;
+
+}
+
+#ajaccioPhoto {
+            margin-top: -3px;
+        border-color: #68D0F9;
+
+
     }
 
 #corse_bubble {
-    height: 400px;
-
-
     }
 
-#corse_caption {
-    padding-top: -20px;
-    margin-bottom: 40px;
-    padding-bottom: -30px;
-    margin-top: -20px;
-    margin-left: 25px;
-    border-left: -88px;
-    border: 2px solid #;
-    float: none;
-    }
 
-#occ {
-    height: 580px;
-    }
+
+#occ_caption {
+    border-color: #FF729F;
+
+}
+
+#occFlagPhoto {
+    margin-top: -3px;
+    border-color: #FF729F;
+    
+  
+}
 
 #occ_bubble {
-    height: 480px;
-    background-color: darkseagreen;
-
+    background-color: ;
     }
 
-#aqui {
-    height: 485px;
-    }
 
-#aqui_bubble {
-    height: 430px;
-    }
+
+
+#aquitaine {
+    margin-top: 80px;
+}
 
 
 #aqui_caption {
-    padding-top: -20px;
-    margin-bottom: 40px;
-    padding-bottom: -30px;
-    margin-top: -20px;
-    margin-left: 25px;
-    border-left: -88px;
-    border: 2px solid #;
-    float: none;
-    }
-
-#centre {
-    height: 465px;
-    }
-
-#centre_bubble {
-    height: 400px;
-    background-color: darkseagreen;
+    padding-bottom: -30px;  /*brings the caption in contact with the photo */
+    background-color: #D3A2CD ;
 
     }
+
+aquitainePhoto {
+    margin-top: -3px;
+    border-color:#D3A2CD;
+
+}
+#aqui_bubble {
+   }
+
+
 
 #centre_caption {
-    padding-top: -10px;
-    margin-bottom: 40px;
-    padding-bottom: -30px;
-    margin-top: -20px;
-    margin-left: 25px;
-    border-left: -88px;
-    border: 2px solid #;
-    float: none;
+    padding-bottom: -30px;  /*brings the caption in contact with the photo */
+    border-color:#FF729F;
+
+    }
+#versPhoto {
+    margin-top: -3px;
+    border-color:#FF729F;
+
+}
+
+#centre_bubble {
+    background-color: ;
     }
 
-#ile {
-    height: 485px;
+
+
+#ile_caption {
+    padding-bottom: -30px;  /*brings the caption in contact with the photo */
+    border-color:#FF729F;
+
     }
 
 #ile_bubble {
-    height: 430px;
-    }
+   }
 
-#ile_caption {
-    margin-bottom: 40px;
-    padding-bottom: -30px;
-    margin-top: -20px;
-    margin-left: 25px;
-    border-left: -88px;
-    border: 2px solid #;
-    float: none;
-    }
-
-#loire {
-    height: 725px;
-    }
-
-#loire_bubble {
-    height: 580px;
-    background-color: darkseagreen;
-
-    }
 
 
 #loire_caption {
-    margin-bottom: 40px;
-    padding-bottom: -30px;
-    margin-top: -20px;
-    margin-left: 25px;
-    border-left: -88px;
-    border: 2px solid #;
-    float: none;
-    }
-
-#bert {
-    height: 475px;
-    }
-
-#bert_bubble{
-    height: 430px;
-    }
-
-#bertagne_caption {
-    margin-bottom: 40px;
-    padding-bottom: -30px;
-    margin-top: -20px;
-    margin-left: 25px;
-    border-left: -88px;
-    border: 2px solid #;
-    float: none;
-    }
-
-#normandie {
-    height: 465px;
-    }
-
-#normandie_bubble{
-    height: 435px;
-    background-color: darkseagreen;
-
-    }
-
-#normandie_caption {
-    margin-bottom: 40px;
-    padding-bottom: -30px;
-    margin-top: -20px;
-    margin-left: 25px;
-    border-left: -88px;
-    border: 2px solid #;
-    float: none;
-    }
-
-#estPhoto {
-    border : 12px solid #FF729F;
-    }
-    
- #arboisPhoto {
-    height: 320px;
-    width: 400px;
-    border : 12px solid #D3A2CD;
-    }
-
-#alpsPhoto{
-    height: 400px;
-    width: 400px;
-    }
-
-#marseillePhoto {
-    height: 400px;
-    width: 400px;
-    }
-
-#ajaccioPhoto {
-    height: 400px;
-    width: 400px; 
-    }
-
-#occFlagPhoto {
-    }
-
-#aquitainePhoto{
-    }
-
-#parisPhoto {
-    height: 400px;
-    width: 400px;
-    }
-
-#versPhoto {
-    height: 400px;
-    width: 400px;
+    padding-bottom: -30px;  /*brings the caption in contact with the photo */
     }
 
 #loirePhoto {
-    height: 600px;
-    width: 600px;
+    margin-top: -3px;
+}
+
+#loire_bubble {
+  background-color: ;
+    }
+
+
+
+#bertagne_caption {
+    padding-bottom: -30px;  /*brings the caption in contact with the photo */
     }
 
 #bertagnePhoto {
+    margin-top: -3px;
+}
+
+#bert_bubble{
     }
 
+
+
+#normandie {
+     padding-bottom:40px;
+   
+
+}
+
+#normandie_caption {
+    padding-bottom: -30px;  /*brings the caption in contact with the photo */
+    }
 
 #stMichPhoto {
-    height: 400px;
-    width: 400px;  
+    margin-top: -5px;
+       /* This photo is the only outlier and may be adjusted smaller to look a bit more consistent the the other pictures */
     }
+#normandie_bubble{
+    background-color:;
+    }
+
+
 
 
 
 /*footer styling*/
 .footer {
-    background-color:#FF729F;
     color: white;
-    }
-
-.footer .col-md-4 {
     display:align-left;
     background-color:darkseagreen;
+    max-height:15em;
+    margin-top: 160px;
+    padding-left: 2em;
     }
+
+
   
 .footer p {
     display: center;
     }
- 
+#footer_row {
+    height : 15em;
+}
 
 
 /*departmentMap.html styling*/
@@ -428,3 +360,5 @@ aside li {
 #map_return{
     line-height: 3em;
     }
+
+
