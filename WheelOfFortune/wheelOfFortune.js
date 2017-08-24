@@ -29,17 +29,6 @@ $(document).ready(function(){
 
 
 
-function guessPrompting(win) {
-    var guessPrompt = prompt("Please guess one letter: ");
-    var letter;
-    letter = guessPrompt.toUpperCase();
-    document.getElementById('guessedLetter').innerHTML = ("You guessed " + letter + "!");
-    letterCheck(letter, win);
-};
-
-
-
-
 function letterCheck(letter, win) {
     var lettersUp = letter.toUpperCase();
     var letterUp = lettersUp;
@@ -54,30 +43,16 @@ function letterCheck(letter, win) {
         }
     };
 };
-
-
     
 function spinTotal(win) {
     totalWin += win;
     document.getElementById("tally").innerHTML = totalWin;
 };
-
-
-function modBoard(letterUp) {
-    //var answer="TALKISCHEAPSHOWMETHECODE"; 
-    var answer = ['T','A','L','K','_','I','S','_','C','H','E','A','P','_','S','H','O','W','_','M','E','_','T','H','E','_','C','O','D','E'];
-    var board = ['_','_','_','_',' ','_','_',' ','_','_','_','_','_',' ','_','_','_','_',' ','_','_',' ','_','_','_',' ','_','_','_','_'];
-    //var board ="012345678901234567890123";
-    var aLength = answer.length;
-    for (var x = 0; x < aLength; x++) {     
-        if (letterUp == answer[x]) {
-          board[x] = answer[x];
-          var newBoard = board.join("");
-          document.getElementById("userBoard").innerHTML = newBoard;
-        }
-    }
-}
-
+    
+function sorry(letter) {
+    document.getElementById('guessedLetter').innerHTML = ("Sorry, " + letter + " is not in the phrase!");
+};
+    
 function modAlph(letterUp) {
     //var alpha = "ABC";
     //letterUp = letter.toUpperCase;
@@ -92,16 +67,31 @@ function modAlph(letterUp) {
                 //}
     }
 };
-    
-function sorry(letter) {
-    document.getElementById('guessedLetter').innerHTML = ("Sorry, " + letter + " is not in the phrase!");
+
+function guessPrompting(win) {
+    var letter;
+    var guessPrompt = prompt("Please guess one letter: ");
+    letter = guessPrompt.toUpperCase();
+    document.getElementById('guessedLetter').innerHTML = ("You guessed " + letter + "!");
+    letterCheck(letter, win);
 };
-    
-
-
-
    
-
+function modBoard(letterUp) {
+    //var answer="TALKISCHEAPSHOWMETHECODE"; 
+    var answer = ['T','A','L','K','_','I','S','_','C','H','E','A','P','_','S','H','O','W','_','M','E','_','T','H','E','_','C','O','D','E'];
+    var board = ['_','_','_','_',' ','_','_',' ','_','_','_','_','_',' ','_','_','_','_',' ','_','_',' ','_','_','_',' ','_','_','_','_'];
+    //var board ="012345678901234567890123";
+    var aLength = answer.length;
+    for (var x = 0; x < aLength; x++) {     
+        if (letterUp == answer[x]) {
+          board[x] = answer[x];
+          var newBoard = board.join("");
+          document.getElementById("userBoard").innerHTML = newBoard;
+        }
+            
+    }
+                
+}
               /*  
               
         
@@ -174,10 +164,7 @@ function spin() {
     };
     
     */
-        
-          
-          
-
+    
       
       
 
