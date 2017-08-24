@@ -343,10 +343,10 @@ padding-bottom should be unique to every caption because the shape of the photo 
 #stMichPhoto {
     margin-top: -5px;
        /* This photo is the only outlier and may be adjusted smaller to look a bit more consistent the the other pictures */
-    border-color:#81F4E1;
+    border-color:#D3A2CD;
     }
 #normandie_bubble{
-    background-color:#81F4E1;
+    background-color:;
     }
 
 
