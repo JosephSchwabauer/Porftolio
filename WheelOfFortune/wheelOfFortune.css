@@ -1,0 +1,94 @@
+ * {
+    background-color: #122C34;
+        
+}
+
+.text {
+    color:#FFC914;
+}
+
+#header {
+    text-align: center;
+    font-size: 3em;
+}
+
+#alpha, #or {
+    text-align: center;
+    font-size: 1.6em;
+}
+
+#used {
+    font-size: .4em;
+    color: #E4572E;
+}
+
+#choice {
+
+    text-align: center;
+    
+}
+
+#spinbutt, #guessbutt{
+    color: #1ABB9C;
+    padding: 1.5em;
+    font-size: 1.1em;
+    border: 0px, 300px;
+}
+
+#or {
+}
+
+
+
+#wheel {
+    
+}
+
+#guessedLetter {
+    font-size: 1.8em;
+    margin-left: 30px;
+
+}
+#guessPhraseBoard{}
+
+
+
+#moneyTitle{
+    color: #2274A5;
+    margin-left: 30px;
+    font-size: 1.4em;
+}
+
+
+
+#moneyWon {
+    color: #2274A5;
+    margin-left: 30px;
+    font-size: 1.6em;
+}
+
+#winningsLabel {
+
+    margin-left: 30px;
+
+}
+
+#tally {
+    
+    color: red;
+    margin-left: 30px;
+    margin-right: 1100px;
+    line-height: 2em;
+    font-size: 1.6em; 
+
+}
+
+#userBoard {
+    margin-left: 30px;
+    font-size: 1.9em;
+
+}
+
+
+
+/*color scheme   https://coolors.co/1abb9c-e4572e-ffc914-2274a5-122c34
