@@ -231,7 +231,16 @@ h3 {
     background-color: ;
     }
 
+/* color scheme  
+#FFFFFF  white
+#81F4E1  aquamarine
+#68D0F9  (or is that an O?)  maya blue
+#FF729F  french pink
+#D3A2CD  light medium orchid
+background-color: darkseagreen;
 
+padding-bottom should be unique to every caption because the shape of the photo will change where the caption border touches the photo border
+*/
 
 
 #aquitaine {
@@ -241,11 +250,11 @@ h3 {
 
 #aqui_caption {
     padding-bottom: -30px;  /*brings the caption in contact with the photo */
-    background-color: #D3A2CD ;
+    border-color: #D3A2CD;
 
     }
 
-aquitainePhoto {
+#aquitainePhoto {
     margin-top: -3px;
     border-color:#D3A2CD;
 
@@ -257,26 +266,32 @@ aquitainePhoto {
 
 #centre_caption {
     padding-bottom: -30px;  /*brings the caption in contact with the photo */
-    border-color:#FF729F;
+    border-color:#81F4E1;
 
     }
 #versPhoto {
     margin-top: -3px;
-    border-color:#FF729F;
+    border-color:#81F4E1;
 
 }
 
+
+
 #centre_bubble {
-    background-color: ;
+    background-color:  ;
     }
 
 
 
 #ile_caption {
     padding-bottom: -30px;  /*brings the caption in contact with the photo */
-    border-color:#FF729F;
+    border-color:#68D0F9;
 
     }
+
+#parisPhoto {
+    border-color: #68D0F9;
+}
 
 #ile_bubble {
    }
@@ -285,10 +300,12 @@ aquitainePhoto {
 
 #loire_caption {
     padding-bottom: -30px;  /*brings the caption in contact with the photo */
+     border-color: #FF729F;
     }
 
 #loirePhoto {
     margin-top: -3px;
+     border-color:#FF729F;
 }
 
 #loire_bubble {
@@ -299,10 +316,12 @@ aquitainePhoto {
 
 #bertagne_caption {
     padding-bottom: -30px;  /*brings the caption in contact with the photo */
+    border-color:#D3A2CD;
     }
 
 #bertagnePhoto {
     margin-top: -3px;
+    border-color:#D3A2CD; 
 }
 
 #bert_bubble{
@@ -318,14 +337,16 @@ aquitainePhoto {
 
 #normandie_caption {
     padding-bottom: -30px;  /*brings the caption in contact with the photo */
+    border-color:#D3A2CD;
     }
 
 #stMichPhoto {
     margin-top: -5px;
        /* This photo is the only outlier and may be adjusted smaller to look a bit more consistent the the other pictures */
+    border-color:#81F4E1;
     }
 #normandie_bubble{
-    background-color:;
+    background-color:#81F4E1;
     }
 
 
