@@ -10,7 +10,7 @@ padding-bottom should be unique to every caption because the shape of the photo 
 */
 
 html, body {
-    background-color: white; 
+    background-color:#f9fafc; 
     margin: 0;
     padding: 0;
     }
@@ -21,7 +21,7 @@ html, body {
     }
 
 .banners {
-    background-color: white;
+    background-color: #f9fafc;
     text-align: center;
     border-left: solid 210px #81F4E1;
     border-radius: 280px 280px 280px 280px;
@@ -37,7 +37,7 @@ html, body {
     }
 
 .object {
-    margin-bottom: 4em;
+    margin-bottom: 10em;
     text-align: center;
     margin-left: 10px;
     margin-right: -20px;
@@ -47,6 +47,7 @@ a {
     color: grey;
     text-decoration: none;
     }
+
 
 
 #title {
@@ -68,17 +69,22 @@ a {
     height: 30em;
     }
 
+
+
 .photo {
     border: 12px solid #68D0F9;
     border-radius: 280px 280px 280px 280px;
     width: 45%;
     float: left;
-    
-
     }
 
+h3 {
+    font-size: 30px;
+    text-decoration: underline;
+}
+
 .caption {
-    width: 40%;  /*  this width setting is the only thing bringing the caption all the eway to the left  */
+    width: 16%;  /*  this width setting is the only thing bringing the caption all the eway to the left  */
     margin-bottom: -.2em;
     border-radius: 280px 280px 280px 280px;
     border: 6px solid #68D0F9;
@@ -86,6 +92,7 @@ a {
     padding-left: 6px;
     margin-left: 7px;  /* This brings the caption off the very edge of the left sied 
     of the screen */
+    color: black;
     }
 
 
@@ -96,56 +103,90 @@ a {
     margin-top: 25px;
     padding-right: 6px;  /*keeps the text in the bubble off the border */
     height: 25em;
+    background-color: darkseagreen;
+    
     }
 
 .bubble_text {
     text-align: right;
     padding-top: 90px;
-    color: red;
+    color: black;
+    padding-right: 23px;
     }
 
+
+#hauts {
+    margin-top: 10em;
+}
+
+#hauts_caption {
+    padding-bottom: -30px;  /*brings the caption in contact with the photo */
+    border: 6px solid #81F4E1;
+    }
 
 #beachPhoto {
     border: 12px solid #81F4E1;
     }
 
-#hauts_caption {
-    padding-bottom: -30px;  /*brings the caption in contact with the photo */
-    border: 6px solid #81F4E1;
-
-    }
-    
 #hauts_bubble {
     }
     
-#est_bubble {
-    }
 
 #grandEst_caption{
     padding-bottom: -30px;  /*brings the caption in contact with the photo */
     }
 
 
+
+#est_bubble {
+    }
+
+
+
+#comte_caption {
+    border: 12px solid #FF729F;
+    }
+
+#arboisPhoto {
+    margin-top: -3px;
+    border: 12px solid #FF729F;
+
+}
+
 #comte_bubble {
     background-color: ;
 
     }
 
-#comte_caption {
-    padding-bottom: -30px;
-    }
+
+
+#auvergne_caption {
+    padding-bottom: -30px;  /*brings the caption in contact with the photo */
+    border-color:#D3A2CD;
+}
+
+
+#alpsPhoto {
+    border-color:#D3A2CD;
+    
+}
 
 #auvergne_bubble {
     background-color: ;
     }
 
-#auvergne_caption {
-    padding-bottom: -30px;  /*brings the caption in contact with the photo */
+
+#azur_caption {
+    padding-bottom: -30px; /*brings the caption in contact with the photo */
+    border-color: #81F4E1;
 }
 
 #marseillePhoto {
     height: 445px;
     border: 22px solid ##FF729F;
+    margin-top: -3px;
+    border-color: #81F4E1;
+
     }
 
 #azur_bubble {
@@ -153,115 +194,162 @@ a {
 
     }
 
-#azur_caption {
-    padding-bottom: -30px; /*brings the caption in contact with the photo */
-    }
 
+
+
+#corse_caption {
+    padding-bottom: -30px;  /*brings the caption in contact with the photo */
+            border-color: #68D0F9;
+
+}
+
+#ajaccioPhoto {
+            margin-top: -3px;
+        border-color: #68D0F9;
+
+
+    }
 
 #corse_bubble {
     }
 
-#corse_caption {
-    padding-bottom: -30px;  /*brings the caption in contact with the photo */
-    }
 
 
+#occ_caption {
+    border-color: #FF729F;
+
+}
+
+#occFlagPhoto {
+    margin-top: -3px;
+    border-color: #FF729F;
+    
+  
+}
 
 #occ_bubble {
     background-color: ;
-
     }
 
 
-#aqui_bubble {
-   
-    }
+
+
+#aquitaine {
+    margin-top: 80px;
+}
 
 
 #aqui_caption {
     padding-bottom: -30px;  /*brings the caption in contact with the photo */
-    }
-
-
-
-#centre_bubble {
-    
-    background-color: ;
+    background-color: #D3A2CD ;
 
     }
+
+aquitainePhoto {
+    margin-top: -3px;
+    border-color:#D3A2CD;
+
+}
+#aqui_bubble {
+   }
+
+
 
 #centre_caption {
     padding-bottom: -30px;  /*brings the caption in contact with the photo */
+    border-color:#FF729F;
+
+    }
+#versPhoto {
+    margin-top: -3px;
+    border-color:#FF729F;
+
+}
+
+#centre_bubble {
+    background-color: ;
     }
 
 
-
-#ile_bubble {
-   
-    }
 
 #ile_caption {
     padding-bottom: -30px;  /*brings the caption in contact with the photo */
-    }
-
-
-
-#loire_bubble {
-  background-color: ;
+    border-color:#FF729F;
 
     }
+
+#ile_bubble {
+   }
+
 
 
 #loire_caption {
     padding-bottom: -30px;  /*brings the caption in contact with the photo */
     }
 
+#loirePhoto {
+    margin-top: -3px;
+}
 
-#bert_bubble{
-
+#loire_bubble {
+  background-color: ;
     }
+
+
 
 #bertagne_caption {
     padding-bottom: -30px;  /*brings the caption in contact with the photo */
     }
 
+#bertagnePhoto {
+    margin-top: -3px;
+}
 
-
-#normandie_bubble{
-   
-    background-color:;
-
+#bert_bubble{
     }
+
+
+
+#normandie {
+     padding-bottom:40px;
+   
+
+}
 
 #normandie_caption {
     padding-bottom: -30px;  /*brings the caption in contact with the photo */
     }
 
-
-
-
-
 #stMichPhoto {
+    margin-top: -5px;
        /* This photo is the only outlier and may be adjusted smaller to look a bit more consistent the the other pictures */
     }
+#normandie_bubble{
+    background-color:;
+    }
+
+
 
 
 
 /*footer styling*/
 .footer {
-    background-color:#FF729F;
     color: white;
-    }
-
-.footer .col-md-4 {
     display:align-left;
     background-color:darkseagreen;
+    max-height:15em;
+    margin-top: 160px;
+    padding-left: 2em;
     }
+
+
   
 .footer p {
     display: center;
     }
- 
+#footer_row {
+    height : 15em;
+}
 
 
 /*departmentMap.html styling*/
