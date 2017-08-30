@@ -83,8 +83,19 @@ a {
     }
 
 h3 {
-    font-size: 30px;
+    font-size: 43px;
     text-decoration: underline;
+    
+}
+
+h3.stretch {
+   
+    display:inline-block;
+    -webkit-transform:scale(1.1,1); /* Safari and Chrome */
+    -moz-transform:scale(1.1,1); /* Firefox */
+    -ms-transform:scale(1.1,1); /* IE 9 */
+    -o-transform:scale(1.1,1); /* Opera */
+    transform:scale(1.1,1); /* W3C */
 }
 
 .caption {
