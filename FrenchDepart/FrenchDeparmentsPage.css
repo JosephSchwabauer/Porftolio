@@ -29,6 +29,7 @@ html, body {
     font-family: 'Codystar', cursive;
     color: #FF729F;
     list-style:none;
+    
     } 
 
 .body {
@@ -41,6 +42,7 @@ html, body {
     text-align: center;
     margin-left: 10px;
     margin-right: -20px;
+
     }
 
 a {
@@ -76,6 +78,8 @@ a {
     border-radius: 280px 280px 280px 280px;
     width: 45%;
     float: left;
+    box-shadow: 5px 5px 5px grey;
+
     }
 
 h3 {
@@ -93,6 +97,9 @@ h3 {
     margin-left: 7px;  /* This brings the caption off the very edge of the left sied 
     of the screen */
     color: black;
+    background-color: azure;
+    box-shadow: 5px 5px 5px grey;
+
     }
 
 
