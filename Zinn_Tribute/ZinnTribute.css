@@ -120,6 +120,7 @@ line-height: 1.5em;
 
 #wikiLink a {
     font-size: small;
+    color:red;
 }
 
 a:link {
