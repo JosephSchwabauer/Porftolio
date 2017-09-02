@@ -116,7 +116,10 @@ line-height: 1.5em;
     text-align: left;
     padding-top: 1.3em;
     font-size: x-large;
-    
+    }
+
+#wikiLink a {
+    font-size: large;
 }
 
 a:link {
