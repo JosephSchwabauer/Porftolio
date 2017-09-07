@@ -29,18 +29,12 @@ background-repeat: no-repeat;
     font-size: 3em;
 }
 
-ul {
-    list-style: none;
+.container {
+    text-align: center;
 }
 
-li {
-  float:left;
-  margin: 0 10px 10px 0;
-  list-style:none;
-  width:35px;
-  height:30px;
-  padding-top:10px;
-color: #122C34;
+#alpha {
+    color:#122C34;
 }
 
 #alpha, #or {
@@ -48,19 +42,8 @@ color: #122C34;
     font-size: 1.6em;
 }
 
-#used {
-    font-size: .4em;
-    color: #E4572E;
-}
 
 #choice {
-
-    text-align: center;
-    
-}
-
-#spinbutt {
-    margin-left: -1200px;
 }
 
 button {
@@ -72,17 +55,41 @@ button {
 }
 
 #spinbutt {
+    margin-left: -1200px;
     margin-bottom: 1em;
-}
+    }
 
 #guessbutt {
     margin-top:1em;
     margin-bottom: 2em;
-}
+    }
 
 #or {
     color: #122C34;
+    }
 
+
+
+
+ul {
+    list-style: none;
+    text-align: center;
+}
+
+li {
+  float:left;
+  margin: 0;
+  list-style:none;
+  width:25px;
+  height:30px;
+  padding-top:10px;
+  color: #122C34;
+}
+
+
+#used {
+    font-size: .4em;
+    color: #E4572E;
 }
 
 
@@ -148,8 +155,7 @@ button {
 
 
 
-#wheel
-{
+#wheel {
     -webkit-animation-name: rotate; 
     -webkit-animation-duration: 1.5s; 
      animation-duration: 1.5s;
