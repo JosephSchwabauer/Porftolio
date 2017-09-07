@@ -6,23 +6,20 @@
     <!--link for jquery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
     <!--link to local js file-->
-    <script src= "wheelOfFortune.js" ></script> 
+    <script src= "wheelOfFortune_2.js" ></script> 
     <!--link for css style sheet-->
     <link rel="stylesheet" type="text/css" href="wheelOfFortune.css">
   </head>
   
-    
-    
    <body>
     <div class="text" id ="header">
         <h1>WHEEL OF FORTUNE!</h1>
     </div>
 
     <div class="text" id="alpha">
-        <h2>
-            <span id="used">(letters used) &nbsp;</span>
-            <span id="userAlpha">ABCDEFGHIJKLMNOPQRSTUVWXYZ</span>
-        </h2>
+        
+        <!-- <span id="used">(letters used) &nbsp;</span> -->
+
     </div>
 
     <div class="text" id = "choice">
@@ -32,9 +29,10 @@
     </div>
        
         
-    <div id="wheel">
+    <div class = "animation" id="wheel" width="300" height="150">
         <img src="wheel_share.png">
     </div>
+       
     
     <div class="text" id = "moneyTitle">
        <p>AND THE WHEEL OF FORTUNE LANDS ON....</p>
@@ -49,6 +47,11 @@
 
     <p class="text" id = "guessedLetter">What letter will you guess???</p>
 
-    <p class="text" id = "userBoard">_________________________</p>
+    <p class="text" id = "userBoard"></p>
+       
+       
+       
   </body>
+    
+    
 </html>

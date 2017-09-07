@@ -1,15 +1,46 @@
- * {
-    background-color: #122C34;
-        
+ 
+/*
+Color scheme:
+#1ABB9C light green
+#E4572E  orangish
+#FFC914 yellow
+#2274A5  dark blue
+#122C34 charcoal 
+
+*/
+
+
+* {  
+    /*background-color: #122C34; 
+     background-image: url(wheelOfFortune.jpg);  */
+background-repeat: no-repeat;
+        background-position: right top;
+         background-color: ghostwhite;
+     text-align: center;
+
 }
 
 .text {
-    color:#FFC914;
+    color:#2274A5;
 }
 
 #header {
     text-align: center;
     font-size: 3em;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+  float:left;
+  margin: 0 10px 10px 0;
+  list-style:none;
+  width:35px;
+  height:30px;
+  padding-top:10px;
+color: #122C34;
 }
 
 #alpha, #or {
@@ -28,20 +59,35 @@
     
 }
 
-#spinbutt, #guessbutt{
+#spinbutt {
+    margin-left: -1200px;
+}
+
+button {
+    margin-top: 5em;
     color: #1ABB9C;
     padding: 1.5em;
     font-size: 1.1em;
     border: 0px, 300px;
 }
 
+#spinbutt {
+    margin-bottom: 1em;
+}
+
+#guessbutt {
+    margin-top:1em;
+    margin-bottom: 2em;
+}
+
 #or {
+    color: #122C34;
+
 }
 
 
 
 #wheel {
-    image: url('wheel_share.png');
     
 }
 
@@ -55,7 +101,7 @@
 
 
 #moneyTitle{
-    color: #2274A5;
+    color: #E4572E;
     margin-left: 30px;
     font-size: 1.4em;
 }
@@ -63,7 +109,7 @@
 
 
 #moneyWon {
-    color: #2274A5;
+    color: #E4572E;
     margin-left: 30px;
     font-size: 1.6em;
 }
@@ -87,8 +133,36 @@
 #userBoard {
     margin-left: 30px;
     font-size: 1.9em;
-
 }
+
+
+
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to { 
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+
+
+#wheel
+{
+    -webkit-animation-name: rotate; 
+    -webkit-animation-duration: 1.5s; 
+     animation-duration: 1.5s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    background-color: transparent;
+}
+
+/* this code will rotate your png attributed to the #wheel 20deg and moves it's position   */
+ /*-ms-transform: rotate(20deg); /* IE 9 */
+ /*-webkit-transform: rotate(20deg); /* Safari */
+ /*transform: rotate(20deg);
+
 
 
 
