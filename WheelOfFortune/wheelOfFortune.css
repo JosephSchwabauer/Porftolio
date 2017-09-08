@@ -11,13 +11,16 @@ Color scheme:
 
 
 * {  
-    /*background-color: #122C34; 
-     background-image: url(wheelOfFortune.jpg);  */
-background-repeat: no-repeat;
-        background-position: right top;
-         background-color: ghostwhite;
-     text-align: center;
+    background-color: ghostwhite;
+    text-align: center;
+    margin: 0px;
+    padding 0px;
 
+
+}
+
+body {
+    margin-top: 1.5em;
 }
 
 .text {
@@ -25,67 +28,66 @@ background-repeat: no-repeat;
 }
 
 #header {
-    text-align: center;
     font-size: 3em;
-}
+    text-shadow: 1px 5px 0 #FF9800;}
 
 .container {
-    text-align: center;
 }
 
-#alpha {
-    color:#122C34;
+
+#A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z {
 }
 
 #alpha, #or {
-    text-align: center;
     font-size: 1.6em;
 }
 
-
 #choice {
+    margin-top: 3em;
 }
 
 button {
-    margin-top: 5em;
-    color: #1ABB9C;
-    padding: 1.5em;
     font-size: 1.1em;
+    color: #1ABB9C;
+    /*
+    margin-top: 5em;
+    padding: 1.5em;
     border: 0px, 300px;
+    */
 }
 
 #spinbutt {
-    margin-left: -1200px;
-    margin-bottom: 1em;
+    margin: 0 0 1em 0;
     }
 
 #guessbutt {
-    margin-top:1em;
-    margin-bottom: 2em;
+    margin: 1em 0 1em 0;
     }
 
 #or {
     color: #122C34;
     }
 
-
-
-
 ul {
     list-style: none;
-    text-align: center;
+    margin-left: 340px;
 }
 
 li {
   float:left;
-  margin: 0;
   list-style:none;
-  width:25px;
-  height:30px;
-  padding-top:10px;
   color: #122C34;
+  width:25px;
+ /* height:30px;
+
+    
+  padding-top:10px;
+    */
 }
 
+#alpha {
+    color:#122C34;
+    }
 
 #used {
     font-size: .4em;
@@ -93,53 +95,63 @@ li {
 }
 
 
-
 #wheel {
-    
+background:; 
+margin: 1em 0 1em 0;
 }
 
 #guessedLetter {
     font-size: 1.8em;
-    margin-left: 30px;
+   /* margin-left: 30px;*/
+    margin-top: .75em;
 
 }
 #guessPhraseBoard{}
 
+.text {
+    letter-spacing: .5em;
+    padding-bottom: 1em;
 
+}
 
 #moneyTitle{
     color: #E4572E;
-    margin-left: 30px;
     font-size: 1.4em;
+    /*margin-left: 30px;*/
 }
-
 
 
 #moneyWon {
     color: #E4572E;
-    margin-left: 30px;
+   /* margin-left: 30px;*/
     font-size: 1.6em;
 }
 
 #winningsLabel {
 
-    margin-left: 30px;
+   /* margin-left: 30px; */
 
 }
 
 #tally {
-    
-    color: red;
+    /*
     margin-left: 30px;
     margin-right: 1100px;
     line-height: 2em;
-    font-size: 1.6em; 
+    */
+    color: red;
+    font-size: 1.9em; 
+    height: 2em;
 
 }
 
 #userBoard {
+    /*
     margin-left: 30px;
+    */
     font-size: 1.9em;
+    align-content: center;
+
 }
 
 

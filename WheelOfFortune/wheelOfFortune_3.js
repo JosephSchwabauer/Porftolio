@@ -1,5 +1,6 @@
 // this code is showing an appended alphabet with the guessed letter missing
 //also showing the board with the letters guessed appended to the end of the board
+
 var answer = ['T', 'A', 'L', 'K', '_', 'I', 'S', '_', 'C', 'H', 'E', 'A', 'P ', '_', 'S', 'H', 'O', 'W', '_', 'M', 'E', '_', 'T', 'H', 'E', '_', 'C', 'O', 'D', 'E'];
 var alphabet = ['A','B', 'C', 'D', 'E', 'F', 'G', 'H',
         'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S',
@@ -10,6 +11,7 @@ var totalWin = 0;
 var usedAlpha;
 var myBoard =[];
 
+
 window.onload = function () {
     var myAlpha = document.getElementById('alpha');
     var letterList = document.createElement('ul');
@@ -19,6 +21,7 @@ window.onload = function () {
         letters.innerHTML = alphabet[i];
         myAlpha.appendChild(letterList);
         letterList.appendChild(letters);
+       
 }
     var myBoard = document.getElementById('userBoard');
     var spaces = document.createElement('ul');
@@ -29,6 +32,7 @@ window.onload = function () {
         myBoard.appendChild(spaces);
         spaces.appendChild(space);
     }
+    
 }
 
 
@@ -37,7 +41,7 @@ $(document).ready(function(){
         var rando = Math.floor((Math.random() * 10) + 1);
         var spinArray = ["nothing", 100, 300, 500, 700, 900, 2000, 3000, 5000, -1000, 0];
         var win = spinArray[rando];
-        document.getElementById('moneyWon').innerHTML = (win + "!");
+        document.getElementById('moneyWon').innerHTML = ("$" + win + "!");
         guessPrompting(win);
      $("animation").addClass("active");
     });
@@ -53,11 +57,13 @@ $(document).ready(function(){
     });
     $("spinbutt").click(function(){
 });
+    
+
 }); 
 function guessPrompting(win) {
     var guessPrompt = prompt("Please guess a letter: ");
     var letter = guessPrompt.toUpperCase();
-    document.getElementById('guessedLetter').innerHTML = ("You guessed " + letter + "!");
+    document.getElementById('guessedLetter').innerHTML = ("You guessed: " + letter + "!");
     letterCheck(letter, win);
 };
 function letterCheck(letter, win) {
@@ -102,12 +108,9 @@ function modBoard(letterUp) {
     }
 }
 
-
-
-
 function spinTotal(win) {
     totalWin += win;
-    document.getElementById("tally").innerHTML = totalWin;
+    document.getElementById("tally").innerHTML = "$" + totalWin;
 };
     
 
