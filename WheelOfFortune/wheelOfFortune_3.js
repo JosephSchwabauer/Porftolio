@@ -1,7 +1,7 @@
 // this code is showing an appended alphabet with the guessed letter missing
 //also showing the board with the letters guessed appended to the end of the board
 
-var answer = ['T', 'A', 'L', 'K', '_', 'I', 'S', '_', 'C', 'H', 'E', 'A', 'P ', '_', 'S', 'H', 'O', 'W', '_', 'M', 'E', '_', 'T', 'H', 'E', '_', 'C', 'O', 'D', 'E'];
+var answer = ['T', 'A', 'L', 'K', '_', 'I', 'S', '_', 'C', 'H', 'E', 'A', 'P', '_', 'S', 'H', 'O', 'W', '_', 'M', 'E', '_', 'T', 'H', 'E', '_', 'C', 'O', 'D', 'E'];
 var alphabet = ['A','B', 'C', 'D', 'E', 'F', 'G', 'H',
         'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S',
         'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
@@ -94,16 +94,18 @@ function modAlph(letterUp) {
 }
 
 function modBoard(letterUp) {
-    for (var x = 0; x < answer.length; x++) {   //for loop at the length of answer
+    for (var x = 0; x < answer.length; x++) {               //loop through answer array
+        myBoard = document.getElementById('userBoard');     //get the id of userBoard and store it in myBoard
         if (letterUp == answer[x]) {            //if guessed letter is equal to an index in answer
-            answer[x] = letterUp;
-            
-            var myAnswer = answer.join(" ");   
-            myAns = document.getElementById('userBoard');
-            myAns.innerHTML = myAnswer;
+            //for (var n= 0; n < myBoard.length; n++) {       //loop through myBoard, i don't think it has any value in myBoard though
+            board[x] = answer[x];             //
+            var newBoard = board.join(" ");   
+            myBoard.innerHTML = newBoard;
         }
+        
         else{
             //answer[x] = " ";
+        
         }
     }
 }
