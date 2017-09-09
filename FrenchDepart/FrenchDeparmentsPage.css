@@ -43,9 +43,7 @@ html, body {
     text-align: center;
     margin-left: 10px;
     margin-right: -20px;
-
-
-    }
+}
 
 a {
     color: grey;
@@ -53,25 +51,30 @@ a {
     }
 
 
-
 #title {
     font-size: 62px;
-    font-weight: 100;
+    font-weight: 200;
     letter-spacing: .05em;
+    text-shadow: 1px 2px 0 #81F4E1;
+    padding-bottom: 7px;
+
 }
 
-#title span {
+#title #thirt {
     border: solid 2px #81F4E1;
     font-weight: 100;
     letter-spacing: .2em;
     margin-left: 5px;
     border-radius: 50%;
     padding: 17px;
-    background-color: #D2D5DD;
+    background-color:#D2D5DD;
+    }
 
-
+#title #depart {
+    text-shadow: 1px 2px 0 #81F4E1;
+    font-weight: 100;
+    margin-left:9px;
 }
-
 
 #subTitle {
     font-size: 25px;
@@ -81,8 +84,8 @@ a {
 #titleBlurb {
     font-family: cursive;
     font-size: 20px;
-
-    }
+    padding-bottom: 15px;
+}
 
 
 .row {
@@ -97,7 +100,6 @@ a {
     width: 45%;
     float: left;
     box-shadow: 5px 5px 5px grey;
-
     }
 
 h3 {
