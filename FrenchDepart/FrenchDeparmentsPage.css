@@ -18,14 +18,15 @@ html, body {
 .header {
     margin-bottom: 5.5em;
     min-width: 200px;
+    border-radius: 280px 280px 280px 280px;
+
     }
 
 .banners {
-    background-color: #f9fafc;
     text-align: center;
-    border-left: solid 210px #81F4E1;
-    border-radius: 280px 280px 280px 280px;
-    border-right: solid 210px #81F4E1;
+    border-bottom: solid 2px #81F4E1;
+    border-right: solid 1px #81F4E1;
+    margin-right: 1em;
     font-family: 'Codystar', cursive;
     color: #FF729F;
     list-style:none;
@@ -43,6 +44,7 @@ html, body {
     margin-left: 10px;
     margin-right: -20px;
 
+
     }
 
 a {
@@ -53,17 +55,33 @@ a {
 
 
 #title {
-    font-size: 22px;
-    }
+    font-size: 62px;
+    font-weight: 100;
+    letter-spacing: .05em;
+}
+
+#title span {
+    border: solid 2px #81F4E1;
+    font-weight: 100;
+    letter-spacing: .2em;
+    margin-left: 5px;
+    border-radius: 50%;
+    padding: 17px;
+    background-color: #D2D5DD;
+
+
+}
 
 
 #subTitle {
-    font-size: 22px;
+    font-size: 25px;
     }
 
 
 #titleBlurb {
     font-family: cursive;
+    font-size: 20px;
+
     }
 
 
@@ -84,19 +102,18 @@ a {
 
 h3 {
     font-size: 43px;
-    text-decoration: underline;
-    
-}
+    }
 
 h3.stretch {
-   
     display:inline-block;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
     -webkit-transform:scale(1.1,1); /* Safari and Chrome */
     -moz-transform:scale(1.1,1); /* Firefox */
     -ms-transform:scale(1.1,1); /* IE 9 */
     -o-transform:scale(1.1,1); /* Opera */
     transform:scale(1.1,1); /* W3C */
-}
+    }
 
 .caption {
     width: 16%;  /*  this width setting is the only thing bringing the caption all the eway to the left  */
@@ -110,7 +127,6 @@ h3.stretch {
     color: black;
     background-color: azure;
     box-shadow: 5px 5px 5px grey;
-
     }
 
 
@@ -122,7 +138,6 @@ h3.stretch {
     padding-right: 6px;  /*keeps the text in the bubble off the border */
     height: 25em;
     background-color: darkseagreen;
-    
     }
 
 .bubble_text {
@@ -135,7 +150,7 @@ h3.stretch {
 
 #hauts {
     margin-top: 10em;
-}
+    }
 
 #hauts_caption {
     padding-bottom: -30px;  /*brings the caption in contact with the photo */
@@ -173,7 +188,6 @@ h3.stretch {
 
 #comte_bubble {
     background-color: ;
-
     }
 
 
@@ -181,13 +195,12 @@ h3.stretch {
 #auvergne_caption {
     padding-bottom: -30px;  /*brings the caption in contact with the photo */
     border-color:#D3A2CD;
-}
+    }
 
 
 #alpsPhoto {
     border-color:#D3A2CD;
-    
-}
+    }
 
 #auvergne_bubble {
     background-color: ;
@@ -197,19 +210,17 @@ h3.stretch {
 #azur_caption {
     padding-bottom: -30px; /*brings the caption in contact with the photo */
     border-color: #81F4E1;
-}
+    }
 
 #marseillePhoto {
     height: 445px;
     border: 22px solid ##FF729F;
     margin-top: -3px;
     border-color: #81F4E1;
-
     }
 
 #azur_bubble {
    background-color:;
-
     }
 
 
@@ -217,9 +228,8 @@ h3.stretch {
 
 #corse_caption {
     padding-bottom: -30px;  /*brings the caption in contact with the photo */
-            border-color: #68D0F9;
-
-}
+    border-color: #68D0F9;
+    }
 
 #ajaccioPhoto {
             margin-top: -3px;
