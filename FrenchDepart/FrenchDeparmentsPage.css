@@ -94,12 +94,36 @@ a {
 
 
 
+.caption {
+    width: 16%;  /*  this width setting is the only thing bringing the caption all the eway to the left  */
+    margin-bottom: -.2em;
+    border-radius: 280px 280px 280px 280px;
+    border: 2px solid #68D0F9;
+    text-align: left;
+    padding-left: 7px;
+    margin-left: 7px;  /* This brings the caption off the very edge of the left sied 
+    of the screen */
+    color: black;
+    background-color: azure;
+    box-shadow: 5px 5px 5px grey;
+    }
+
 .photo {
-    border: 12px solid #68D0F9;
+    border: 6px solid #68D0F9;
     border-radius: 280px 280px 280px 280px;
     width: 45%;
     float: left;
     box-shadow: 5px 5px 5px grey;
+    }
+
+.blurb_bubble {
+    border-radius: 40%;
+    border: 9px solid #68D0F9;
+    margin-left: 30em;
+    margin-top: 25px;
+    padding-right: 6px;  /*keeps the text in the bubble off the border */
+    height: 25em;
+    background-color: darkseagreen;
     }
 
 h3 {
@@ -117,30 +141,7 @@ h3.stretch {
     transform:scale(1.1,1); /* W3C */
     }
 
-.caption {
-    width: 16%;  /*  this width setting is the only thing bringing the caption all the eway to the left  */
-    margin-bottom: -.2em;
-    border-radius: 280px 280px 280px 280px;
-    border: 6px solid #68D0F9;
-    text-align: left;
-    padding-left: 6px;
-    margin-left: 7px;  /* This brings the caption off the very edge of the left sied 
-    of the screen */
-    color: black;
-    background-color: azure;
-    box-shadow: 5px 5px 5px grey;
-    }
 
-
-.blurb_bubble {
-    border-radius: 40%;
-    border: 12px solid #68D0F9;
-    margin-left: 30em;
-    margin-top: 25px;
-    padding-right: 6px;  /*keeps the text in the bubble off the border */
-    height: 25em;
-    background-color: darkseagreen;
-    }
 
 .bubble_text {
     text-align: right;
@@ -156,22 +157,21 @@ h3.stretch {
 
 #hauts_caption {
     padding-bottom: -30px;  /*brings the caption in contact with the photo */
-    border: 6px solid #81F4E1;
+    border: 2px solid #81F4E1;
     }
 
 #beachPhoto {
-    border: 12px solid #81F4E1;
+    border: 6px solid #81F4E1;
     }
 
 #hauts_bubble {
-    }
+        border: 9px solid #68D0F9;
+}
     
 
 #grandEst_caption{
     padding-bottom: -30px;  /*brings the caption in contact with the photo */
     }
-
-
 
 #est_bubble {
     }
@@ -179,14 +179,13 @@ h3.stretch {
 
 
 #comte_caption {
-    border: 12px solid #FF729F;
+    border: 2px solid #FF729F;
     }
 
 #arboisPhoto {
     margin-top: -3px;
-    border: 12px solid #FF729F;
-
-}
+    border: 6px solid #FF729F;
+    }
 
 #comte_bubble {
     background-color: ;
