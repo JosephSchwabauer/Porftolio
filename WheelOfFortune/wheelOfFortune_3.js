@@ -6,7 +6,7 @@ var alphabet = ['A','B', 'C', 'D', 'E', 'F', 'G', 'H',
         'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S',
         'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
 
-var board = ['_','_','_','_',' ','_','_',' ','_','_','_','_','_',' ','_','_','_','_',' ','_','_',' ','_','_','_',' ','_','_','_','_'];
+var board = ['_','_','_','_','-','_','_','-','_','_','_','_','_','-','_','_','_','_','-','_','_','-','_','_','_','-','_','_','_','_'];
 var totalWin = 0; 
 var usedAlpha;
 var myBoard =[];
@@ -32,9 +32,7 @@ window.onload = function () {
         myBoard.appendChild(spaces);
         spaces.appendChild(space);
     }
-    
 }
-
 
 $(document).ready(function(){
     $("#spinbutt").click(function(){
@@ -52,7 +50,7 @@ $(document).ready(function(){
         if (guessed == answer){
             prompt("You win!");
         } else {
-            prompt("You don't win! But we'll let you spin again...");
+            alert("You don't win! But we'll let you spin again...");
          }
     });
     $("spinbutt").click(function(){
@@ -63,7 +61,7 @@ $(document).ready(function(){
 function guessPrompting(win) {
     var guessPrompt = prompt("Please guess a letter: ");
     var letter = guessPrompt.toUpperCase();
-    document.getElementById('guessedLetter').innerHTML = ("You guessed: " + letter + "!");
+    document.getElementById('guessedLetter').innerHTML = ("You guessed:" + letter + "!");
     letterCheck(letter, win);
 };
 function letterCheck(letter, win) {
@@ -80,8 +78,6 @@ function letterCheck(letter, win) {
         }
     };
 };
-
-
 function modAlph(letterUp) {
     for (var a =0; a < alphabet.length; a++){    //loop through the alphabet     
         if (letterUp == alphabet[a]) {           //if the guessed letter equals a value in the alphabet
@@ -92,21 +88,20 @@ function modAlph(letterUp) {
         }
     };
 }
-
 function modBoard(letterUp) {
     for (var x = 0; x < answer.length; x++) {               //loop through answer array
         myBoard = document.getElementById('userBoard');     //get the id of userBoard and store it in myBoard
         if (letterUp == answer[x]) {            //if guessed letter is equal to an index in answer
-            //for (var n= 0; n < myBoard.length; n++) {       //loop through myBoard, i don't think it has any value in myBoard though
             board[x] = answer[x];             //
             var newBoard = board.join(" ");   
             myBoard.innerHTML = newBoard;
         }
         
-        else{
-            //answer[x] = " ";
-        
-        }
+     /*   else{
+            bo[x] = " ";
+            var newBoard = board.join(" ");   
+            myBoard.innerHTML = newBoard;
+        } */
     }
 }
 
@@ -114,8 +109,6 @@ function spinTotal(win) {
     totalWin += win;
     document.getElementById("tally").innerHTML = "$" + totalWin;
 };
-    
-
 function sorry(letter) {
     document.getElementById('guessedLetter').innerHTML = ("Sorry, " + letter + " is not in the phrase!");
 };

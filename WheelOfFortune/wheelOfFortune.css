@@ -21,6 +21,7 @@ Color scheme:
 
 body {
     margin-top: 1.5em;
+
 }
 
 .text {
@@ -40,6 +41,10 @@ body {
 
 #alpha, #or {
     font-size: 1.6em;
+}
+
+#or {
+    letter-spacing: normal;
 }
 
 #choice {
@@ -104,8 +109,8 @@ margin: 1em 0 1em 0;
     font-size: 1.8em;
    /* margin-left: 30px;*/
     margin-top: .75em;
-
 }
+
 #guessPhraseBoard{}
 
 .text {
@@ -151,6 +156,7 @@ margin: 1em 0 1em 0;
     */
     font-size: 1.9em;
     align-content: center;
+    margin-bottom: 3em;
 
 }
 
