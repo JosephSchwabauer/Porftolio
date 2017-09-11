@@ -19,13 +19,14 @@ html, body {
     margin-bottom: 5.5em;
     min-width: 200px;
     border-radius: 280px 280px 280px 280px;
+    background-color: #81F4E1;
 
     }
 
 .banners {
     text-align: center;
-    border-bottom: solid 2px #81F4E1;
-    border-right: solid 1px #81F4E1;
+    border-bottom: solid 2px antiquewhite;;
+    border-right: solid 1px antiquewhite;
     margin-right: 1em;
     font-family: 'Codystar', cursive;
     color: #FF729F;
@@ -55,8 +56,9 @@ a {
     font-size: 62px;
     font-weight: 200;
     letter-spacing: .05em;
-    text-shadow: 1px 2px 0 #81F4E1;
+    text-shadow: 1px 2px 0 #D3A2CD ;
     padding-bottom: 7px;
+    
 
 }
 
@@ -67,14 +69,17 @@ a {
     margin-left: 5px;
     border-radius: 50%;
     padding: 17px;
-    background-color:#D2D5DD;
+    background-color:#68D0F9;
     }
 
 #title #depart {
-    text-shadow: 1px 2px 0 #81F4E1;
+    text-shadow: 1px 2px 0 #FF729F;
     font-weight: 100;
     margin-left:9px;
+    border-top: -15px;
 }
+
+
 
 #subTitle {
     font-size: 25px;
@@ -384,10 +389,12 @@ padding-bottom should be unique to every caption because the shape of the photo 
 
 /*footer styling*/
 .footer {
-    color: white;
+    border-bottom: 2px solid #81F4E1;
+    border-top: 2px solid #81F4E1;
+    color: black;
     display:align-left;
-    background-color:darkseagreen;
-    max-height:15em;
+    background-color:#D2D5DD;
+    max-height:20em;
     margin-top: 160px;
     padding-left: 2em;
     }
@@ -395,10 +402,12 @@ padding-bottom should be unique to every caption because the shape of the photo 
 
   
 .footer p {
-    display: center;
+    font-size: 20px;
+    letter-spacing: .6em;
+    
     }
 #footer_row {
-    height : 15em;
+    height : 18em;
     padding-top:;
 }
 
