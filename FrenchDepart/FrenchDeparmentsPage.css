@@ -19,7 +19,7 @@ html, body {
     margin-bottom: 5.5em;
     min-width: 200px;
     border-radius: 280px 280px 280px 280px;
-    background-color: #81F4E1;
+    background-color: ;
 
     }
 
@@ -57,7 +57,7 @@ a {
     font-weight: 200;
     letter-spacing: .05em;
     text-shadow: 1px 2px 0 #D3A2CD ;
-    padding-bottom: 7px;
+    padding-bottom: 1px;
     
 
 }
@@ -77,12 +77,18 @@ a {
     font-weight: 100;
     margin-left:9px;
     border-top: -15px;
+    border: 2px solid #68D0F9;
+    border-top: .2em;
 }
 
 
 
 #subTitle {
     font-size: 25px;
+        margin-left: 8px;
+
+    
+    
     }
 
 
