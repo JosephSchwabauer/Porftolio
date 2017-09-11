@@ -2,6 +2,7 @@
 //also showing the board with the letters guessed appended to the end of the board
 
 var answer = ['T', 'A', 'L', 'K', '_', 'I', 'S', '_', 'C', 'H', 'E', 'A', 'P', '_', 'S', 'H', 'O', 'W', '_', 'M', 'E', '_', 'T', 'H', 'E', '_', 'C', 'O', 'D', 'E'];
+var litAnswer = "TALK IS CHEAP SHOW ME THE CODE";
 var alphabet = ['A','B', 'C', 'D', 'E', 'F', 'G', 'H',
         'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S',
         'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
@@ -47,8 +48,8 @@ $(document).ready(function(){
         var guess = prompt("Okay, go ahead and guess the phrase...");
         var guessUP = guess.toUpperCase();
         var guessed = guessUP;
-        if (guessed == answer){
-            prompt("You win!");
+        if (guessed == litAnswer){
+            sayCongrats();
         } else {
             alert("You don't win! But we'll let you spin again...");
          }
@@ -88,6 +89,7 @@ function modAlph(letterUp) {
         }
     };
 }
+
 function modBoard(letterUp) {
     for (var x = 0; x < answer.length; x++) {               //loop through answer array
         myBoard = document.getElementById('userBoard');     //get the id of userBoard and store it in myBoard
@@ -96,12 +98,9 @@ function modBoard(letterUp) {
             var newBoard = board.join(" ");   
             myBoard.innerHTML = newBoard;
         }
-        
-     /*   else{
-            bo[x] = " ";
-            var newBoard = board.join(" ");   
-            myBoard.innerHTML = newBoard;
-        } */
+        if(newBoard == answer) {
+            alert("congrats!");
+        }
     }
 }
 
@@ -112,8 +111,12 @@ function spinTotal(win) {
 function sorry(letter) {
     document.getElementById('guessedLetter').innerHTML = ("Sorry, " + letter + " is not in the phrase!");
 };
+
+function sayCongrats() {
+    var tally = document.getElementById('tally').value;
+    prompt("YOU WIN!!!");
+};
      
-      
       
 
 /*This code works to rotate the wheel PNG once 45 degrees but moves it's position
