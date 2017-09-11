@@ -19,18 +19,19 @@ html, body {
     margin-bottom: 5.5em;
     min-width: 200px;
     border-radius: 280px 280px 280px 280px;
-    background-color: ;
+    background-color:;
 
     }
 
 .banners {
     text-align: center;
-    border-bottom: solid 2px antiquewhite;;
-    border-right: solid 1px antiquewhite;
+    border-bottom: solid 2px #81F4E1;
+    border-right: solid 1px #81F4E1;
     margin-right: 1em;
     font-family: 'Codystar', cursive;
     color: #FF729F;
     list-style:none;
+    border-radius: 2%;
     
     } 
 
@@ -47,8 +48,9 @@ html, body {
 }
 
 a {
-    color: grey;
-    text-decoration: none;
+    color:#FF729F  ;
+    text-decoration:;
+    font-size: 22;
     }
 
 
@@ -84,7 +86,7 @@ a {
 
 
 #subTitle {
-    font-size: 25px;
+    font-size: 30px;
 
     
     
@@ -93,8 +95,9 @@ a {
 
 #titleBlurb {
     font-family: cursive;
-    font-size: 20px;
+    font-size: 25px;
     padding-bottom: 15px;
+    width: 1355px;
 }
 
 
@@ -141,9 +144,11 @@ h3 {
     }
 
 h3.stretch {
+    font-family: 'Codystar', cursive;
+
     display:inline-block;
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
+    border-top: 2px dotted black;
+    border-bottom: 2px dotted black;
     -webkit-transform:scale(1.1,1); /* Safari and Chrome */
     -moz-transform:scale(1.1,1); /* Firefox */
     -ms-transform:scale(1.1,1); /* IE 9 */
@@ -398,7 +403,7 @@ padding-bottom should be unique to every caption because the shape of the photo 
     border-top: 2px solid #81F4E1;
     color: black;
     display:align-left;
-    background-color:#D2D5DD;
+    background-color:antiquewhite;
     max-height:20em;
     margin-top: 160px;
     padding-left: 2em;
