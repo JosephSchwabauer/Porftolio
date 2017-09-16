@@ -1,6 +1,7 @@
-// this code is showing an appended alphabet with the guessed letter missing
-//also showing the board with the letters guessed appended to the end of the board
 
+
+
+//define varialbes
 var answer = ['T', 'A', 'L', 'K', '_', 'I', 'S', '_', 'C', 'H', 'E', 'A', 'P', '_', 'S', 'H', 'O', 'W', '_', 'M', 'E', '_', 'T', 'H', 'E', '_', 'C', 'O', 'D', 'E'];
 var litAnswer = "TALK IS CHEAP SHOW ME THE CODE";
 var alphabet = ['A','B', 'C', 'D', 'E', 'F', 'G', 'H',
@@ -12,16 +13,16 @@ var totalWin = 0;
 var usedAlpha;
 var myBoard =[];
 
-
+//onload function to display alphabet as a ul and display the boad as a ul
 window.onload = function () {
-    var myAlpha = document.getElementById('alpha');
-    var letterList = document.createElement('ul');
+    var myAlpha = document.getElementById('alpha');   //store alpha div in myAlpha variable
+    var letterList = document.createElement('ul');    //store 
     for (var i =0; i < alphabet.length; i++){
         letterList.id = alphabet;
         var letters = document.createElement('li');
         letters.innerHTML = alphabet[i];
-        myAlpha.appendChild(letterList);
-        letterList.appendChild(letters);
+        myAlpha.appendChild(letterList);  //append ul as child of 'alpha' div node
+        letterList.appendChild(letters);  //append li as child of ul
        
 }
     var myBoard = document.getElementById('userBoard');
@@ -46,8 +47,13 @@ $(document).ready(function(){
     });
     $("#guessbutt").click(function() {
         var guess = prompt("Okay, go ahead and guess the phrase...");
+        if(guess.length < 31)  {
         var guessUP = guess.toUpperCase();
         var guessed = guessUP;
+        }
+        else {
+            alert("Sorry that is incorrect!");
+        }
         if (guessed == litAnswer){
             sayCongrats();
         } else {
@@ -61,9 +67,14 @@ $(document).ready(function(){
 }); 
 function guessPrompting(win) {
     var guessPrompt = prompt("Please guess a letter: ");
+    if (guessPrompt.length == 1) {
     var letter = guessPrompt.toUpperCase();
     document.getElementById('guessedLetter').innerHTML = ("You guessed:" + letter + "!");
     letterCheck(letter, win);
+    }
+    else {
+        alert("One Letter At A Time Please");
+    }
 };
 function letterCheck(letter, win) {
     var lettersUp = letter.toUpperCase();
