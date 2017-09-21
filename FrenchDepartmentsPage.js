@@ -1,5 +1,5 @@
 
-$('#english').on('click', function(e) {
+$('div a').on('click', function(e) {
     e.preventDefault();
     var url = this.href;
     
