@@ -3,7 +3,7 @@ $('a').on('click', function(e) {
     e.preventDefault();
     var url = this.href;
     
-    $('#container').remove();
+    //$('#container').remove();
     $('#container').load(url + ' #content');
 
 });
