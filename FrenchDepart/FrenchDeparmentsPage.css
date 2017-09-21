@@ -5,7 +5,6 @@
 #FF729F  french pink
 #D3A2CD  light medium orchid
 background-color: darkseagreen;
-
 padding-bottom should be unique to every caption because the shape of the photo will change where the caption border touches the photo border
 */
 
@@ -20,7 +19,6 @@ html, body {
     min-width: 200px;
     border-radius: 280px 280px 280px 280px;
     background-color:;
-
     }
 
 .banners {
@@ -32,7 +30,6 @@ html, body {
     color: #FF729F;
     list-style:none;
     border-radius: 2%;
-    
     } 
 
 .body {
@@ -45,7 +42,7 @@ html, body {
     text-align: center;
     margin-left: 10px;
     margin-right: -20px;
-}
+    }
 
 a {
     color:#FF729F  ;
@@ -53,16 +50,13 @@ a {
     font-size: 22;
     }
 
-
 #title {
     font-size: 62px;
     font-weight: 200;
     letter-spacing: .05em;
     text-shadow: 1px 2px 0 #D3A2CD ;
     padding-bottom: 1px;
-    
-
-}
+    }
 
 #title #thirt {
     border: solid 2px #81F4E1;
@@ -81,31 +75,22 @@ a {
     border-top: -15px;
     border: 2px solid #68D0F9;
     border-top: .2em;
-}
-
-
+    }
 
 #subTitle {
     font-size: 30px;
-
-    
-    
     }
-
 
 #titleBlurb {
     font-family: cursive;
     font-size: 25px;
     padding-bottom: 15px;
     width: 1355px;
-}
-
+    }
 
 .row {
     height: 30em;
     }
-
-
 
 .caption {
     width: 16%;  /*  this width setting is the only thing bringing the caption all the eway to the left  */
@@ -145,7 +130,6 @@ h3 {
 
 h3.stretch {
     font-family: 'Codystar', cursive;
-
     display:inline-block;
     border-top: 2px dotted black;
     border-bottom: 2px dotted black;
@@ -157,14 +141,12 @@ h3.stretch {
     }
 
 
-
 .bubble_text {
     text-align: right;
     padding-top: 90px;
     color: black;
     padding-right: 23px;
     }
-
 
 #hauts {
     margin-top: 10em;
@@ -181,17 +163,14 @@ h3.stretch {
 
 #hauts_bubble {
         border: 9px solid #68D0F9;
-}
+    }
     
-
 #grandEst_caption{
     padding-bottom: -30px;  /*brings the caption in contact with the photo */
     }
 
 #est_bubble {
     }
-
-
 
 #comte_caption {
     border: 2px solid #FF729F;
@@ -206,13 +185,10 @@ h3.stretch {
     background-color: ;
     }
 
-
-
 #auvergne_caption {
     padding-bottom: -30px;  /*brings the caption in contact with the photo */
     border-color:#D3A2CD;
     }
-
 
 #alpsPhoto {
     border-color:#D3A2CD;
@@ -221,7 +197,6 @@ h3.stretch {
 #auvergne_bubble {
     background-color: ;
     }
-
 
 #azur_caption {
     padding-bottom: -30px; /*brings the caption in contact with the photo */
@@ -236,11 +211,8 @@ h3.stretch {
     }
 
 #azur_bubble {
-   background-color:;
+    background-color:;
     }
-
-
-
 
 #corse_caption {
     padding-bottom: -30px;  /*brings the caption in contact with the photo */
@@ -248,89 +220,61 @@ h3.stretch {
     }
 
 #ajaccioPhoto {
-            margin-top: -3px;
-        border-color: #68D0F9;
-
-
+    margin-top: -3px;
+    border-color: #68D0F9;
     }
 
 #corse_bubble {
     }
 
-
-
 #occ_caption {
     border-color: #FF729F;
-
-}
+    }
 
 #occFlagPhoto {
     margin-top: -3px;
     border-color: #FF729F;
-    
-  
-}
+    }
 
 #occ_bubble {
     background-color: ;
     }
 
-/* color scheme  
-#FFFFFF  white
-#81F4E1  aquamarine
-#68D0F9  (or is that an O?)  maya blue
-#FF729F  french pink
-#D3A2CD  light medium orchid
-background-color: darkseagreen;
-
-padding-bottom should be unique to every caption because the shape of the photo will change where the caption border touches the photo border
-*/
-
-
 #aquitaine {
     margin-top: 80px;
-}
+    }
 
 
 #aqui_caption {
     padding-bottom: -30px;  /*brings the caption in contact with the photo */
     border-color: #D3A2CD;
-
     }
 
 #aquitainePhoto {
     margin-top: -3px;
     border-color:#D3A2CD;
+    }
 
-}
 #aqui_bubble {
-   }
-
-
+    }
 
 #centre_caption {
     padding-bottom: -30px;  /*brings the caption in contact with the photo */
     border-color:#81F4E1;
-
     }
+
 #versPhoto {
     margin-top: -3px;
     border-color:#81F4E1;
-
-}
-
-
+    }
 
 #centre_bubble {
     background-color:  ;
     }
 
-
-
 #ile_caption {
     padding-bottom: -30px;  /*brings the caption in contact with the photo */
     border-color:#68D0F9;
-
     }
 
 #parisPhoto {
@@ -340,23 +284,19 @@ padding-bottom should be unique to every caption because the shape of the photo 
 #ile_bubble {
    }
 
-
-
 #loire_caption {
     padding-bottom: -30px;  /*brings the caption in contact with the photo */
-     border-color: #FF729F;
+    border-color: #FF729F;
     }
 
 #loirePhoto {
     margin-top: -3px;
-     border-color:#FF729F;
-}
-
-#loire_bubble {
-  background-color: ;
+    border-color:#FF729F;
     }
 
-
+#loire_bubble {
+    background-color: ;
+    }
 
 #bertagne_caption {
     padding-bottom: -30px;  /*brings the caption in contact with the photo */
@@ -366,18 +306,14 @@ padding-bottom should be unique to every caption because the shape of the photo 
 #bertagnePhoto {
     margin-top: -3px;
     border-color:#D3A2CD; 
-}
-
-#bert_bubble{
     }
 
-
+#bert_bubble {
+    }
 
 #normandie {
-     padding-bottom:40px;
-   
-
-}
+    padding-bottom:40px;
+    }
 
 #normandie_caption {
     padding-bottom: -30px;  /*brings the caption in contact with the photo */
@@ -386,16 +322,13 @@ padding-bottom should be unique to every caption because the shape of the photo 
 
 #stMichPhoto {
     margin-top: -5px;
-       /* This photo is the only outlier and may be adjusted smaller to look a bit more consistent the the other pictures */
+    /* This photo is the only outlier and may be adjusted smaller to look a bit more consistent the the other pictures */
     border-color:#81F4E1;
     }
+
 #normandie_bubble{
     background-color:;
     }
-
-
-
-
 
 /*footer styling*/
 .footer {
@@ -409,30 +342,26 @@ padding-bottom should be unique to every caption because the shape of the photo 
     padding-left: 2em;
     }
 
-
-  
 .footer p {
     font-size: 20px;
     letter-spacing: .6em;
-    
     }
+
 #footer_row {
     height : 18em;
     padding-top:;
-}
+    }
 
 #footer_text {
     padding-top: .25px;
-}
+    }
 
 
 /*departmentMap.html styling*/
-#map{
+#map {
     text-align: center;
     }
     
 #map_return{
     line-height: 3em;
     }
-
-
