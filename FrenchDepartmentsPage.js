@@ -4,7 +4,7 @@ $('a').on('click', function(e) {
     var url = this.href;
     
     $('#container').remove();
-    $('#container').load(url);
+    $('#container').load(url + ' #content');
 
 });
 
