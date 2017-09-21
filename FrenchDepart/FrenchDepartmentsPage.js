@@ -1,10 +1,10 @@
 
-$('a').on('click', function(e) {
+$('div a').on('click', function(e) {
     e.preventDefault();
     var url = this.href;
     
     $('#container').remove();
-    $('#container').load(url).hide().fadeIn('slow');
+    $('#container').load(url + ' #content').hide().fadeIn('slow');
 
 });
 
