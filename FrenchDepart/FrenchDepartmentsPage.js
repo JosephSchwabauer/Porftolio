@@ -1,3 +1,31 @@
+
+$('a').on('click', function(e) {
+    e.preventDefault();
+    var url = this.href;
+    
+    $('#container').remove();
+    $('#container').load(url).hide().fadeIn('slow');
+
+});
+
+
+
+
+/*
+var xhr = new XMLHttpRequest();   //create XML object
+
+xhr.onload = function() {   
+    if(xhr.status == 200 {   //test if server status is ok
+       document.getElementById('english').innerHTML = xhr.responseText;   //update 
+       }
+};
+
+xhr.open('GET', 'hauts.html', true);
+xhr.send(null);
+
+*/
+
+/*
 $(function() {
     var english;
     $.ajax({
@@ -39,6 +67,8 @@ $(function() {
   
 );
  
+ 
+ */
  
  
  
