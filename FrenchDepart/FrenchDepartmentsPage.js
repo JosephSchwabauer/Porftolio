@@ -1,10 +1,10 @@
 
-$('a #english').on('click', function(e) {
+$('#english').on('click', function(e) {
     e.preventDefault();
-    var url = this.href;
+    //var url = this.href;
     
     $('#container').remove();
-    $('#container').load(url + ' #content').hide().fadeIn('slow');
+    $('#container').load(hauts.html + ' #content').hide().fadeIn('slow');
 
 });
 
