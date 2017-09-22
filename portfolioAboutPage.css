@@ -100,6 +100,13 @@ footer p {
     margin-top: 1.5em;
     }
 
+@media screen and (max-width: 640px){
+ body {
+  /* option 2: serve a much smaller background */
+  background: RGB(15,75,98) url('images/gilmore-small.png');
+ }
+}
+
 
 
 
