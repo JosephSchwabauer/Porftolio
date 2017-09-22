@@ -14,7 +14,6 @@ html, body {
     padding: 0 10px;
     }
 
-
 .main {
     position: relative;
     top: 180px;
@@ -33,7 +32,6 @@ html, body {
     text-transform: uppercase;
     }
 
-
 .nav {
     margin: 0;
     padding: 20px 0px; 
@@ -48,7 +46,7 @@ html, body {
 
 .nav a {
     padding-right: 12.5px;
-}
+    }
 
 a { 
     color: inherit; 
@@ -77,8 +75,6 @@ a {
 
 /*https://suzanne.files.wordpress.com/2014/11/baby-blue-whale-and-mum.jpg*/
 
-
-
 .main h1 {
     color: #333;
     font-family: 'Raleway', sans-serif;
@@ -89,12 +85,9 @@ a {
     text-transform: uppercase;
     }
 
-
-
 .supporting {
     padding-top: 100px;
     padding-bottom: 50px;
-  
     }
 
 .btn-default a {
@@ -118,9 +111,6 @@ a {
     padding-top: 2em;
 }
 
-#top-row {
-}
-
 .btn-in-progress a {
     border: 1px solid #333;
     color:  #333;
@@ -136,8 +126,7 @@ a {
     text-transform:uppercase; 
     text-align: center;
     margin-bottom:20px;
-    
-}
+    }
 
 .supporting .col {
     float: left;
@@ -201,15 +190,5 @@ a {
 
 
 
-
-/*
-    
- .row2 {
- margin: 200em;
-border: 200em;
-padding 200em;
- }
-    
-    */
   
   
