@@ -51,7 +51,7 @@ a {
     }
 
 body {
-    background-image: url('images/gilmore-beach.png');
+    background: url('images/gilmore_beach_compressed_3.jpg');
     background-size: 1550px 2500px;
     background-repeat: no-repeat;
     color: whitesmoke;
