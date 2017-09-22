@@ -1,11 +1,11 @@
-
-$('#english').on('click', function(e) {
+$(document).ready(function(){
+    $('#english').on('click', function(e) {
     e.preventDefault();
     //var url = this.href;
     
     $('#container').remove();
     $('#container').load(hauts.html).hide().fadeIn('slow');
-
+    });
 });
 
 
