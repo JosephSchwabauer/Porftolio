@@ -67,11 +67,8 @@ body {
 .blurb  {
     margin-top: 10em;
     margin-left: 4.7em;
-    width: 600px;
-    
-    
-/*    margin-left: 4.7em;
-    margin-right: 35em;   */
+    margin-right: 4.7em;
+    max-width: 600px;
     }
 
 .blurb p {
@@ -90,10 +87,10 @@ footer {
     }
 
 footer p {
-  font-family: 'Raleway', sans-serif;
-  text-transform: uppercase;
-  font-size: 16px;
-  }
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    }
 
 #touch {
     margin-left: 3em;
@@ -112,7 +109,7 @@ footer p {
 
 
 
-/*
+
 
 .clearfix {
   clear: both;
@@ -127,5 +124,3 @@ footer p {
     padding: 0 40px;
     }
 }
-
-*/
