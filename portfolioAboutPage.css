@@ -52,16 +52,11 @@ a {
 
 body {
     background-image: url('images/gilmore-beach.png');
-    
-    /*
-    background-size: 1550px 2050px;
-    
-    */
     background-size: 1550px 2500px;
-
     background-repeat: no-repeat;
     color: whitesmoke;
     height: auto;
+    background-color: RGB(15,75,98);
     }
 
 .blurb  {
@@ -108,19 +103,3 @@ footer p {
 
 
 
-
-
-
-.clearfix {
-  clear: both;
-  padding: 100px;
-  }
-
-
-
-@media (max-width: 50px) {
-  .main h1 {
-    font-size: 200px;
-    padding: 0 40px;
-    }
-}
