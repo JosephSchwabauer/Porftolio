@@ -4,7 +4,7 @@ $(document).ready(function(){
     //var url = this.href;
     
     $('#container').remove();
-    $('#container').load(hauts.html).hide().fadeIn('slow');
+    $('#container').load('hauts.html #content').hide().fadeIn('slow');
     });
 });
 
