@@ -15,7 +15,7 @@ html, body {
     }
 
 .header {
-    margin-bottom: 5.5em;
+   /* margin-bottom: 5.5em;  */
     min-width: 200px;
     border-radius: 280px 280px 280px 280px;
     background-color:;
@@ -124,6 +124,16 @@ a {
     background-color: darkseagreen;
     }
 
+.blurb_bubble_E {
+    border-radius: 40%;
+    border: 9px solid #68D0F9;
+    margin-left: 30em;
+    margin-top: 25px;
+    padding-right: 6px;  /*keeps the text in the bubble off the border */
+    height: 25em;
+    background-color: #FF729F;
+}
+
 h3 {
     font-size: 43px;
     }
@@ -149,7 +159,7 @@ h3.stretch {
     }
 
 #hauts {
-    margin-top: 10em;
+    margin-top: 7em;
     }
 
 #hauts_caption {
@@ -244,7 +254,6 @@ h3.stretch {
     margin-top: 80px;
     }
 
-
 #aqui_caption {
     padding-bottom: -30px;  /*brings the caption in contact with the photo */
     border-color: #D3A2CD;
@@ -279,7 +288,7 @@ h3.stretch {
 
 #parisPhoto {
     border-color: #68D0F9;
-}
+    }
 
 #ile_bubble {
    }
@@ -362,7 +371,7 @@ h3.stretch {
     font-size: 26px;
     text-align: left;
     color: aquamarine;
-    text-decoration: none;
+    text-decoration: none;  
 }
 
 /*departmentMap.html styling*/

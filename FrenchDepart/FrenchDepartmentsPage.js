@@ -1,3 +1,22 @@
+ 
+
+$('.photo').hide().each(function(index) {          // Hide list items
+    $(this).delay(450 * index).fadeIn(1200);     // Then fade them in
+  });
+
+var $texts;
+
+  $texts = $('p');                               // Cache the unordered list
+
+
+
+$texts.on('click', 'p', function() {
+    var $this = $(this);               // Cache the element in a jQuery object
+    var emglish = $this.hasClass('blurb_bubble_E');  // Is item complete
+
+});
+/*
+
 $(document).ready(function(){
     $('#english').on('click', function(e) {
     e.preventDefault();
@@ -11,7 +30,7 @@ $(document).ready(function(){
 
 
 
-/*
+
 var xhr = new XMLHttpRequest();   //create XML object
 
 xhr.onload = function() {   
