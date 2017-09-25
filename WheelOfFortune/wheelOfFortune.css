@@ -1,65 +1,50 @@
  
 /*
 Color scheme:
+https://coolors.co/1abb9c-e4572e-ffc914-2274a5-122c34
 #1ABB9C light green
 #E4572E  orangish
 #FFC914 yellow
 #2274A5  dark blue
 #122C34 charcoal 
-
 */
-
 
 * {  
     background-color: ghostwhite;
     text-align: center;
     margin: 0px;
     padding 0px;
-
-
-}
+    }
 
 body {
     margin-top: 1.5em;
-
-}
+    }
 
 .text {
     color:#2274A5;
-}
+    }
 
 #header {
     font-size: 3em;
-    text-shadow: 1px 5px 0 #FF9800;}
-
-.container {
-}
-
-
-#A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z {
-}
+    text-shadow: 1px 5px 0 #FF9800;
+    }
 
 #alpha, #or {
     font-size: 1.6em;
-}
+    }
 
 #or {
     letter-spacing: normal;
-}
+    }
 
 #choice {
     margin-top: 3em;
-}
+    }
 
 button {
     font-size: 1.1em;
     color: #1ABB9C;
-    /*
-    margin-top: 5em;
-    padding: 1.5em;
-    border: 0px, 300px;
-    */
-}
+    }
 
 #spinbutt {
     margin: 0 0 1em 0;
@@ -76,19 +61,14 @@ button {
 ul {
     list-style: none;
     margin-left: 340px;
-}
+    }
 
 li {
-  float:left;
-  list-style:none;
-  color: #122C34;
-  width:25px;
- /* height:30px;
-
-    
-  padding-top:10px;
-    */
-}
+    float:left;
+    list-style:none;
+    color: #122C34;
+    width:25px;
+    }
 
 #alpha {
     color:#122C34;
@@ -97,70 +77,44 @@ li {
 #used {
     font-size: .4em;
     color: #E4572E;
-}
-
+    }
 
 #wheel {
-background:; 
-margin: 1em 0 1em 0;
-}
+    background:; 
+    margin: 1em 0 1em 0;
+    }
 
 #guessedLetter {
     font-size: 1.8em;
-   /* margin-left: 30px;*/
     margin-top: .75em;
-}
-
-#guessPhraseBoard{}
+    }
 
 .text {
     letter-spacing: .5em;
     padding-bottom: 1em;
-
-}
+    }
 
 #moneyTitle{
     color: #E4572E;
     font-size: 1.4em;
-    /*margin-left: 30px;*/
-}
-
+    }
 
 #moneyWon {
     color: #E4572E;
-   /* margin-left: 30px;*/
     font-size: 1.6em;
-}
-
-#winningsLabel {
-
-   /* margin-left: 30px; */
-
-}
+    }   
 
 #tally {
-    /*
-    margin-left: 30px;
-    margin-right: 1100px;
-    line-height: 2em;
-    */
     color: red;
     font-size: 1.9em; 
     height: 2em;
-
-}
+    }
 
 #userBoard {
-    /*
-    margin-left: 30px;
-    */
     font-size: 1.9em;
     align-content: center;
     margin-bottom: 3em;
-
-}
-
-
+    }
 
 @-webkit-keyframes rotate {
   from {
@@ -171,8 +125,6 @@ margin: 1em 0 1em 0;
   }
 }
 
-
-
 #wheel {
     -webkit-animation-name: rotate; 
     -webkit-animation-duration: 1.5s; 
@@ -180,7 +132,7 @@ margin: 1em 0 1em 0;
     -webkit-animation-iteration-count: 1;
     -webkit-animation-timing-function: linear;
     background-color: transparent;
-}
+    }
 
 /* this code will rotate your png attributed to the #wheel 20deg and moves it's position   */
  /*-ms-transform: rotate(20deg); /* IE 9 */
@@ -190,4 +142,3 @@ margin: 1em 0 1em 0;
 
 
 
-/*color scheme   https://coolors.co/1abb9c-e4572e-ffc914-2274a5-122c34

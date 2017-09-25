@@ -2,13 +2,11 @@
 
 
 //define varialbes
+var alphabet = [ 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
+var board = ['_','_','_','_','-','_','_','-','_','_','_','_','_','-','_','_','_','_','-','_','_','-','_','_','_','-','_','_','_','_'];
+
 var answer = ['T', 'A', 'L', 'K', '_', 'I', 'S', '_', 'C', 'H', 'E', 'A', 'P', '_', 'S', 'H', 'O', 'W', '_', 'M', 'E', '_', 'T', 'H', 'E', '_', 'C', 'O', 'D', 'E'];
 var litAnswer = "TALK IS CHEAP SHOW ME THE CODE";
-var alphabet = ['A','B', 'C', 'D', 'E', 'F', 'G', 'H',
-        'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S',
-        'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
-
-var board = ['_','_','_','_','-','_','_','-','_','_','_','_','_','-','_','_','_','_','-','_','_','-','_','_','_','-','_','_','_','_'];
 var totalWin = 0; 
 var usedAlpha;
 var myBoard =[];
@@ -16,45 +14,43 @@ var myBoard =[];
 //onload function to display alphabet as a ul and display the boad as a ul
 window.onload = function () {
     var myAlpha = document.getElementById('alpha');   //store alpha div in myAlpha variable
-    var letterList = document.createElement('ul');    //store 
-    for (var i =0; i < alphabet.length; i++){
-        letterList.id = alphabet;
-        var letters = document.createElement('li');
-        letters.innerHTML = alphabet[i];
-        myAlpha.appendChild(letterList);  //append ul as child of 'alpha' div node
-        letterList.appendChild(letters);  //append li as child of ul
-       
-}
-    var myBoard = document.getElementById('userBoard');
-    var spaces = document.createElement('ul');
-    for (var x= 0; x < board.length; x++) {
-        spaces.id = board;
-        var space = document.createElement('li');
-        space.innerHTML = board[x];
-        myBoard.appendChild(spaces);
-        spaces.appendChild(space);
+    var letterList = document.createElement('ul');    //create a ul tag and store it in 'letterList'
+    for (var i =0; i < alphabet.length; i++){         //loop through the alphabet variable
+        letterList.id = alphabet;                     //associate the letterList with 'alphabet'
+        var letters = document.createElement('li');   //create an li and store it in 'letters'
+        letters.innerHTML = alphabet[i];              //for the li in letters place the current iteration of the alphabet
+        myAlpha.appendChild(letterList);  //append the ul as child of 'alpha' div node
+        letterList.appendChild(letters);  //append li(letters) as child of ul(letterList)
+    }
+    var myBoard = document.getElementById('userBoard');   //store the userBoard id of the page inside 'myBoard'
+    var spaces = document.createElement('ul');            //create a ul and store it in the variable 'spaces'
+    for (var x= 0; x < board.length; x++) {               //for each iteration in the board variable
+        spaces.id = board;                                //associate the spaces ul with the board array
+        var space = document.createElement('li');         //create an li
+        space.innerHTML = board[x];                       //assign the current iteration to a 'space' li
+        myBoard.appendChild(spaces);                      //append the spaces ul to the myBoard element
+        spaces.appendChild(space);                        //append each space li to the spaces ul
     }
 }
 
-$(document).ready(function(){
-    $("#spinbutt").click(function(){
-        var rando = Math.floor((Math.random() * 10) + 1);
+$(document).ready(function(){                          //load this function when the document is ready
+    $("#spinbutt").click(function(){                   //on click of the #spinbutt id
+        var rando = Math.floor((Math.random() * 10) + 1);       //find a random number between 1 and 11
         var spinArray = ["nothing", 100, 300, 500, 700, 900, 2000, 3000, 5000, -1000, 0];
-        var win = spinArray[rando];
-        document.getElementById('moneyWon').innerHTML = ("$" + win + "!");
-        guessPrompting(win);
-     $("animation").addClass("active");
+        var win = spinArray[rando];                     //call spinArray function while passing the random number
+        document.getElementById('moneyWon').innerHTML = ("$" + win + "!");  //display the money the random number generated
+        guessPrompting(win);                            //call the guessPrompting function while passing the random number       generated
     });
-    $("#guessbutt").click(function() {
-        var guess = prompt("Okay, go ahead and guess the phrase...");
-        if(guess.length < 31)  {
-        var guessUP = guess.toUpperCase();
-        var guessed = guessUP;
+    $("#guessbutt").click(function() {                  //when guessbutt is clicked
+        var guess = prompt("Okay, go ahead and guess the phrase...");   //prompt for the user to guess the phrase
+        if(guess.length < 31)  {                                //security measuer, if the guess is under 31 in length
+        var guessUP = guess.toUpperCase();                      //put the guess in uppercase
+        var guessed = guessUP;                                  //assign the uppercase guess to variable 'guessed'
         }
-        else {
-            alert("Sorry that is incorrect!");
+        else {                          
+            alert("Sorry that is incorrect!");         //otherwise alert a sorry message for the user
         }
-        if (guessed == litAnswer){
+        if (guessed == litAnswer){                      
             sayCongrats();
         } else {
             alert("You don't win! But we'll let you spin again...");
@@ -62,8 +58,6 @@ $(document).ready(function(){
     });
     $("spinbutt").click(function(){
 });
-    
-
 }); 
 function guessPrompting(win) {
     var guessPrompt = prompt("Please guess a letter: ");

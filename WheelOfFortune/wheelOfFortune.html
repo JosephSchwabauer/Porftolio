@@ -1,59 +1,44 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <!-- Global Site Tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106918395-1"></script>
-    <script>window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments)}; gtag('js', new Date());
-    gtag('config', 'UA-106918395-1');
-    </script>
-    <meta charset="utf-8">
-    <title>WHEEL! OF! FORTUNE!</title>                   <!--link for local js rotate file><script src="jquery.rotate.js"></script> -->
-    <!--link for jquery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
-    <!--link to local js file-->
-    <script src= "wheelOfFortune_3.js" ></script> 
-    <!--link for css style sheet-->
-    <link rel="stylesheet" type="text/css" href="wheelOfFortune.css">
+      <!-- Global Site Tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106918395-1"></script>
+      <script>window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments)}; gtag('js', new Date());
+      gtag('config', 'UA-106918395-1');
+      </script>
+      <meta charset="utf-8">
+      <title>WHEEL! OF! FORTUNE!</title>           <!--link for local js rotate file><script src="jquery.rotate.js"></script> -->
+      <!--link for jquery library -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+      <!--link for css style sheet-->
+      <link rel="stylesheet" type="text/css" href="wheelOfFortune.css">
   </head>
-  
-   <body>
-       <div class="text" id ="header">
-            <h1>WHEEL OF FORTUNE!</h1>
-       </div>
-       <div class= "container">
-        <div class="" id="alpha">
-            <!-- <span id="used">(letters used) &nbsp;</span> -->
-        </div>
-        <div>
-            &nbsp;
-        </div>
-        
-        <div class="text" id = "choice">
+  <body>
+      <div class="text" id ="header">
+      <h1>WHEEL OF FORTUNE!</h1>
+      </div>
+      <div class= "container">
+          <div class="" id="alpha"><!-- <span id="used">(letters used) &nbsp;</span> --></div>
+          <div>&nbsp;</div>
+          <div class="text" id = "choice">
             <button type="button" id ='spinbutt'> SPIN THE WHEEL! </button>
             <p id = 'or'>or</p>
             <button type="button" id ='guessbutt'>GUESS THE PHRASE! </button>
-        </div>
-       </div>
-        
-        <div class = "animation" id="wheel" width="300" height="150">
-            <img src="wheel_share.png">
-        </div>
-       
-    
-        <div class="text" id = "moneyTitle">
-            <p>AND THE WHEEL OF FORTUNE LANDS ON....</p>
-        </div>
-
-        <div class="text" id="moneyWon">
-            <!-- show where the wheel of fortune landed on in current spin -->
-        </div>
-       
-        <p class="text" id = "guessedLetter">What letter will you guess???</p>
-
-    
-        <h2 class= "text" id="winningsLabel">TOTAL WINNINGS:</h2>
-        <p id="tally"> ZERO </p> <!--THIS SHOULD SHOW THE PLAYR'S TOTAL WINNIGS -->
-       <p class="" id = "userBoard"></p>
-       
-       </body>
+          </div>
+      </div>
+      <div class = "animation" id="wheel" width="300" height="150">
+        <img src="wheel_share.png">
+      </div>
+      <div class="text" id = "moneyTitle">
+        <p>AND THE WHEEL OF FORTUNE LANDS ON....</p>
+      </div>
+      <div class="text" id="moneyWon"><!-- show where the wheel of fortune landed on in current spin -->
+      </div>
+      <p class="text" id = "guessedLetter">What letter will you guess???</p>
+      <h2 class= "text" id="winningsLabel">TOTAL WINNINGS:</h2>
+      <p id="tally"> ZERO </p> <!--THIS SHOULD SHOW THE PLAYR'S TOTAL WINNIGS -->
+      <p class="" id = "userBoard"></p>
+      <!--link to local js file-->
+      <script src= "wheelOfFortune_3.js" ></script> 
+  </body>
 </html>
