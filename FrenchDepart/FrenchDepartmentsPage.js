@@ -1,20 +1,32 @@
- 
+var englishArray = ["Hauts-de-France is between Calais and Picardy. Hauts-de-France has a common frontier with Belgium on the west and the Channel on the east. The people of Boulogne-Sur-Mer are well known for the fresh seafood soup, Gaine&#233 Boulounnaise. Here is a French fill text. I do not imagine it is grammatically correct, but oh well. This project has been transformed into a school project in the French classroom into a web design project involving students, Here is a French fill text. I do not imagine it is grammatically correct, but well. This project has been transformed into a school project in the French classroom into a web design project involving students, Hauts-de-France has a common frontier with Belgium on the west and the Channel on the east. The people of Boulogne-Sur-Mer are well known for their fresh seafood soup, Gaine&#233 Boulounnaise. Here is a French fill text. I do not imagine it is grammatically correct, but oh well. Hauts-de-France is between Calais and Picardy. Hauts-de-France has a common frontier with Belgium on the west and the Channel on the east. The people of Boulogne-Sur-Mer are well known for the fresh seafood soup, Gaine&#233 Boulounnaise. Here is a French fill text. I do not imagine it is grammatically correct, but oh well. This project has been transformed into a school project in the French classroom into a web design project involving students, Here is a French fill text. I do not imagine it is grammatically correct, but well. This project has been transformed into a school project in the French classroom into a web design project involving students, Hauts-de-France has a common frontier with Belgium on the west and the Channel on the east. The people of Boulogne-Sur-Mer are well known for their fresh seafood soup, Gaine&#233 Boulounnaise. Here is a French fill text. I do not imagine it is grammatically correct, but oh well."]; 
 
-$('.photo').hide().each(function(index) {          // Hide list items
-    $(this).delay(450 * index).fadeIn(1200);     // Then fade them in
-  });
+var love = "I should at least give her a big smile on the way out.";
+var item = " ";
 
-var $texts;
+$('.photo').hide().each(function(index) {          // Hide photos items
+    $(this).delay(450 * index).fadeIn(1200);     // Then fade them in one at a time
+    });
 
-  $texts = $('p');                               // Cache the unordered list
 
-
+var $texts = $('.blurb_bubble');          // Cache the bubble texts
 
 $texts.on('click', 'p', function() {
-    var $this = $(this);               // Cache the element in a jQuery object
-    var emglish = $this.hasClass('blurb_bubble_E');  // Is item complete
-
+    var $this = $(this);               // Cache the  p element in a jQuery object
+    var notEnglish = $this.hasClass('bubble_text');  // does the element have the class 'bubble_text'?
+    if (notEnglish === true) {           // Check if item has the bubble_text class                        
+      $texts.replaceWith('<p class=\"blurb_bubble_E\">' + englishArray[0] + '</p>');  //
+    }
 });
+
+//$texts.replaceWith('<p class=\"blurb_bubble_E\">'englishArray[0]'</p>');
+
+
+
+
+    
+    
+
+
 /*
 
 $(document).ready(function(){
@@ -26,9 +38,6 @@ $(document).ready(function(){
     $('#container').load('hauts.html #content').hide().fadeIn('slow');
     });
 });
-
-
-
 
 
 var xhr = new XMLHttpRequest();   //create XML object

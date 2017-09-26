@@ -128,11 +128,22 @@ a {
     border-radius: 40%;
     border: 9px solid #68D0F9;
     margin-left: 30em;
-    margin-top: 25px;
-    padding-right: 6px;  /*keeps the text in the bubble off the border */
+    margin-top: 7px;
     height: 25em;
-    background-color: #FF729F;
+    background-color: darkseagreen;
+    text-align: right;
+    padding-top: 90px;
+    color: black;
+    padding-right: 23px;
+    margin-bottom: 10em;
 }
+
+.bubble_text {
+    text-align: right;
+    padding-top: 90px;
+    color: black;
+    padding-right: 23px;
+    }
 
 h3 {
     font-size: 43px;
@@ -151,12 +162,7 @@ h3.stretch {
     }
 
 
-.bubble_text {
-    text-align: right;
-    padding-top: 90px;
-    color: black;
-    padding-right: 23px;
-    }
+
 
 #hauts {
     margin-top: 7em;
