@@ -125,19 +125,17 @@ a {
     }
 
 .blurb_bubble_E {
-    border-radius: 40%;
-    border: 9px solid #68D0F9;
-    margin-left: 30em;
-    margin-top: 7px;
-    height: 25em;
+    border-radius: 90%;
+    width: 620px;
+    margin-top: 24px;
+    height: 2em;
     background-color: darkseagreen;
-    text-align: right;
+    text-align: center;
     padding-top: 90px;
+    margin-top: 2.2em;
     color: black;
-    padding-right: 23px;
     margin-bottom: 10em;
-    
-}
+    }
 
 .bubble_text {
     text-align: right;

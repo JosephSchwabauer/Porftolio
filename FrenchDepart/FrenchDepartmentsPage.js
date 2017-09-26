@@ -32,14 +32,15 @@ $('.photo').hide().each(function(index) {          // Hide photos items
 
 
 var $texts = $('.blurb_bubble');          // Cache the bubble texts
-
+var flip =0;
 $texts.on('click', 'p', function() {
-    var $this = $(this);               // Cache the  p element in a jQuery object
-    var notEnglish = $this.hasClass('bubble_text');  // does the element have the class 'bubble_text'?
-    if (notEnglish === true) {           // Check if item has the bubble_text class                        
-      $texts.replaceWith('<p class=\"blurb_bubble_E\">' + englishArray[0] + '</p>'); 
-    }
-});
+    var $this = $(this);
+    $('p').toggleClass('blurb_bubble_E');
+        $('p').toggle(flip);
+
+    // Cache the  p element in a jQuery object
+    //$texts.replaceWith('<p class=\"blurb_bubble_E\">' + englishArray[0] + '</p>'); 
+    });
 
 
 
