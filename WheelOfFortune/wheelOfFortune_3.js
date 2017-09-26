@@ -4,7 +4,6 @@
 //define varialbes
 var alphabet = [ 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
 var board = ['_','_','_','_','-','_','_','-','_','_','_','_','_','-','_','_','_','_','-','_','_','-','_','_','_','-','_','_','_','_'];
-
 var answer = ['T', 'A', 'L', 'K', '_', 'I', 'S', '_', 'C', 'H', 'E', 'A', 'P', '_', 'S', 'H', 'O', 'W', '_', 'M', 'E', '_', 'T', 'H', 'E', '_', 'C', 'O', 'D', 'E'];
 var litAnswer = "TALK IS CHEAP SHOW ME THE CODE";
 var totalWin = 0; 
@@ -35,8 +34,8 @@ window.onload = function () {
 
 $(document).ready(function(){                          //load this function when the document is ready
     $("#spinbutt").click(function(){                   //on click of the #spinbutt id
-        var rando = Math.floor((Math.random() * 10) + 1);       //find a random number between 1 and 11
-        var spinArray = ["nothing", 100, 300, 500, 700, 900, 2000, 3000, 5000, -1000, 0];
+        var rando = Math.floor((Math.random() * 11) + 1);       //find a random number between 1 and 11
+        var spinArray = ["nothing", 100, 300, 500, 700, 900, 2000, 3000, 5000, -1000, 0, -2000];
         var win = spinArray[rando];                     //call spinArray function while passing the random number
         document.getElementById('moneyWon').innerHTML = ("$" + win + "!");  //display the money the random number generated
         guessPrompting(win);                            //call the guessPrompting function while passing the random number       generated
@@ -50,43 +49,40 @@ $(document).ready(function(){                          //load this function when
         else {                          
             alert("Sorry that is incorrect!");         //otherwise alert a sorry message for the user
         }
-        if (guessed == litAnswer){                      
-            sayCongrats();
-        } else {
-            alert("You don't win! But we'll let you spin again...");
+        if (guessed == litAnswer){                      //if the guessed phrase is equal to litAnswer
+            sayCongrats();                              //call sayCongrats function
+        } else {                
+            alert("You don't win! But we'll let you spin again...");        //else alert 'sorry message
          }
     });
-    $("spinbutt").click(function(){
-});
-}); 
-function guessPrompting(win) {
-    var guessPrompt = prompt("Please guess a letter: ");
-    if (guessPrompt.length == 1) {
-    var letter = guessPrompt.toUpperCase();
-    document.getElementById('guessedLetter').innerHTML = ("You guessed:" + letter + "!");
-    letterCheck(letter, win);
+ }); 
+
+function guessPrompting(win) {                              //funtion that prompts to guess a letter
+    var guessPrompt = prompt("Please guess a letter: ");    //prompt to get user guess letter
+    if (guessPrompt.length == 1) {                          //make sure it's just a single letter
+    var letter = guessPrompt.toUpperCase();                 //make guessed letter uppercase
+    document.getElementById('guessedLetter').innerHTML = ("You guessed:" + letter + "!");  //display to user the letter they guessed
+    letterCheck(letter, win);               //call letterCheck function 
     }
     else {
-        alert("One Letter At A Time Please");
+        alert("One Letter At A Time Please");   //display message for one letter at a time
     }
 };
-function letterCheck(letter, win) {
-    var lettersUp = letter.toUpperCase();
-    var letterUp = lettersUp;
-    for (var i = 0; i < answer.length; i++) {
-        if (letterUp == answer[i]) {
-            spinTotal(win);
-            modBoard(letterUp);
-            modAlph(letterUp);
-            break;
+function letterCheck(letter, win) {             //function checks to see if letter is in the answer
+       
+    for (var i = 0; i < answer.length; i++) {   //loop through the answer
+        if (letter == answer[i]) {              // if the interation of the answer is equal to the letter
+            spinTotal(win);                     //call the spinTotal function
+            modBoard(letter);                   //call the modBoard function
+            modAlph(letter);                    //call the modAlpha function
         } else {
-            modAlph(letterUp);
+            modAlph(letter);                    
         }
     };
 };
-function modAlph(letterUp) {
+function modAlph(letter) {
     for (var a =0; a < alphabet.length; a++){    //loop through the alphabet     
-        if (letterUp == alphabet[a]) {           //if the guessed letter equals a value in the alphabet
+        if (letter == alphabet[a]) {           //if the guessed letter equals a value in the alphabet
             alphabet[a] = " ";                   //that value is now replaced with a blank
             var myAlpha = alphabet.join(" ");    
             alpha = document.getElementById('alpha'); //element alpha contained in alpha variable
@@ -95,12 +91,12 @@ function modAlph(letterUp) {
     };
 }
 
-function modBoard(letterUp) {
+function modBoard(letter) {
     for (var x = 0; x < answer.length; x++) {               //loop through answer array
         myBoard = document.getElementById('userBoard');     //get the id of userBoard and store it in myBoard
-        if (letterUp == answer[x]) {            //if guessed letter is equal to an index in answer
-            board[x] = answer[x];             //
-            var newBoard = board.join(" ");   
+        if (letter == answer[x]) {            //if guessed letter is equal to an index in answer
+            board[x] = answer[x];             //store index of answer as index of board
+            var newBoard = board.join(" ");   //
             myBoard.innerHTML = newBoard;
         }
         if(newBoard == answer) {
@@ -119,7 +115,7 @@ function sorry(letter) {
 
 function sayCongrats() {
     var tally = document.getElementById('tally').value;
-    prompt("YOU WIN!!!");
+    prompt("YOU WIN!!!");   //
 };
      
       
