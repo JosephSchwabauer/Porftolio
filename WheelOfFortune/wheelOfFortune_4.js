@@ -2,23 +2,23 @@
 
 //define varialbes
 
-var alphabet = ['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
-var litAnswer = "TALK IS CHEAP SHOW ME THE CODE";
-var answer = ['T', 'A', 'L', 'K', '_', 'I', 'S', '_', 'C', 'H', 'E', 'A', 'P', '_', 'S', 'H', 'O', 'W', '_', 'M', 'E', '_', 'T', 'H', 'E', '_', 'C', 'O', 'D', 'E'];
-var board = ['_','_','_','_','-','_','_','-','_','_','_','_','_','-','_','_','_','_','-','_','_','-','_','_','_','-','_','_','_','_'];
 
 var litAnswers = [ "TALK IS CHEAP SHOW ME THE CODE", "The Internet? Is that thing still around"];
 var answers = [
     ['T', 'A', 'L', 'K', '_', 'I', 'S', '_', 'C', 'H', 'E', 'A', 'P', '_', 'S', 'H', 'O', 'W', '_', 'M', 'E', '_', 'T', 'H', 'E', '_', 'C', 'O', 'D', 'E'],
     
     ['T', 'H', 'E', '_', 'I', 'N', 'T', 'E', 'R', 'N', 'E', 'T', '_', 'I', 'S', '_', 'T', 'H', 'A', 'T', '_', 'T', 'H', 'I', 'N', 'G', '_', 'S', 'T', 'I', 'L', 'L', '_', 'A', 'R', 'O', 'U', 'N', 'D']
-    ]
-; 
+    ]; 
 var boards = [
     ['_','_','_','_','-','_','_','-','_','_','_','_','_','-','_','_','_','_','-','_','_','-','_','_','_','-','_','_','_','_'
      ],
     ['_','_','_','-','_','_','_','_','_','_','_','_','-','_','_','-','_','_','_','_','-','_','_','_','_','_','-','_','_','_','_','_','-','_','_','_','_','_']
 ];
+
+var alphabet = ['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
+var litAnswer = "TALK IS CHEAP SHOW ME THE CODE";
+var answer = ['T', 'A', 'L', 'K', '_', 'I', 'S', '_', 'C', 'H', 'E', 'A', 'P', '_', 'S', 'H', 'O', 'W', '_', 'M', 'E', '_', 'T', 'H', 'E', '_', 'C', 'O', 'D', 'E'];
+var board = ['_','_','_','_','-','_','_','-','_','_','_','_','_','-','_','_','_','_','-','_','_','-','_','_','_','-','_','_','_','_'];
 
 var totalWin = 0; 
 var usedAlpha;
@@ -127,10 +127,10 @@ function modBoard(letterUp) {
             var newBoard = board.join(" ");   
             myBoard.innerHTML = newBoard;
         }
-        if(newBoard == answer) {
-            alert("congrats!");
-        }
     }
+    if(document.getElementById('userBoard').textContent == "T A L K - I S - C H E A P - S H O W - M E - T H E - C O D E") {
+            alert("congrats!");
+        }   
 }
 
 function spinTotal(win) {
