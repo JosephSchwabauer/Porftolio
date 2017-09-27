@@ -63,15 +63,43 @@ body {
   line-height: 1.5em;
   }
 
+.panel {
+    display: none;
+    height: 14em;
+    padding-top: .5em;
+    }
+#short-panel {
+    height: 11em;
+}
+
+.accordion-control {
+    background-color: #444;
+    color: #eee;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-size: 1.1em;
+    }
+
+.accordion-control :hover {
+    text-shadow: 2px 2px black;
+    }   
+
 .script {
   font-family: 'Zeyada', cursive;
   }
 
 #timeline-intro {
-  margin-left: 25px;
-  padding-top: 15px;
+  margin-left: 55px;
+  padding-top: 35px;
+  border-top: 10px;
   text-align: center;
   font-family: 'Zeyada', cursive;
+    font-size: 32px;
   }
 
 h3 {
@@ -90,14 +118,14 @@ h4 {
 
 ul {
   width: 800px;
-  margin: 15px 100px 40px 100px;
+  margin: 15px 100px 40px 255px;
   }
 
 .indent {
   padding-left: 3em;
   }
 
-ul :hover {
+li :hover {
  text-shadow: 2px 2px #f2e6ae;
   }
 
@@ -112,7 +140,7 @@ ul, h4 :hover {
 #wikiLink {
   text-align: center;
   padding-top: 1.1em;
-padding-bottom: 1.1em;
+  padding-bottom: 1.1em;
 
   font-size: x-large;
   }
