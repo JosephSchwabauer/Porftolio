@@ -85,6 +85,12 @@ function guessPrompting(win) {
     else {
         alert("One Letter At A Time Please");
     }
+    if (win == -1000) {
+        document.getElementById('uhOh').innerHTML = ('(Uh-Oh)');
+    }
+    else {
+        document.getElementById('uhOh').innerHTML = (' ');
+    }
 };
 function letterCheck(letter, win) {
     var lettersUp = letter.toUpperCase();
@@ -133,11 +139,11 @@ function spinTotal(win) {
 };
 
 function sorryLetter(letter) {
-    document.getElementById('yesOrNo').innerHTML = ("(Sorry, " + letter + " is not in the phrase. You win nothing this round.)");
+    document.getElementById('yesOrNo').innerHTML = ("--Sorry, " + letter + " is not in the phrase. You win nothing this round.--");
 };
 
 function yesLetter(letter) {
-    document.getElementById('yesOrNo').innerHTML = ("(Yes, " + letter + " is in the phrase!)");
+    document.getElementById('yesOrNo').innerHTML = ("--Yes, " + letter + " is in the phrase!--");
 };
 
 
