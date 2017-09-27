@@ -1,4 +1,3 @@
-
 //http://www.devtopics.com/101-great-computer-programming-quotes/  
 
 //define varialbes
@@ -38,10 +37,10 @@ window.onload = function () {
     }
     var myBoard = document.getElementById('userBoard');
     var spaces = document.createElement('ul');
-    for (var y= 0; y < boards[y].length; y++) {
-        spaces.id = boards[y];
+    for (var y= 0; y < board.length; y++) {
+        spaces.id = board[y];
         var space = document.createElement('li');
-        space.innerHTML = boards[[x][y]];
+        space.innerHTML = board[y];
         myBoard.appendChild(spaces);
         spaces.appendChild(space);
     }
@@ -142,18 +141,18 @@ function yesLetter(letter) {
 };
 
 
-
 function sayCongrats() {
     var tally = document.getElementById('tally').value;
     prompt("YOU WIN!!!");
 };
+
+
      
       
 
 /*This code works to rotate the wheel PNG once 45 degrees but moves it's position
 also the identiy of the wheel stays the same each time this function is called. Returns to the original value of 'wheel' and performs 
 the rotate on the original value. How can I reassign the value of 'wheel' with the new posistion? 
-
 function rotateWheel() {
 var wheel = document.getElementById("wheel");
         wheel.src = "wheel_share.png";
@@ -163,9 +162,14 @@ var wheel = document.getElementById("wheel");
         wheel.style.msTransform = "rotate(45deg)";
         wheel.style.transform = "rotate(45deg)";
 }
-
 */
 
+
+
+
+    
+
+    
 
 
 
