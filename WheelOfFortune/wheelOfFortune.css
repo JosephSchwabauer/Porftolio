@@ -89,6 +89,12 @@ li {
     margin-top: .75em;
     }
 
+#yesOrNo {
+    letter-spacing: normal;
+    font-size: 1.2em;
+    color: #E4572E;
+}
+
 .text {
     letter-spacing: .5em;
     padding-bottom: 1em;
