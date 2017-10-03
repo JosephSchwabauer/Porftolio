@@ -6,4 +6,4 @@
     });  
 
 
-document.getElementById("tally").innerHTML = " ";
+//document.getElementById("tally").innerHTML = " ";
