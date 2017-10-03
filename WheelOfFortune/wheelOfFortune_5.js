@@ -31,7 +31,7 @@ var myBoard =[];
 var totalWin = 0;
 
 //onload function to display alphabet as a ul and display the boad as a ul
-if(document.URL == "file:///Users/Home/Desktop/PortfolioPage/Portfolio_Main/WheelOfFortune/wheelOfFortune.html"){
+if(document.URL == "http://josephs.online/WheelOfFortune/wheelOfFortune.html"){
 window.onload = function () {
     var myAlpha = document.getElementById('alpha');   //store alpha div in myAlpha variable
     var letterList = document.createElement('ul');    //store 
@@ -143,6 +143,7 @@ function modBoard(letterUp) {
 function spinTotal(win) {
     totalWin += win;
     document.getElementById("tally").innerHTML = "$" + totalWin;
+    return totalWin;
 };
 
 function sorryLetter(letter) {
@@ -155,14 +156,14 @@ function yesLetter(letter) {
 
 function sayCongrats() {
     var tally = document.getElementById('tally').value;
-    window.open("file:///Users/Home/Desktop/PortfolioPage/Portfolio_Main/WheelOfFortune/wheelOfFortuneCongrats.html");
+    window.open("http://josephs.online/WheelOfFortune/wheelOfFortuneCongrats.html");
 };
 
 };
 //add a document.ready funciton if you're going to keep this file  just need the $(function(){ })  (anonymous version for document ready)
 
 
-if(document.URL == "file:///Users/Home/Desktop/PortfolioPage/Portfolio_Main/WheelOfFortune/wheelOfFortuneCongrats.html"){
+if(document.URL == "http://josephs.online/WheelOfFortune/wheelOfFortuneCongrats.html"){
  $('.cTitle').hide().each(function(index) {          // Hide photos items
     $(this).delay(450 * index).fadeIn(1200);  
      // Then fade them in one at a time
@@ -170,5 +171,5 @@ if(document.URL == "file:///Users/Home/Desktop/PortfolioPage/Portfolio_Main/Whee
     });  
 
 
-document.getElementById("tally").innerHTML = tally;
+document.getElementById("tally").innerHTML = totalWin;
 };
