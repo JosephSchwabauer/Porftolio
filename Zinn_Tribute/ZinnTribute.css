@@ -10,6 +10,7 @@ color accent? how do I intelleginently change the border color without the discr
   padding: 0px;
   font-family: 'Arimo', sans-serif;
   list-style-type: none;
+  font-size: 100%;
   }
 
 body {
