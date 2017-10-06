@@ -14,11 +14,15 @@ html, body {
     padding: 0;
     }
 
+body {
+    line-height: 1;
+}
+
 .header {
-   /* margin-bottom: 5.5em;  */
-    min-width: 200px;
-    border-radius: 280px 280px 280px 280px;
+    /* margin-bottom: 5.5em;  */
     background-color:;
+    margin-top: 0.996178%;
+    width: 100%;
     }
 
 .body {
@@ -29,41 +33,55 @@ html, body {
 .object {
     margin-bottom: 10em;
     text-align: center;
-    margin-left: 10px;
-    margin-right: -20px;
+    margin-left: 0.796178%;  
     }
 
 a {
     color:#FF729F  ;
     text-decoration:;
-    font-size: 22;
+    font-size: 22px;
     }
 
 #title {
-    font-size: 70px;
+    font-size: 100%;
     font-weight: 200;
-    letter-spacing: .05em;
+    letter-spacing: .09%;
     text-shadow: 1px 2px 0 #D3A2CD ;
-    padding-bottom: 1px;
+    width: 100%;
     }
 
-#title #thirt {
+#thirt {
     border: solid 2px #81F4E1;
     font-weight: 100;
     letter-spacing: .2em;
-    margin-left: 5px;
     border-radius: 50%;
-    padding: 17px;
+    padding: 1.8666%;
+    background-color:#68D0F9;
+    font-size: 320%;
+    }
+
+ #depart {
+    text-shadow: 1px 2px 0 #FF729F;
+    font-weight: 100;
+    border-top: .2%;
+     font-size: 270%;
+}
+
+#subTitle {
+    font-size: 100%;
+    width: 193px;
+    text-align: center;
+    border: solid 2px #81F4E1;
+    border-radius: 80%;
     background-color:#68D0F9;
     }
 
-#title #depart {
-    text-shadow: 1px 2px 0 #FF729F;
-    font-weight: 100;
-    margin-left:9px;
-    border-top: -15px;
-    border: 2px solid #68D0F9;
-    border-top: .2em;
+     
+    
+#titleBlurb {
+    font-family: cursive;
+    font-size: 130%;
+    padding-bottom: 9.714286%;
     }
 
 .banners {
@@ -76,34 +94,18 @@ a {
     border-radius: 2%;
     } 
 
-#subTitle {
-    font-size: 32px;
-    width: 193px;
-    text-align: center;
-    border: solid 2px #81F4E1;
-    border-radius: 80%;
-    background-color:#68D0F9;
-    }
-
-#titleBlurb {
-    font-family: cursive;
-    font-size: 25px;
-    padding-bottom: 15px;
-    width: 1285px;
-    }
-
 .row {
     height: 30em;
     }
 
 .caption {
     width: 16%;  /*  this width setting is the only thing bringing the caption all the eway to the left  */
-    margin-bottom: -.2em;
+    margin-bottom: -.2%;
     border-radius: 280px 280px 280px 280px;
     border: 2px solid #68D0F9;
     text-align: left;
-    padding-left: 7px;
-    margin-left: 7px;  /* This brings the caption off the very edge of the left sied 
+    padding-left: 2.019002%;
+    margin-left: 2.019002%;  /* This brings the caption off the very edge of the left sied 
     of the screen */
     color: black;
     background-color: azure;
@@ -126,6 +128,9 @@ a {
     padding-right: 6px;  /*keeps the text in the bubble off the border */
     height: 25em;
     background-color: darkseagreen;
+    display: flex;
+    flex-wrap: wrap;
+    width 65%;
     }
 
 .blurb_bubble_E {
