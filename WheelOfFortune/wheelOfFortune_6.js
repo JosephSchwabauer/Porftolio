@@ -23,6 +23,11 @@ var boardAnswer = [
     ["T H E - I N T E R N E T - I S - T H A T - T H I N G - S T I L L - A R O U N D"]
 ];
 
+var hints =[
+            ['Quote about programming'],
+            ['Homer Simpson quote about the internet']
+           ];
+
 var alphabet = ['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
 var totalWin = 0; 
 var usedAlpha;
@@ -35,6 +40,7 @@ var board = boards[index];
 var answer = answers[index];
 var litAnswer = litAnswers[index];
 var myBoardAnswer = boardAnswer[index];
+var hint = hints[index];
 
 //onload function to display alphabet as a ul and display the boad as a ul
 if(document.URL == "http://josephs.online/WheelOfFortune/wheelOfFortune.html"){
@@ -60,6 +66,9 @@ window.onload = function () {
 }
 
 $(document).ready(function(){
+    $('#hintButt').click(function(){
+        alert("Here's your hint: " + hint + '.');
+     });
     $("#spinbutt").click(function(){
         var rando = Math.floor((Math.random() * 10) + 1);
         var spinArray = ["nothing", 100, 300, 500, 700, 900, 2000, 3000, 5000, -1000, 0];
@@ -85,9 +94,8 @@ $(document).ready(function(){
     });
     $("spinbutt").click(function(){
     });
-    
-
     }); 
+
 function guessPrompting(win) {
     var guessPrompt = prompt("Please guess a letter: ");
     if (guessPrompt.length == 1) {
@@ -142,8 +150,8 @@ function modBoard(letterUp) {
         }
     }
     if(document.getElementById('userBoard').textContent == myBoardAnswer) {
-    window.open("http://josephs.online/WheelOfFortune/wheelOfFortuneCongrats.html");
-        }
+        sayCongrats();        
+    }
     
 }
 

@@ -41,13 +41,12 @@ body {
     margin-top: 3em;
     }
 
-button {
-    font-size: 1.1em;
-    color: #1ABB9C;
-    }
+#hintButt {
+    margin: 0 0 1em 0;
+}
 
 #spinbutt {
-    margin: 0 0 1em 0;
+    margin: 1em 0 1em 0;
     }
 
 #guessbutt {
@@ -139,6 +138,16 @@ li {
     -webkit-animation-timing-function: linear;
     background-color: transparent;
     }
+
+
+.cTitle {
+     font-size: 6em;
+    text-shadow: 1px 5px 0 #FF9800;
+        color:#2274A5;
+     letter-spacing: .5em;
+    padding-bottom: 1em;
+
+}
 
 /* this code will rotate your png attributed to the #wheel 20deg and moves it's position   */
  /*-ms-transform: rotate(20deg); /* IE 9 */
