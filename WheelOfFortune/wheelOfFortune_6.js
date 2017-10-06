@@ -4,10 +4,10 @@
 
 //http://www.devtopics.com/101-great-computer-programming-quotes/  
 
-//define varialbes
+//define varialbes          litanswer- 39  board- 39
 
 
-var litAnswers = [ "TALK IS CHEAP SHOW ME THE CODE", "The Internet Is that thing still around"];
+var litAnswers = [ "TALK IS CHEAP SHOW ME THE CODE", "THE INTERNET IS THAT THING STILL AROUND"];
 var answers = [
     ['T', 'A', 'L', 'K', '_', 'I', 'S', '_', 'C', 'H', 'E', 'A', 'P', '_', 'S', 'H', 'O', 'W', '_', 'M', 'E', '_', 'T', 'H', 'E', '_', 'C', 'O', 'D', 'E'],
     ['T', 'H', 'E', '_', 'I', 'N', 'T', 'E', 'R', 'N', 'E', 'T', '_', 'I', 'S', '_', 'T', 'H', 'A', 'T', '_', 'T', 'H', 'I', 'N', 'G', '_', 'S', 'T', 'I', 'L', 'L', '_', 'A', 'R', 'O', 'U', 'N', 'D']
@@ -18,8 +18,12 @@ var boards = [
     ['_','_','_','-','_','_','_','_','_','_','_','_','-','_','_','-','_','_','_','_','-','_','_','_','_','_','-','_','_','_','_','_','-','_','_','_','_','_','_']
 ];
 
-var alphabet = ['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
+var boardAnswer = [
+    ["T A L K - I S - C H E A P - S H O W - M E - T H E - C O D E"],
+    ["T H E - I N T E R N E T - I S - T H A T - T H I N G - S T I L L - A R O U N D"]
+];
 
+var alphabet = ['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
 var totalWin = 0; 
 var usedAlpha;
 var myBoard =[];
@@ -30,6 +34,7 @@ var index = randomBoard;
 var board = boards[index];
 var answer = answers[index];
 var litAnswer = litAnswers[index];
+var myBoardAnswer = boardAnswer[index];
 
 //onload function to display alphabet as a ul and display the boad as a ul
 if(document.URL == "http://josephs.online/WheelOfFortune/wheelOfFortune.html"){
@@ -65,7 +70,7 @@ $(document).ready(function(){
     });
     $("#guessbutt").click(function() {
         var guess = prompt("Okay, go ahead and guess the phrase...");
-        if(guess.length == litAnswer.length)  {
+        if(guess.length <= (litAnswer.length + 3))  {
         var guessUP = guess.toUpperCase();
         var guessed = guessUP;
         }
@@ -136,9 +141,10 @@ function modBoard(letterUp) {
             myBoard.innerHTML = newBoard;
         }
     }
-    if(document.getElementById('userBoard').textContent == "T A L K - I S - C H E A P - S H O W - M E - T H E - C O D E") {
-    window.open("file:///Users/Home/Desktop/PortfolioPage/Portfolio_Main/WheelOfFortune/wheelOfFortuneCongrats.html");
-        }   
+    if(document.getElementById('userBoard').textContent == myBoardAnswer) {
+    window.open("http://josephs.online/WheelOfFortune/wheelOfFortuneCongrats.html");
+        }
+    
 }
 
 function spinTotal(win) {
@@ -164,7 +170,7 @@ function sayCongrats() {
 //add a document.ready funciton if you're going to keep this file  just need the $(function(){ })  (anonymous version for document ready)
 
 
-if(document.URL == "http://josephs.online/WheelOfFortune/wheelOfFortune.html"){
+if(document.URL == "http://josephs.online/WheelOfFortune/wheelOfFortuneCongrats.html"){
  $('.cTitle').hide().each(function(index) {          // Hide photos items
     $(this).delay(450 * index).fadeIn(1200);  
      // Then fade them in one at a time
