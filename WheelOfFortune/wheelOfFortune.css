@@ -12,12 +12,14 @@ https://coolors.co/1abb9c-e4572e-ffc914-2274a5-122c34
 * {  
     background-color: ghostwhite;
     text-align: center;
-    margin: 0px;
-    padding 0px;
+    margin: 0;
+    padding 0;
+    vertical-align: baseline;
     }
 
 body {
-    margin-top: 1.5em;
+    margin-top: 2.5%;
+    line-height: 1;
     }
 
 .text {
@@ -25,12 +27,13 @@ body {
     }
 
 #header {
-    font-size: 3em;
+    font-size: 320%;
     text-shadow: 1px 5px 0 #FF9800;
+    line-height: 1.2;
     }
 
 #alpha, #or {
-    font-size: 1.6em;
+    font-size: 170%;
     }
 
 #or {
@@ -38,19 +41,19 @@ body {
     }
 
 #choice {
-    margin-top: 3em;
+    margin-top: 3%;
     }
 
 #hintButt {
-    margin: 0 0 1em 0;
+    margin: 0 0 1% 0;
 }
 
 #spinbutt {
-    margin: 1em 0 1em 0;
+    margin: 1% 0 1% 0;
     }
 
 #guessbutt {
-    margin: 1em 0 1em 0;
+    margin: 1% 0 1% 0;
     }
 
 #or {
@@ -59,7 +62,7 @@ body {
 
 ul {
     list-style: none;
-    margin-left: 340px;
+    margin-left: 21%;
     }
 
 li {
@@ -73,52 +76,49 @@ li {
     color:#122C34;
     }
 
-#used {
-    font-size: .4em;
-    color: #E4572E;
-    }
-
 #wheel {
     background:; 
-    margin: 1em 0 1em 0;
+    margin: 1% 0 2% 0;
     }
 
 #guessedLetter {
-    font-size: 1.8em;
-    margin-top: .75em;
+    font-size: 180%;
+    margin-top: 2.6%;
     }
 
 #yesOrNo {
     letter-spacing: normal;
-    font-size: 1.2em;
+    font-size: 180%;
     color: #E4572E;
-}
+    }
 
 .text {
     letter-spacing: .5em;
-    padding-bottom: 1em;
+    padding-bottom: 1%;
     }
 
 #moneyTitle{
     color: #E4572E;
-    font-size: 1.4em;
+    font-size: 100%;
     }
 
 #moneyWon {
     color: #E4572E;
-    font-size: 1.6em;
+    font-size: 160%;
     }   
 
 #tally {
     color: red;
-    font-size: 1.9em; 
-    height: 2em;
+    font-size: 300%; 
+    height: 40%;
     }
 
 #userBoard {
-    font-size: 1.9em;
+    font-size: 250%;
     align-content: center;
-    margin-bottom: 3em;
+    margin-bottom: 10%;
+    margin-top: 2%;
+
     }
 
 @-webkit-keyframes rotate {
