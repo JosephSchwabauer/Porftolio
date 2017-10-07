@@ -12,6 +12,7 @@ html, body {
     background-color:#f9fafc; 
     margin: 0;
     padding: 0;
+    color: #262626;
     }
 
 body {
@@ -21,9 +22,11 @@ body {
 .header {
     /* margin-bottom: 5.5em;  */
     background-color:;
-    margin-top: 0.996178%;
+    margin-top: 1.996178%;
     width: 100%;
-    }
+    border: 2px solid #f9fafc;
+
+     }
 
 .body {
     font-family: 'Alegreya Sans SC', sans-serif;
@@ -43,7 +46,7 @@ a {
     }
 
 #title {
-    font-size: 100%;
+    font-size: 115%;
     font-weight: 200;
     letter-spacing: .09%;
     text-shadow: 1px 2px 0 #D3A2CD ;
@@ -51,12 +54,12 @@ a {
     }
 
 #thirt {
-    border: solid 2px #81F4E1;
-    font-weight: 100;
-    letter-spacing: .2em;
     border-radius: 50%;
+    border: solid 2px #81F4E1;
     padding: 1.8666%;
     background-color:#68D0F9;
+    font-weight: 100;
+    letter-spacing: .2em;
     font-size: 320%;
     }
 
@@ -68,7 +71,7 @@ a {
 }
 
 #subTitle {
-    font-size: 100%;
+    font-size: 113%;
     width: 193px;
     text-align: center;
     border: solid 2px #81F4E1;
@@ -81,7 +84,8 @@ a {
 #titleBlurb {
     font-family: cursive;
     font-size: 130%;
-    padding-bottom: 9.714286%;
+    padding-bottom: 3.714286%;
+
     }
 
 .banners {
@@ -101,20 +105,24 @@ a {
 .caption {
     width: 16%;  /*  this width setting is the only thing bringing the caption all the eway to the left  */
     margin-bottom: -.2%;
-    border-radius: 280px 280px 280px 280px;
     border: 2px solid #68D0F9;
     text-align: left;
     padding-left: 2.019002%;
     margin-left: 2.019002%;  /* This brings the caption off the very edge of the left sied 
     of the screen */
-    color: black;
+    color: #05597a;
     background-color: azure;
     box-shadow: 5px 5px 5px grey;
+    z-index: 4;
+    font-family: cursive;
+
     }
 
 .photo {
-    border: 6px solid #68D0F9;
-    border-radius: 280px 280px 280px 280px;
+    border-radius: 50%;
+    border: solid 2px #81F4E1;
+    padding: 1.8666%;
+    background-color:#68D0F9;
     width: 45%;
     float: left;
     box-shadow: 5px 5px 5px grey;
@@ -142,7 +150,6 @@ a {
     text-align: center;
     padding-top: 90px;
     margin-top: 2.2em;
-    color: black;
     margin-bottom: 10em;
     }
 
@@ -158,6 +165,7 @@ h3 {
     }
 
 h3.stretch {
+    margin-top: 1.3em;
     font-family: 'Codystar', cursive;
     display:inline-block;
     border-top: 2px dotted black;
@@ -167,10 +175,12 @@ h3.stretch {
     -ms-transform:scale(1.1,1); /* IE 9 */
     -o-transform:scale(1.1,1); /* Opera */
     transform:scale(1.1,1); /* W3C */
+    width: 4em;
     }
 
 
-
+.col-md-4{
+}
 
 #hauts {
     margin-top: 7em;
@@ -201,13 +211,15 @@ h3.stretch {
     }
 
 #arboisPhoto {
-    margin-top: -3px;
     border: 6px solid #FF729F;
     }
 
 #comte_bubble {
     background-color: ;
+        padding-bottom:77px;  /*brings the caption in contact with the photo */
+
     }
+
 
 #auvergne_caption {
     padding-bottom: -30px;  /*brings the caption in contact with the photo */
