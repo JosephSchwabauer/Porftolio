@@ -12,12 +12,25 @@ https://coolors.co/1abb9c-e4572e-ffc914-2274a5-122c34
 * {  
     background-color: ghostwhite;
     text-align: center;
-    margin: 0px;
-    padding 0px;
+    margin: 0;
+    padding 0;
     }
 
 body {
-    margin-top: 1.5em;
+    margin-top: 12%;
+    }
+
+.cTitle {
+    font-size: 480%;
+    text-shadow: 1px 5px 0 #FF9800;
+    color:#2274A5;
+    letter-spacing: .5em;
+    padding-bottom: .5em;
+    }
+
+#wheelTitle {
+    margin-top: .5em;
+    font-size: 580%;
     }
 
 @-webkit-keyframes rotate {
@@ -37,27 +50,30 @@ body {
     -webkit-animation-timing-function: linear;
     background-color: transparent;
     margin: 0 0 0 0;
-    border-top: 40px;
     }
 
+#of {
+    margin-top: 4.5%;
+    }
 
-.cTitle {
-     font-size: 6em;
-    text-shadow: 1px 5px 0 #FF9800;
-    color:#2274A5;
-     letter-spacing: .5em;
-    padding-bottom: .5em;
-}
-#wheelTitle {
-    margin-top: .5em;
-}
+#fortune {
+    font-size: 580%;
+    }
 
 .text {
     color:#2274A5;
     letter-spacing: .5em;
     position: relative;
-}
+    }
+
+#congratsMess{
+    margin-top: 4%;
+    font-size: 120%;
+    }
 
 #prizeMess {
-    border-top: 40px;
-}
+    }
+#answerMess {
+    }
+#triesMess {
+    }
