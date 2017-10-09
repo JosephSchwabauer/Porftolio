@@ -17,7 +17,7 @@ https://coolors.co/1abb9c-e4572e-ffc914-2274a5-122c34
     }
 
 body {
-    margin-top: 12%;
+    margin-top: 5%;
     }
 
 .cTitle {
@@ -64,6 +64,7 @@ body {
     color:#2274A5;
     letter-spacing: .5em;
     position: relative;
+    margin-bottom: 5%;
     }
 
 #congratsMess{
