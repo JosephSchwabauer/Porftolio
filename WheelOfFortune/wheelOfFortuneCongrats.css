@@ -60,7 +60,8 @@ body {
     font-size: 580%;
     }
 
-.text {
+.cText {
+    font-size: 180%;
     color:#2274A5;
     letter-spacing: .5em;
     position: relative;
