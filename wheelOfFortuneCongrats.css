@@ -1,0 +1,80 @@
+
+/*
+Color scheme:
+https://coolors.co/1abb9c-e4572e-ffc914-2274a5-122c34
+#1ABB9C light green
+#E4572E  orangish
+#FFC914 yellow
+#2274A5  dark blue
+#122C34 charcoal 
+*/
+
+* {  
+    background-color: ghostwhite;
+    text-align: center;
+    margin: 0;
+    padding 0;
+    }
+
+body {
+    margin-top: 5%;
+    }
+
+.cTitle {
+    font-size: 480%;
+    text-shadow: 1px 5px 0 #FF9800;
+    color:#2274A5;
+    letter-spacing: .5em;
+    padding-bottom: .5em;
+    }
+
+#wheelTitle {
+    margin-top: .5em;
+    font-size: 580%;
+    }
+
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to { 
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+#wheel {
+    -webkit-animation-name: rotate; 
+    -webkit-animation-duration: 1.5s; 
+     animation-duration: 1.5s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    background-color: transparent;
+    margin: 0 0 0 0;
+    }
+
+#of {
+    margin-top: 4.5%;
+    }
+
+#fortune {
+    font-size: 580%;
+    }
+
+.text {
+    color:#2274A5;
+    letter-spacing: .5em;
+    position: relative;
+    margin-bottom: 5%;
+    }
+
+#congratsMess{
+    margin-top: 4%;
+    font-size: 120%;
+    }
+
+#prizeMess {
+    }
+#answerMess {
+    }
+#triesMess {
+    }
