@@ -19,34 +19,24 @@ body {
     line-height: 1;
 }
 
+.body {
+    margin-top: 3%;
+}
+
 .header {
-    /* margin-bottom: 5.5em;  */
-    background-color:;
     margin-top: 1.996178%;
     width: 100%;
     border: 2px solid #f9fafc;
-
-     }
-
-.body {
-    font-family: 'Alegreya Sans SC', sans-serif;
-    font-size: 100%;
-    }
-
-.object {
-    margin-bottom: 10em;
-    text-align: center;
-    margin-left: 0.796178%;  
     }
 
 a {
-    color:#FF729F  ;
+    color:#FF729F;
     text-decoration:;
     font-size: 22px;
     }
 
 #title {
-    font-size: 115%;
+    font-size: 155%;
     font-weight: 200;
     letter-spacing: .09%;
     text-shadow: 1px 2px 0 #D3A2CD ;
@@ -67,25 +57,24 @@ a {
     text-shadow: 1px 2px 0 #FF729F;
     font-weight: 100;
     border-top: .2%;
-     font-size: 270%;
-}
+    font-size: 180%;
+    }
 
 #subTitle {
-    font-size: 113%;
-    width: 193px;
+    font-size: 126%;
+    width: 95%;
     text-align: center;
     border: solid 2px #81F4E1;
     border-radius: 80%;
     background-color:#68D0F9;
     }
 
-     
-    
 #titleBlurb {
     font-family: cursive;
-    font-size: 130%;
+    font-size: 170%;
     padding-bottom: 3.714286%;
-
+    line-height: 1.5;
+    background-color:azure;
     }
 
 .banners {
@@ -98,8 +87,15 @@ a {
     border-radius: 2%;
     } 
 
-.row {
-    height: 30em;
+.body {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 100%;
+    }
+
+.object {
+    margin-bottom: 5%;
+    text-align: center;
+    margin-left: 0.796178%;  
     }
 
 .caption {
@@ -113,9 +109,9 @@ a {
     color: #05597a;
     background-color: azure;
     box-shadow: 5px 5px 5px grey;
-    z-index: 4;
+    z-index: 6;
     font-family: cursive;
-
+    position: absolute;
     }
 
 .photo {
@@ -132,13 +128,13 @@ a {
     border-radius: 40%;
     border: 9px solid #68D0F9;
     margin-left: 30em;
-    margin-top: 25px;
+    margin-top: 5%;
     padding-right: 6px;  /*keeps the text in the bubble off the border */
-    height: 25em;
+    height: 35%;
     background-color: darkseagreen;
     display: flex;
     flex-wrap: wrap;
-    width 65%;
+    width 75%;
     }
 
 .blurb_bubble_E {
@@ -154,14 +150,14 @@ a {
     }
 
 .bubble_text {
-    text-align: right;
-    padding-top: 90px;
+    text-align: center;
+    padding-top: 2%;
     color: black;
-    padding-right: 23px;
+    padding-right: 8%;
     }
 
 h3 {
-    font-size: 43px;
+    font-size: 230%;
     }
 
 h3.stretch {
@@ -183,7 +179,6 @@ h3.stretch {
 }
 
 #hauts {
-    margin-top: 7em;
     }
 
 #hauts_caption {
@@ -198,9 +193,15 @@ h3.stretch {
 #hauts_bubble {
         border: 9px solid #68D0F9;
     }
+
+#grandEst {
+    background-color: azure;
+    padding-top: 3%;
+    padding-bottom: 3%;
+
+}
     
 #grandEst_caption{
-    padding-bottom: -30px;  /*brings the caption in contact with the photo */
     }
 
 #est_bubble {
@@ -216,13 +217,10 @@ h3.stretch {
 
 #comte_bubble {
     background-color: ;
-        padding-bottom:77px;  /*brings the caption in contact with the photo */
-
     }
 
 
 #auvergne_caption {
-    padding-bottom: -30px;  /*brings the caption in contact with the photo */
     border-color:#D3A2CD;
     }
 
@@ -230,19 +228,21 @@ h3.stretch {
     border-color:#D3A2CD;
     }
 
+#auvergne {
+    background-color: azure;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
 #auvergne_bubble {
     background-color: ;
     }
 
 #azur_caption {
-    padding-bottom: -30px; /*brings the caption in contact with the photo */
     border-color: #81F4E1;
     }
 
 #marseillePhoto {
-    height: 445px;
     border: 22px solid ##FF729F;
-    margin-top: -3px;
     border-color: #81F4E1;
     }
 
@@ -251,14 +251,18 @@ h3.stretch {
     }
 
 #corse_caption {
-    padding-bottom: -30px;  /*brings the caption in contact with the photo */
     border-color: #68D0F9;
     }
 
 #ajaccioPhoto {
-    margin-top: -3px;
     border-color: #68D0F9;
     }
+
+#corse {
+    background-color: azure;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
 
 #corse_bubble {
     }
@@ -268,7 +272,6 @@ h3.stretch {
     }
 
 #occFlagPhoto {
-    margin-top: -3px;
     border-color: #FF729F;
     }
 
@@ -277,16 +280,16 @@ h3.stretch {
     }
 
 #aquitaine {
-    margin-top: 80px;
+    background-color: azure;
+    padding-top: 3%;
+    padding-bottom: 3%;
     }
 
 #aqui_caption {
-    padding-bottom: -30px;  /*brings the caption in contact with the photo */
     border-color: #D3A2CD;
     }
 
 #aquitainePhoto {
-    margin-top: -3px;
     border-color:#D3A2CD;
     }
 
@@ -294,12 +297,10 @@ h3.stretch {
     }
 
 #centre_caption {
-    padding-bottom: -30px;  /*brings the caption in contact with the photo */
     border-color:#81F4E1;
     }
 
 #versPhoto {
-    margin-top: -3px;
     border-color:#81F4E1;
     }
 
@@ -307,8 +308,13 @@ h3.stretch {
     background-color:  ;
     }
 
+#ile {
+    background-color: azure;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
 #ile_caption {
-    padding-bottom: -30px;  /*brings the caption in contact with the photo */
     border-color:#68D0F9;
     }
 
@@ -320,12 +326,10 @@ h3.stretch {
    }
 
 #loire_caption {
-    padding-bottom: -30px;  /*brings the caption in contact with the photo */
     border-color: #FF729F;
     }
 
 #loirePhoto {
-    margin-top: -3px;
     border-color:#FF729F;
     }
 
@@ -333,13 +337,17 @@ h3.stretch {
     background-color: ;
     }
 
+#bertagne {
+    background-color: azure;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
 #bertagne_caption {
-    padding-bottom: -30px;  /*brings the caption in contact with the photo */
     border-color:#D3A2CD;
     }
 
 #bertagnePhoto {
-    margin-top: -3px;
     border-color:#D3A2CD; 
     }
 
@@ -347,16 +355,13 @@ h3.stretch {
     }
 
 #normandie {
-    padding-bottom:40px;
     }
 
 #normandie_caption {
-    padding-bottom: -30px;  /*brings the caption in contact with the photo */
     border-color:#81F4E1;
     }
 
 #stMichPhoto {
-    margin-top: -5px;
     /* This photo is the only outlier and may be adjusted smaller to look a bit more consistent the the other pictures */
     border-color:#81F4E1;
     }
@@ -371,34 +376,33 @@ h3.stretch {
     border-top: 2px solid #81F4E1;
     color: black;
     display:align-left;
-    background-color:antiquewhite;
+    background-color: azure;
     max-height:20em;
-    margin-top: 160px;
-    padding-left: 2em;
+    margin-top: 40%;
+    padding-left: 6%;
     }
 
 .footer p {
-    font-size: 20px;
+    font-size: 160%;
     letter-spacing: .6em;
     }
 
 #footer_row {
-    height : 18em;
-    padding-top:;
+    height : 19%;
     }
 
 #footer_text {
-    padding-top: .25px;
+    padding-top: 2%;
     }
 
 #english {
-    margin-left: 30px;
-    padding-top: -10px;
-    font-size: 26px;
-    text-align: left;
+    margin-left: inherit;
+    padding-top: inherit;
+    font-size: inherit;
+    text-align: center;
     color: aquamarine;
     text-decoration: none;  
-}
+    }
 
 /*departmentMap.html styling*/
 #map {
@@ -406,5 +410,5 @@ h3.stretch {
     }
     
 #map_return{
-    line-height: 3em;
+    line-height: 1.7;
     }
