@@ -32,10 +32,6 @@ body {
     line-height: 1.2;
     }
 
-#alpha, #or {
-    font-size: 170%;
-    }
-
 #or {
     letter-spacing: normal;
     }
@@ -62,18 +58,33 @@ body {
 
 ul {
     list-style: none;
-    margin-left: 21%;
     }
 
 li {
-    float:left;
-    list-style:none;
+    list-style: none;
+    float: left;
     color: #122C34;
-    width:25px;
+    width: 3.5%;
+    font-size: 250%;
+    align-content: center;
     }
 
 #alpha {
     color:#122C34;
+    list-style: none;
+    }
+
+#alpha, #or {
+    font-size: 100%;
+    }
+
+#userBoard {
+    font-size: 100%;
+    align-content: center;
+    margin-bottom: 10%;
+    margin-top: 2%;
+    color:#122C34;
+
     }
 
 #wheel {
@@ -113,14 +124,6 @@ li {
     height: 40%;
     }
 
-#userBoard {
-    font-size: 250%;
-    align-content: center;
-    margin-bottom: 10%;
-    margin-top: 2%;
-
-    }
-
 @-webkit-keyframes rotate {
   from {
     -webkit-transform: rotate(0deg);
@@ -139,15 +142,6 @@ li {
     background-color: transparent;
     }
 
-
-.cTitle {
-     font-size: 6em;
-    text-shadow: 1px 5px 0 #FF9800;
-        color:#2274A5;
-     letter-spacing: .5em;
-    padding-bottom: 1em;
-
-}
 
 /* this code will rotate your png attributed to the #wheel 20deg and moves it's position   */
  /*-ms-transform: rotate(20deg); /* IE 9 */
