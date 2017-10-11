@@ -164,9 +164,13 @@ a:link {
 
 /* ----------- iPhone 5----------- */
 @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (-webkit-device-pixel-ratio: 2) {
-       
+    .script, #quote, #timeline-intro, h3 {
+      font-family: georgia, times, serif;
+    }
+    
         p{
-        font-size: 72%;       
+        font-size: 72%;
+        font-family: georgia, times, serif;
         }
       
       .panel p {
@@ -180,7 +184,7 @@ a:link {
         }
       
       #timeline-intro {
-        font-size: 242%;
+        font-size: 180%;
         margin-top: 3%;
         }
     
@@ -189,9 +193,10 @@ a:link {
         }
 
       #quote {
-        font-size: 382%; 
+        font-size: 182%; 
         line-height: 1.2;
         margin-top: 4%;
+        
         }
       
       #attribute {
