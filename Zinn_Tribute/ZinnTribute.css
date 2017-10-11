@@ -243,8 +243,9 @@ a:link {
 }
 
 /* ----------- iPhone 5----------- */
-@media only screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) {
-       li{
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (-webkit-device-pixel-ratio: 2) {
+       
+        li{
         font-size: 52%;       
         }
       
@@ -276,14 +277,11 @@ a:link {
       #attribute {
         font-size: 75%;
         }
-  
-  p, h2, h4 {
-        color: red;
-    }
 }
 
 /* For general iPad layouts */
 @media only screen and (device-width: 768px) {
+
     li{
         font-size: 52%;       
         }
@@ -319,6 +317,7 @@ a:link {
         }
 }
 
+/* For general iPad Pro */
 @media only screen and (min-device-width : 1024px) and (max-device-width : 1366px) { 
        li{
         font-size: 52%;       
