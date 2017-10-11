@@ -10,7 +10,7 @@ html, body {
 
 .nav {
     margin: 0;
-    padding: 20px 0px; 
+    padding: 1.5% 0px; 
     text-align: center;
     text-shadow: #EEEE00 0 0 10px;
     }
@@ -205,5 +205,71 @@ a {
 
 
 
+
+/* ----------- good scope here for a variety of screens----------- */
+
+/* ----------- iPhone 5----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (-webkit-device-pixel-ratio: 2) {
+          
+    *{
+        color: red;
+    }
+    .nav {
+        margin: 0;
+        padding: 50px 0px; 
+        }
+     .nav a {
+         font-size: 290%; 
+         padding-left: 1.2%;
+        padding-right: 1.2%;
+        }
+    #contact, #about {
+                font-size: 95%; 
+        }
+    #btn-main {
+        
+        height: 50%;
+    }
+     }
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) { 
+          
+}
+
+/* add 480px for mobile devices in landscape mode */
+@media only screen and (min-device-width: 480px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) { 
+          
+}
+
+/* add 600px for kindle and nook */
+@media only screen and (min-device-width: 600px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) { 
+          
+}
+
+/* For general iPad layouts */
+@media only screen and (device-width: 768px) {
+
+}
+
+/* For general iPad Pro */
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1366px) { 
+      
+}
+
+ 
+
+
+
   
   
+
