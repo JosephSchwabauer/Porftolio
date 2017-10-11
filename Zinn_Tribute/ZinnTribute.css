@@ -169,3 +169,191 @@ a:link {
 
 
 
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) { 
+      li{
+        font-size: 52%;       
+        }
+      
+      .panel li {
+        font-size: 242%;
+        line-height: 1.5;
+        }
+      
+      .accordion-control {
+        color: aqua;
+        font-size: 242%;       
+        }
+      
+      #timeline-intro {
+        font-size: 242%;
+        margin-top: 3%;
+        }
+    
+      #wikiLink {
+        margin-top: 4%;
+        }
+
+      #quote {
+        font-size: 282%; 
+        line-height: 1.2;
+        margin-top: 4%;
+        }
+      
+      #attribute {
+        font-size: 75%;
+        }
+      
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) { 
+      li{
+        font-size: 52%;       
+        }
+      
+      .panel li {
+        font-size: 242%;
+        line-height: 1.5;
+        }
+      
+      .accordion-control {
+        color: aqua;
+        font-size: 242%;       
+        }
+      
+      #timeline-intro {
+        font-size: 242%;
+        margin-top: 3%;
+        }
+    
+      #wikiLink {
+        margin-top: 4%;
+        }
+
+      #quote {
+        font-size: 282%; 
+        line-height: 1.2;
+        margin-top: 4%;
+        }
+      
+      #attribute {
+        font-size: 75%;
+        }
+}
+
+/* ----------- iPhone 5----------- */
+@media only screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) {
+       li{
+        font-size: 52%;       
+        }
+      
+      .panel li {
+        font-size: 242%;
+        line-height: 1.5;
+        }
+      
+      .accordion-control {
+        color: aqua;
+        font-size: 242%;       
+        }
+      
+      #timeline-intro {
+        font-size: 242%;
+        margin-top: 3%;
+        }
+    
+      #wikiLink {
+        margin-top: 4%;
+        }
+
+      #quote {
+        font-size: 282%; 
+        line-height: 1.2;
+        margin-top: 4%;
+        }
+      
+      #attribute {
+        font-size: 75%;
+        }
+}
+
+/* For general iPad layouts */
+@media only screen and (device-width: 768px) {
+    li{
+        font-size: 52%;       
+        }
+      
+      .panel li {
+        font-size: 212%;
+        line-height: 1.5;
+        }
+      
+      .accordion-control {
+        color: aqua;
+        font-size: 222%;       
+        }
+      
+      #timeline-intro {
+        font-size: 282%;
+        margin-top: 3%;
+        }
+    
+      #wikiLink {
+        margin-top: 4%;
+        font-size: 210%;
+        }
+
+      #quote {
+        font-size: 307%; 
+        line-height: 1.4;
+        margin-top: 4%;
+        }
+      
+      #attribute {
+        font-size: 175%;
+        }
+}
+
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1366px) { 
+       li{
+        font-size: 52%;       
+        }
+      
+      .panel li {
+        font-size: 212%;
+        line-height: 1.5;
+        }
+      
+      .accordion-control {
+        color: aqua;
+        font-size: 222%;       
+        }
+      
+      #timeline-intro {
+        font-size: 282%;
+        margin-top: 3%;
+        }
+    
+      #wikiLink {
+        margin-top: 4%;
+        font-size: 210%;
+        }
+
+      #quote {
+        font-size: 307%; 
+        line-height: 1.4;
+        margin-top: 4%;
+        }
+      
+      #attribute {
+        font-size: 175%;
+        }
+
+}
+
+  
+
+
+
+
