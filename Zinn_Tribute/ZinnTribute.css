@@ -276,6 +276,10 @@ a:link {
       #attribute {
         font-size: 75%;
         }
+  
+  p, h2, h4 {
+        color: red;
+    }
 }
 
 /* For general iPad layouts */
