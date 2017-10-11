@@ -52,7 +52,7 @@ body {
     margin: 1% 0 1% 0;
     }
 
-#or {
+.or {
     color: #122C34;
     }
 
@@ -142,7 +142,6 @@ li {
     background-color: transparent;
     }
 
-
 /* this code will rotate your png attributed to the #wheel 20deg and moves it's position   */
  /*-ms-transform: rotate(20deg); /* IE 9 */
  /*-webkit-transform: rotate(20deg); /* Safari */
@@ -151,3 +150,59 @@ li {
 
 
 
+/* ----------- good scope here for a variety of screens----------- */
+
+/* ----------- iPhone 5----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (-webkit-device-pixel-ratio: 2) {
+    #alpha {
+        font-size: 75%;
+    } 
+    
+      button {
+        width: 50%;
+        font-size:260%;
+        }
+     
+    .or {
+        font-size:250%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+        }
+    #moneyTitle{
+        font-size:140%;
+
+        }
+
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) { 
+    
+     
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) { 
+     
+          
+}
+
+/* add 480px for mobile devices in landscape mode */
+@media only screen and (min-device-width: 480px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) { 
+          
+}
+
+/* add 600px for kindle and nook */
+@media only screen and (min-device-width: 600px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) { 
+          
+}
+
+/* For general iPad layouts */
+@media only screen and (device-width: 768px) {
+
+}
+
+/* For general iPad Pro */
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1366px) { 
+      
+}
