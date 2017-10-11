@@ -6,8 +6,8 @@ color accent? how do I intelleginently change the border color without the discr
 
 *{
   font-family: georgia, times, serif;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   font-family: 'Arimo', sans-serif;
   list-style-type: none;
   font-size: 100%;
@@ -196,7 +196,6 @@ a:link {
         font-size: 182%; 
         line-height: 1.2;
         margin-top: 4%;
-        
         }
       
       #attribute {
@@ -206,8 +205,13 @@ a:link {
 
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) { 
-       p{
-        font-size: 72%;       
+     .script, #quote, #timeline-intro, h3 {
+      font-family: georgia, times, serif;
+    }
+    
+        p{
+        font-size: 72%;
+        font-family: georgia, times, serif;
         }
       
       .panel p {
@@ -221,7 +225,7 @@ a:link {
         }
       
       #timeline-intro {
-        font-size: 242%;
+        font-size: 180%;
         margin-top: 3%;
         }
     
@@ -230,7 +234,7 @@ a:link {
         }
 
       #quote {
-        font-size: 382%; 
+        font-size: 182%; 
         line-height: 1.2;
         margin-top: 4%;
         }
@@ -242,8 +246,13 @@ a:link {
 
 /* ----------- iPhone 6+, 7+ and 8+ ----------- */
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) { 
+    .script, #quote, #timeline-intro, h3 {
+      font-family: georgia, times, serif;
+    }
+    
         p{
-        font-size: 72%;       
+        font-size: 72%;
+        font-family: georgia, times, serif;
         }
       
       .panel p {
@@ -257,7 +266,7 @@ a:link {
         }
       
       #timeline-intro {
-        font-size: 242%;
+        font-size: 180%;
         margin-top: 3%;
         }
     
@@ -266,7 +275,7 @@ a:link {
         }
 
       #quote {
-        font-size: 382%; 
+        font-size: 182%; 
         line-height: 1.2;
         margin-top: 4%;
         }
@@ -277,15 +286,16 @@ a:link {
       
 }
 
+
 /* add 480px for mobile devices in landscape mode */
-
-/* add 600px for kindle and nook */
-
-/* For general iPad layouts */
-@media only screen and (device-width: 768px) {
-
-       p{
-        font-size: 72%;       
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2)and (orientation: landscape) {
+.script, #quote, #timeline-intro, h3 {
+      font-family: georgia, times, serif;
+    }
+    
+        p{
+        font-size: 72%;
+        font-family: georgia, times, serif;
         }
       
       .panel p {
@@ -299,7 +309,7 @@ a:link {
         }
       
       #timeline-intro {
-        font-size: 242%;
+        font-size: 180%;
         margin-top: 3%;
         }
     
@@ -308,7 +318,92 @@ a:link {
         }
 
       #quote {
-        font-size: 382%; 
+        font-size: 182%; 
+        line-height: 1.2;
+        margin-top: 4%;
+        }
+      
+      #attribute {
+        font-size: 85%;
+        }
+   
+}
+
+/* add 600px for kindle and nook */
+@media screen and (device-width: 601px) and (device-height: 906px) and (-webkit-min-device-pixel-ratio: 1.331) and (-webkit-max-device-pixel-ratio: 1.332) {
+    
+    .script, #quote, #timeline-intro, h3 {
+      font-family: georgia, times, serif;
+    }
+    
+        p{
+        font-size: 72%;
+        font-family: georgia, times, serif;
+        }
+      
+      .panel p {
+        font-size: 242%;
+        line-height: 1.5;
+        }
+      
+      .accordion-control {
+        color: aqua;
+        font-size: 242%;       
+        }
+      
+      #timeline-intro {
+        font-size: 180%;
+        margin-top: 3%;
+        }
+    
+      #wikiLink {
+        margin-top: 4%;
+        }
+
+      #quote {
+        font-size: 182%; 
+        line-height: 1.2;
+        margin-top: 4%;
+        }
+      
+      #attribute {
+        font-size: 85%;
+        }
+
+}
+
+/* For general iPad layouts */
+@media only screen and (device-width: 768px) {
+    .script, #quote, #timeline-intro, h3 {
+      font-family: georgia, times, serif;
+    }
+    
+        p{
+        font-size: 72%;
+        font-family: georgia, times, serif;
+        }
+      
+      .panel p {
+        font-size: 242%;
+        line-height: 1.5;
+        }
+      
+      .accordion-control {
+        color: aqua;
+        font-size: 242%;       
+        }
+      
+      #timeline-intro {
+        font-size: 180%;
+        margin-top: 3%;
+        }
+    
+      #wikiLink {
+        margin-top: 4%;
+        }
+
+      #quote {
+        font-size: 182%; 
         line-height: 1.2;
         margin-top: 4%;
         }
@@ -320,8 +415,13 @@ a:link {
 
 /* For general iPad Pro */
 @media only screen and (min-device-width : 1024px) and (max-device-width : 1366px) { 
+     .script, #quote, #timeline-intro, h3 {
+      font-family: georgia, times, serif;
+    }
+    
         p{
-        font-size: 72%;       
+        font-size: 72%;
+        font-family: georgia, times, serif;
         }
       
       .panel p {
@@ -335,7 +435,7 @@ a:link {
         }
       
       #timeline-intro {
-        font-size: 242%;
+        font-size: 180%;
         margin-top: 3%;
         }
     
@@ -344,7 +444,7 @@ a:link {
         }
 
       #quote {
-        font-size: 382%; 
+        font-size: 182%; 
         line-height: 1.2;
         margin-top: 4%;
         }
