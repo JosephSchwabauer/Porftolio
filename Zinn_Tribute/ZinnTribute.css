@@ -118,11 +118,7 @@ h4 {
   text-align: center;
   }
 
-.indent {
-  padding-left: 6.6%;
-  }
-
-li :hover {
+p :hover {
  text-shadow: 2px 2px #f2e6ae;
   }
 
@@ -130,9 +126,6 @@ ul, h4 :hover {
     text-shadow: 0px 0px black;
 }
 
-.bold {
-  font-weight: 700;
-  }
 
 #wikiLink {
   text-align: center;
@@ -167,89 +160,16 @@ a:link {
   border-bottom: 20px;
   }
 
-
-
-/* ----------- iPhone 6+, 7+ and 8+ ----------- */
-@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) { 
-      li{
-        font-size: 52%;       
-        }
-      
-      .panel li {
-        font-size: 242%;
-        line-height: 1.5;
-        }
-      
-      .accordion-control {
-        color: aqua;
-        font-size: 242%;       
-        }
-      
-      #timeline-intro {
-        font-size: 242%;
-        margin-top: 3%;
-        }
-    
-      #wikiLink {
-        margin-top: 4%;
-        }
-
-      #quote {
-        font-size: 282%; 
-        line-height: 1.2;
-        margin-top: 4%;
-        }
-      
-      #attribute {
-        font-size: 75%;
-        }
-      
-}
-
-/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) { 
-      li{
-        font-size: 52%;       
-        }
-      
-      .panel li {
-        font-size: 242%;
-        line-height: 1.5;
-        }
-      
-      .accordion-control {
-        color: aqua;
-        font-size: 242%;       
-        }
-      
-      #timeline-intro {
-        font-size: 242%;
-        margin-top: 3%;
-        }
-    
-      #wikiLink {
-        margin-top: 4%;
-        }
-
-      #quote {
-        font-size: 282%; 
-        line-height: 1.2;
-        margin-top: 4%;
-        }
-      
-      #attribute {
-        font-size: 75%;
-        }
-}
+/* ----------- good scope here for a variety of screens----------- */
 
 /* ----------- iPhone 5----------- */
 @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (-webkit-device-pixel-ratio: 2) {
        
-        li{
-        font-size: 52%;       
+        p{
+        font-size: 72%;       
         }
       
-      .panel li {
+      .panel p {
         font-size: 242%;
         line-height: 1.5;
         }
@@ -269,88 +189,163 @@ a:link {
         }
 
       #quote {
-        font-size: 282%; 
+        font-size: 382%; 
         line-height: 1.2;
         margin-top: 4%;
         }
       
       #attribute {
-        font-size: 75%;
+        font-size: 85%;
         }
 }
 
-/* For general iPad layouts */
-@media only screen and (device-width: 768px) {
-
-    li{
-        font-size: 52%;       
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) { 
+       p{
+        font-size: 72%;       
         }
       
-      .panel li {
-        font-size: 212%;
+      .panel p {
+        font-size: 242%;
         line-height: 1.5;
         }
       
       .accordion-control {
         color: aqua;
-        font-size: 222%;       
+        font-size: 242%;       
         }
       
       #timeline-intro {
-        font-size: 282%;
+        font-size: 242%;
         margin-top: 3%;
         }
     
       #wikiLink {
         margin-top: 4%;
-        font-size: 210%;
         }
 
       #quote {
-        font-size: 307%; 
-        line-height: 1.4;
+        font-size: 382%; 
+        line-height: 1.2;
         margin-top: 4%;
         }
       
       #attribute {
-        font-size: 175%;
+        font-size: 85%;
+        }
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) { 
+        p{
+        font-size: 72%;       
+        }
+      
+      .panel p {
+        font-size: 242%;
+        line-height: 1.5;
+        }
+      
+      .accordion-control {
+        color: aqua;
+        font-size: 242%;       
+        }
+      
+      #timeline-intro {
+        font-size: 242%;
+        margin-top: 3%;
+        }
+    
+      #wikiLink {
+        margin-top: 4%;
+        }
+
+      #quote {
+        font-size: 382%; 
+        line-height: 1.2;
+        margin-top: 4%;
+        }
+      
+      #attribute {
+        font-size: 85%;
+        }
+      
+}
+
+/* add 480px for mobile devices in landscape mode */
+
+/* add 600px for kindle and nook */
+
+/* For general iPad layouts */
+@media only screen and (device-width: 768px) {
+
+       p{
+        font-size: 72%;       
+        }
+      
+      .panel p {
+        font-size: 242%;
+        line-height: 1.5;
+        }
+      
+      .accordion-control {
+        color: aqua;
+        font-size: 242%;       
+        }
+      
+      #timeline-intro {
+        font-size: 242%;
+        margin-top: 3%;
+        }
+    
+      #wikiLink {
+        margin-top: 4%;
+        }
+
+      #quote {
+        font-size: 382%; 
+        line-height: 1.2;
+        margin-top: 4%;
+        }
+      
+      #attribute {
+        font-size: 85%;
         }
 }
 
 /* For general iPad Pro */
 @media only screen and (min-device-width : 1024px) and (max-device-width : 1366px) { 
-       li{
-        font-size: 52%;       
+        p{
+        font-size: 72%;       
         }
       
-      .panel li {
-        font-size: 212%;
+      .panel p {
+        font-size: 242%;
         line-height: 1.5;
         }
       
       .accordion-control {
         color: aqua;
-        font-size: 222%;       
+        font-size: 242%;       
         }
       
       #timeline-intro {
-        font-size: 282%;
+        font-size: 242%;
         margin-top: 3%;
         }
     
       #wikiLink {
         margin-top: 4%;
-        font-size: 210%;
         }
 
       #quote {
-        font-size: 307%; 
-        line-height: 1.4;
+        font-size: 382%; 
+        line-height: 1.2;
         margin-top: 4%;
         }
       
       #attribute {
-        font-size: 175%;
+        font-size: 85%;
         }
 
 }
