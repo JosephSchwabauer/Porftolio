@@ -101,30 +101,96 @@ body {
 
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) { 
-     
+         .cTitle{
+        font-size: 680%;
+    }
+    #congratsMess{
+        font-size: 200%;
+
+    }
+    .cText{
+        font-size: 220%;
+
+    }
+}
 }
 
 /* ----------- iPhone 6+, 7+ and 8+ ----------- */
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) { 
-          
+           .cTitle{
+        font-size: 680%;
+    }
+    #congratsMess{
+        font-size: 200%;
+
+    }
+    .cText{
+        font-size: 220%;
+
+    }
+}   
 }
 
 /* add 480px for mobile devices in landscape mode */
 @media only screen and (min-device-width: 480px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) { 
-          
+           .cTitle{
+        font-size: 680%;
+    }
+    #congratsMess{
+        font-size: 200%;
+
+    }
+    .cText{
+        font-size: 220%;
+
+    }
+}   
 }
 
 /* add 600px for kindle and nook */
 @media only screen and (min-device-width: 600px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) { 
-          
+              .cTitle{
+        font-size: 680%;
+    }
+    #congratsMess{
+        font-size: 200%;
+
+    }
+    .cText{
+        font-size: 220%;
+
+    }
 }
+
 
 /* For general iPad layouts */
 @media only screen and (device-width: 768px) {
+    .cTitle{
+        font-size: 680%;
+    }
+    #congratsMess{
+        font-size: 200%;
 
+    }
+    .cText{
+        font-size: 220%;
+
+    }
+}
 }
 
 /* For general iPad Pro */
 @media only screen and (min-device-width : 1024px) and (max-device-width : 1366px) { 
-      
+      .cTitle{
+        font-size: 680%;
+    }
+    #congratsMess{
+        font-size: 200%;
+
+    }
+    .cText{
+        font-size: 220%;
+
+    }
+}    
 }
