@@ -3,81 +3,77 @@ body {
     padding: 0;
     font-size: 100%;
     background: url('images/gilmore_beach_compressed_3.jpg');
-    background-size: 1550px 2500px;
+    background-size: 100% 132%;
     background-repeat: no-repeat;
     color: whitesmoke;
     height: auto;
     background-color: RGB(15,75,98);
+    text-decoration: 
     }
 
 .nav {
-    padding: 20px 0px; 
+    padding: 1.4% 0; 
     text-align: center;
     text-shadow: #EEEE00 0 0 10px;
     background-color:#333333;
     }
 
 .nav a {
-    margin: 2px;
-    padding: -20px;
+    margin: .18%;
     }
-
-a { 
-    color: inherit; 
-    text-decoration: none;
-    padding: -20px;
-    } 
 
 .nav li {
     color: #fff;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 110%;
     display: inline;
-    /*padding-right: 25px; */
     text-transform: uppercase;
-    margin: 0px;
-    padding: -20px;
-    border: 0px;
+    margin: 0;
+    border: 0;
     }
 
 .nav i {
     color: white;
-    margin: 0px;
-    padding: -20px;
-    border: 0px;
+    margin: 0;
+    border: 0;
     }
 
 .blurb  {
-    margin-top: 10em;
-    margin-left: 4.7em;
-    margin-right: 4.7em;
-    max-width: 600px;
+    margin-top: 14%;
+    margin-left: 4.7%;
+    margin-right: 45.7%;
+    max-width: 45%;
+    font-size: 130%;
     }
 
 .blurb p {
-    font-size: 17px;
+    font-size: 105%;
     line-height: 1.75em;
     }
 
 footer {
     color: white;
-    padding: 15px 0;
-    margin-top: 50px;
-    margin-bottom: -300px;
-    margin-left: 4.7em;
-    margin-right: 5em;
+    padding: 5% 0;
+    margin-top: 4%;
+    margin-left: 4%;
+    margin-right: 5%;
     text-shadow: #fbfca9 0px 0px 10px;
+    text-decoration: none;
     }
 
 footer p {
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 100%;
     }
 
 #touch {
     margin-left: 3em;
+    text-shadow: #EEEE00 0 0 10px;
+      color: white;
+        text-decoration:  none;
+
     }
 
 #number {
@@ -87,48 +83,88 @@ footer p {
 #icons {
     margin-left: 2.5em;
     margin-top: 1.5em;
-    }
-
-@media screen and (max-width: 640px){
- body {         /* much smaller background for mobile screen */
- }
+    text-decoration:  none;
+    color: white;
 }
 
-
+#icons a {
+        color: white;
+        text-decoration:  none;
+        }
 /* ----------- good scope here for a variety of screens----------- */
 
 /* ----------- iPhone 5----------- */
 @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (-webkit-device-pixel-ratio: 2) {
-    body{ 
+  body{ 
+    background: RGB(15,75,98) url('images/gilmore-small.png');
+    background-size: 1120%;
+    background-position: right;
+    font-size: 100%;
+    : 
+    }
+    
+  .nav {
+    margin: 0;
+    }
+     
+   .nav a {
+    font-size: 100%; 
+    padding-left: .5%;
+    padding-right: .5%;
+    letter-spacing: .07em;
+    }
+    
+    .blurb {
+        min-width: 65%;
+    }
+    
+    .blurb p{
+            font-size: 120%; 
+            line-height:381%;
+
+    }
+    
+    #touch {
+            font-size: 190%; 
+            margin-left: 0;
+            margin-bottom: 0;
+
+    }
+    #icons a {
+        padding: 2%;
+         font-size: 400%;
+         
+    }
+}
+   
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) { 
+
+           body{ 
     background: RGB(15,75,98) url('images/gilmore-small.png');
     background-size: 720%;
     background-position:right;
+               
     }
     
     .nav {
         margin: 0;
         }
      
-    
     .nav a {
-        font-size: 290%; 
-        padding-left: 1.2%;
-        padding-right: 1.2%;
-        letter-spacing: .08em;
+        font-size: 100%; 
+        padding-left: .5%;
+        padding-right: .5%;
+        letter-spacing: .05em;
         }
+    
     
     
   #socIcons a i {
         padding: 0 .5%;
     }
-    
-   
-
-/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) { 
-     
 }
-
 /* ----------- iPhone 6+, 7+ and 8+ ----------- */
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) { 
           
