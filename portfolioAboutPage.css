@@ -100,7 +100,6 @@ footer p {
     background-size: 1120%;
     background-position: right;
     font-size: 100%;
-    : 
     }
     
   .nav {
@@ -115,80 +114,294 @@ footer p {
     }
     
     .blurb {
-        min-width: 65%;
+    min-width: 65%;
     }
     
     .blurb p{
-            font-size: 120%; 
-            line-height:381%;
-
+    font-size: 120%; 
+    line-height:381%;
     }
     
     #touch {
-            font-size: 190%; 
-            margin-left: 0;
-            margin-bottom: 0;
-
+    font-size: 190%; 
+    margin-left: 0;
+    margin-bottom: 0;
+    text-decoration: none;
     }
+    
     #icons a {
-        padding: 2%;
-         font-size: 400%;
-         
+    padding: 2%;
+    font-size: 400%;
+    color: white;
+    text-decoration-line: none;
     }
 }
    
-
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) { 
 
-           body{ 
+body{ 
     background: RGB(15,75,98) url('images/gilmore-small.png');
-    background-size: 720%;
-    background-position:right;
-               
+    background-size: 1120%;
+    background-position: right;
+    font-size: 100%;
     }
     
-    .nav {
-        margin: 0;
-        }
+.nav {
+    margin: 0;
+    }
      
-    .nav a {
-        font-size: 100%; 
-        padding-left: .5%;
-        padding-right: .5%;
-        letter-spacing: .05em;
-        }
+.nav a {
+    font-size: 100%; 
+    padding-left: .5%;
+    padding-right: .5%;
+    letter-spacing: .05em;
+    }
     
+    .blurb {
+    min-width: 65%;
+    }
     
+    .blurb p{
+    font-size: 120%; 
+    line-height:381%;
+    }
     
-  #socIcons a i {
-        padding: 0 .5%;
+    #touch {
+    font-size: 190%; 
+    margin-left: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+    }
+    
+   #icons a {
+    padding: 2%;
+    font-size: 400%;
+    color: white;
+    text-decoration-line: none;
     }
 }
+
 /* ----------- iPhone 6+, 7+ and 8+ ----------- */
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) { 
-          
+    body{ 
+    background: RGB(15,75,98) url('images/gilmore-small.png');
+    background-size: 1120%;
+    background-position: right;
+    font-size: 100%;
+    }
+    
+.nav {
+    margin: 0;
+    }
+     
+.nav a {
+    font-size: 100%; 
+    padding-left: .5%;
+    padding-right: .5%;
+    letter-spacing: .05em;
+    }
+    
+.blurb {
+    min-width: 65%;
+    }
+    
+.blurb p{
+    font-size: 120%; 
+    line-height:381%;
+    }
+    
+#touch {
+    font-size: 190%; 
+    margin-left: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+    }
+    
+#icons a {
+    padding: 2%;
+    font-size: 400%;
+    color: white;
+    text-decoration-line: none;
+    }
 }
-
+      
 /* add 480px for mobile devices in landscape mode */
 @media only screen and (min-device-width: 480px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) { 
-          
+body{ 
+    background: RGB(15,75,98) url('images/gilmore-small.png');
+    background-size: 1120%;
+    background-position: right;
+    font-size: 100%;
+    }
+    
+.nav {
+    margin: 0;
+    }
+     
+.nav a {
+    font-size: 100%; 
+    padding-left: .5%;
+    padding-right: .5%;
+    letter-spacing: .05em;
+    }
+    
+.blurb {
+    min-width: 65%;
+    }
+    
+.blurb p{
+    font-size: 120%; 
+    line-height:381%;
+    }
+    
+#touch {
+    font-size: 190%; 
+    margin-left: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+    }
+    
+#icons a {
+    padding: 2%;
+    font-size: 400%;
+    color: white;
+    text-decoration-line: none;
+    }
 }
-
+         
 /* add 600px for kindle and nook */
 @media only screen and (min-device-width: 600px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) { 
-          
+body{ 
+    background: RGB(15,75,98) url('images/gilmore-small.png');
+    background-size: 1120%;
+    background-position: right;
+    font-size: 100%;
+    }
+    
+.nav {
+    margin: 0;
+    }
+     
+.nav a {
+    font-size: 100%; 
+    padding-left: .5%;
+    padding-right: .5%;
+    letter-spacing: .05em;
+    }
+    
+.blurb {
+    min-width: 65%;
+    }
+    
+.blurb p{
+    font-size: 120%; 
+    line-height:381%;
+    }
+    
+#touch {
+    font-size: 190%; 
+    margin-left: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+    }
+    
+#icons a {
+    padding: 2%;
+    font-size: 400%;
+    color: white;
+    text-decoration-line: none;
+    }
 }
 
 /* For general iPad layouts */
 @media only screen and (device-width: 768px) {
-
+    body{ 
+    background: RGB(15,75,98) url('images/gilmore-small.png');
+    background-size: 1120%;
+    background-position: right;
+    font-size: 100%;
+    }
+    
+.nav {
+    margin: 0;
+    }
+     
+.nav a {
+    font-size: 220%; 
+    padding-left: .5%;
+    padding-right: .5%;
+    letter-spacing: .05em;
+    }
+    
+.blurb {
+    min-width: 65%;
+    }
+    
+.blurb p{
+    font-size: 250%; 
+    line-height:381%;
+    }
+    
+#touch {
+    font-size: 270%; 
+    margin-left: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+    }
+    
+#icons a {
+    padding: 2%;
+    font-size: 620%;
+    color: white;
+    text-decoration-line: none;
+    }
 }
 
 /* For general iPad Pro */
 @media only screen and (min-device-width : 1024px) and (max-device-width : 1366px) { 
-      
+          body{ 
+    background: RGB(15,75,98) url('images/gilmore-small.png');
+    background-size: 1120%;
+    background-position: right;
+    font-size: 100%;
+    }
+    
+.nav {
+    margin: 0;
+    }
+     
+.nav a {
+    font-size: 220%; 
+    padding-left: .5%;
+    padding-right: .5%;
+    letter-spacing: .05em;
+    }
+    
+.blurb {
+    min-width: 65%;
+    }
+    
+.blurb p{
+    font-size: 250%; 
+    line-height:381%;
+    }
+    
+#touch {
+    font-size: 270%; 
+    margin-left: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+    }
+    
+#icons a {
+    padding: 2%;
+    font-size: 620%;
+    color: white;
+    text-decoration-line: none;
+    }
 }
+
 
 
 
