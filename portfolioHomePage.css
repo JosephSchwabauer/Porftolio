@@ -142,7 +142,7 @@ img {
     }
 
 .projTit {
-    font-weight: bold;    /*i don't think this font supports font-weight on a p. I should change them back to h2s and see if they'll scale with % or em */
+    font-weight: 900;    /*i don't think this font supports font-weight on a p. I should change them back to h2s and see if they'll scale with % or em */
     font-size: 135%;
     text-transform: uppercase;
     }
