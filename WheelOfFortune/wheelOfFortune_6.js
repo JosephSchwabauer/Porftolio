@@ -30,9 +30,7 @@ var hints =[
 
 var alphabet = ['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
 var totalWin = 0; 
-var usedAlpha;
 var myBoard =[];
-var totalWin = 0;
 
 var randomBoard = Math.floor(Math.random() * 2);
 var index = randomBoard;
@@ -133,7 +131,8 @@ function modAlph(letterUp) {
     for (var a =0; a < alphabet.length; a++){    //loop through the alphabet     
         if (letterUp == alphabet[a]) {           //if the guessed letter equals a value in the alphabet
             alphabet[a] = " ";                   //that value is now replaced with a blank
-            var myAlpha = alphabet.join(" ");    
+            var myAlpha = alphabet.join(" ");  
+            document.getElementById('alpha').style.fontSize = '45px';
             alpha = document.getElementById('alpha'); //element alpha contained in alpha variable
             alpha.innerHTML = myAlpha;
         }
@@ -141,7 +140,8 @@ function modAlph(letterUp) {
 }
 
 function modBoard(letterUp) {
-    for (var x = 0; x < answer.length; x++) {               //loop through answer array
+    for (var x = 0; x < answer.length; x++) {    //loop through answer array
+        document.getElementById('userBoard').style.fontSize = '55px';
         myBoard = document.getElementById('userBoard');     //get the id of userBoard and store it in myBoard
         if (letterUp == answer[x]) {            //if guessed letter is equal to an index in answer
             board[x] = answer[x];             //
@@ -193,9 +193,7 @@ document.getElementById("tally").innerHTML = totalWin;
 /*      links of for testing live pages
 if(document.URL == "http://josephs.online/WheelOfFortune/wheelOfFortune.html"){
     window.open("http://josephs.online/WheelOfFortune/wheelOfFortuneCongrats.html");
-
         links for testing local pages
 if(document.URL == "file:///Users/Home/Desktop/PortfolioPage/Portfolio_Main/WheelOfFortune/wheelOfFortune.html"){
 window.open("file:///Users/Home/Desktop/PortfolioPage/Portfolio_Main/WheelOfFortune/wheelOfFortuneCongrats.html");
-
 */
