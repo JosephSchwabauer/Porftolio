@@ -32,13 +32,15 @@ body {
     line-height: 1.2;
     }
 
-#or {
-    letter-spacing: normal;
-    }
-
 #choice {
     margin-top: 3%;
     }
+
+button {
+    font-size: 125%;
+    border-radius: 50%;
+    padding: 1.5%;
+}
 
 #hintButt {
     margin: 0 0 1% 0;
@@ -50,10 +52,6 @@ body {
 
 #guessbutt {
     margin: 1% 0 1% 0;
-    }
-
-.or {
-    color: #122C34;
     }
 
 ul {
@@ -69,11 +67,6 @@ li {
     align-content: center;
     }
 
-#alpha {
-    color:#122C34;
-    list-style: none;
-    }
-
 #alpha, #or {
     font-size: 100%;
     }
@@ -84,8 +77,13 @@ li {
     margin-bottom: 10%;
     margin-top: 2%;
     color:#122C34;
-
     }
+
+#userBoard li {
+            width: 2.8%;
+            font-weight: 900;
+
+}
 
 #wheel {
     background:; 
