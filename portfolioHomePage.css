@@ -225,6 +225,7 @@ p {
     
     img {
         height: 12%;
+        max-width: 20px;
         }
     
    .col p {
@@ -245,7 +246,6 @@ p {
     }
 }
      
-
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) { 
 
@@ -296,6 +296,8 @@ p {
     
     img {
         height: 12%;
+        max-width: 20px;
+
         }
     
    .col p {
@@ -366,6 +368,7 @@ p {
     
     img {
         height: 12%;
+        max-width: 20px;
         }
     
    .col p {
@@ -436,6 +439,7 @@ p {
     
     img {
         height: 12%;
+        max-width: 20px;
         }
     
    .col p {
@@ -669,7 +673,6 @@ p {
 }
 
  
-
 
 
   
