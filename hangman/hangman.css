@@ -1,0 +1,74 @@
+* {
+    font-size: 100%;
+    text-align: center;
+    background-color: azure;
+
+}
+
+h1 {
+    font-size: 400%;
+    font-weight: 100;
+    letter-spacing: 1.5em;
+    line-height: 1.4em;
+    margin-top: 4%;
+    text-shadow: 9px 15px 5px #e0ebeb;
+    font-family: monospace;
+}
+
+.the,
+.pole {
+    text-shadow: -9px 15px 5px #e0ebeb;
+}
+
+.phraseBoard {
+    font-size: 400%;
+}
+
+
+.hidden-word-display {}
+
+.guesses-left {}
+
+.users-input {
+    background-color: azure;
+
+
+
+}
+
+.canvas {
+    background-color: #e1ebeb;
+    margin: 3% 20%;
+}
+
+
+
+form {
+    margin-left: inherit;
+    margin-bottom: 4%;
+}
+
+.input-group-label {
+    background-color: #e1ebeb;
+    max-width: 40%;
+    padding: .3%;
+
+}
+
+.input-group-field {
+    max-width: 20%;
+}
+
+form .button {
+    color: lightcyan;
+}
+
+
+.input-group {
+    max-width: 70%;
+
+}
+
+.game-guess-container {
+}
+#restart-button {}
