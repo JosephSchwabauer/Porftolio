@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Hangman!</title>
+    <link rel="stylesheet" href="hangman.css">
+</head>
+
+<body>
+
+    <header>
+
+        <h1><span class="the">The</span> Gallows <span class="the">Pole</span></h1>
+
+
+        <audio controls id="lzSong">
+	    <source src="Gallows Pole.mp3" type="audio/mp3">
+	    </audio>
+        <p class=""></p>
+        <p class="">
+            <span class=""></span>
+        </p>
+    </header>
+
+    <canvas id='paddleCanvas' width="300" height="300" style="border:1px solid #000000"></canvas>
+
+    <p class="hidden-word-display">_ _ _ </p>
+    <p class="guesses-left-container">guesses left: <span class="guesses-left"> </span></p>
+
+    <form class="game-guess-container">
+        <input onchange="guess(this.value)" class="user-input" type="text" maxlength="1" placeholder="enter a letter">
+        <button class="cursor">Guess!</button>
+    </form>
+
+    <div class="reset-button-container">
+        <button id="restart-button" class="cursor"> Start Over </button>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="hangman.js"></script>
+
+
+
+
+
+</body>
+
+</html>
