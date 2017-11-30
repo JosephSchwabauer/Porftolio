@@ -57,7 +57,7 @@ var input = document.querySelector(".user-input").textContent = "";
 
 //this relates to hangman.html line 28, not totally sure how that works
 function guess(letterGuess) {
-    userGuess = letterGuess;
+    userGuess = letterGuess.toLowerCase();
 }
 
 
