@@ -1,3 +1,41 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+
 canvas{
     color: aqua;
+}
+
+
+
+/* ----------- good scope here for a variety of screens----------- */
+
+/* ----------- iPhone 5----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (-webkit-device-pixel-ratio: 2) {
+}
+
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) { 
+}
+
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) { 
+         
+}
+
+/* add 480px for mobile devices in landscape mode */
+@media only screen and (min-device-width: 480px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) { 
+}
+
+/* add 600px for kindle and nook */
+@media only screen and (min-device-width: 600px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) { 
+}
+
+/* For general iPad Pro */
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1366px) { 
+     
 }
