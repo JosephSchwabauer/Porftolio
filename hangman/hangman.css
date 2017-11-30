@@ -5,6 +5,13 @@
 
 }
 
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+
 h1 {
     font-size: 400%;
     font-weight: 100;
@@ -69,6 +76,132 @@ form .button {
 
 }
 
-.game-guess-container {
-}
+.game-guess-container {}
+
 #restart-button {}
+
+
+
+
+
+
+/* ----------- good scope here for a variety of screens----------- */
+
+/* ----------- iPhone 5----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (-webkit-device-pixel-ratio: 2) {
+
+     canvas {
+        min-width: 60%;
+    }
+    
+    p {
+        font-size: 45px;
+    }
+    
+    
+   input{
+        min-width: 50%;
+
+    }
+}
+
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+    
+    
+     canvas {
+        min-width: 60%;
+    }
+    
+    p {
+        font-size: 45px;
+    }
+    
+    
+   input{
+        min-width: 50%;
+
+    }
+}
+
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+    
+    
+     canvas {
+        min-width: 60%;
+    }
+    
+    p {
+        font-size: 45px;
+    }
+    
+    
+   input{
+        min-width: 50%;
+
+    }
+}
+
+/* add 480px for mobile devices in landscape mode */
+
+@media only screen and (min-device-width: 480px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+    
+     canvas {
+        min-width: 60%;
+    }
+    
+    p {
+        font-size: 45px;
+    }
+    
+    
+   input{
+        min-width: 50%;
+
+    }
+}
+
+/* add 600px for kindle and nook */
+
+@media only screen and (min-device-width: 600px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+    
+     canvas {
+        min-width: 60%;
+    }
+    
+    p {
+        font-size: 45px;
+
+    }
+    
+    
+   input{
+        min-width: 50%;
+
+    }
+}
+
+/* For general iPad Pro */
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) {
+    
+     canvas {
+        min-width: 60%;
+    }
+    
+    p {
+        font-size: 45px;
+    }
+    
+    
+   input{
+        min-width: 50%;
+
+    }
+}
