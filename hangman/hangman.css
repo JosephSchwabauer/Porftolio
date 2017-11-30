@@ -27,12 +27,12 @@ h1 {
     text-shadow: -9px 15px 5px #e0ebeb;
 }
 
-.phraseBoard {
-    font-size: 400%;
+
+
+.hidden-word-display {
+        font-size: 200%;
+
 }
-
-
-.hidden-word-display {}
 
 .guesses-left {}
 
