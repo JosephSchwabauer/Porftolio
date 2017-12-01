@@ -49,7 +49,7 @@ var finalDisplay = dashedWord.join(' ');
 //displaying finalDisplay in the HTML doc class .hidden-word-display
 document.querySelector('.hidden-word-display').textContent = finalDisplay;
 
-var counter = document.querySelector(".guesses-left").textContent = 9;
+var counter = document.querySelector(".guesses-left").textContent = 8;
 
 var userGuess;
 
@@ -86,33 +86,33 @@ function checkGuess() {
     }
 
     switch (counter) {
-        case 8:
+        case 7:
             drawPlatform();
             break;
 
-        case 7:
+        case 6:
             drawPole();
             break;
 
-        case 6:
+        case 5:
             drawHead();
             break;
 
-        case 5:
+        case 4:
             drawBack();
             break;
 
-        case 4:
+        case 3:
             drawLarm();
             break;
 
-        case 3:
+        case 2:
             drawRarm();
             break;
-        case 2:
+        case 1:
             drawLleg();
             break;
-        case 1:
+        case 0:
             drawRleg();
             break;
 
