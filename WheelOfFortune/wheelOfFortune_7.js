@@ -125,6 +125,7 @@ function letterCheck(letter, win) {
         } else {
             sorryLetter(letter);
             modAlph(letterUp);
+            spinTotal(win);
         }
     };
 };
