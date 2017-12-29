@@ -246,21 +246,21 @@ li {
 /* add 600px for kindle and nook */
 @media only screen and (min-device-width: 600px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) { 
            #alpha {
-        font-size: 75%;
+        font-size: 45%;
     } 
     
       button {
         width: 50%;
-        font-size:260%;
+        font-size:160%;
         }
      
     .or {
-        font-size:250%;
+        font-size:150%;
         margin-top: 4%;
         margin-bottom: 4%;
         }
     #moneyTitle{
-        font-size:140%;
+        font-size:80%;
 
         }   
 }
@@ -268,21 +268,21 @@ li {
 /* For general iPad layouts */
 @media only screen and (device-width: 768px) {
     #alpha {
-        font-size: 75%;
+        font-size: 50%;
     } 
     
       button {
         width: 50%;
-        font-size:260%;
+        font-size:160%;
         }
      
     .or {
-        font-size:250%;
+        font-size:150%;
         margin-top: 4%;
         margin-bottom: 4%;
         }
     #moneyTitle{
-        font-size:140%;
+        font-size:80%;
 
         }
 }
@@ -290,21 +290,21 @@ li {
 /* For general iPad Pro */
 @media only screen and (min-device-width : 1024px) and (max-device-width : 1366px) { 
       #alpha {
-        font-size: 75%;
+        font-size: 50%;
     } 
     
       button {
         width: 50%;
-        font-size:260%;
+        font-size:160%;
         }
      
     .or {
-        font-size:250%;
+        font-size:150%;
         margin-top: 4%;
         margin-bottom: 4%;
         }
     #moneyTitle{
-        font-size:140%;
+        font-size:80%;
 
         }    
 }
