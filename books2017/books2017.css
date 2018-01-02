@@ -4,8 +4,6 @@ dark vanilla #CAB7A1
 cadet grey #86A5A9
 columbia blue #C1E6DF
 rich black #0B0405
-
-
 */
 
 * {
@@ -17,20 +15,72 @@ rich black #0B0405
     font: inherit;
 }
 
+header {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 9px;
+
+}
+
+@font-face {
+    font-family: bookFont;
+    src: url(broadcasttitling.ttf);
+}
+
+.pageTitle {
+    font-family: bookFont;
+    font-size: 800%;
+    text-align: center;
+    margin-top: 4%;
+}
+
+.filters{
+    color:#0B0405;
+   margin-left:20%;
+    margin-top: 2%;
+    font-family: filterfont;
+    font-size: 200%;
+    text-shadow: 2px 2px #e6ffff;
+    
+}
+
+#nonfiction {
+    color:#0B0405;
+       margin-left:20%;
+}
+
+@font-face {
+    font-family: filterfont;
+    src: url(cartoonblocks.ttf);
+}
+
+@font-face {
+    font-family: keyFont;
+    src: url(indiefont.ttf);
+}
+
 body {
     line-height: 1;
 }
 
+
+
 :not(.title) {}
 
-.header {
-    font-size: 380%;
-    word-spacing: 12px;
+.title {
+    word-spacing: 3px;
     text-align: center;
     /*border: 1px solid orange;*/
     margin: 4%;
-    font-family:monospace;
-    font-style: oblique;
+    font-family: keyFont;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 10%;
+    font-size: 160%;
+    color: #003366;
 }
 
 .container {
@@ -40,18 +90,11 @@ body {
     align-self: center;
     margin-left: 5%;
     margin-right: 5%;
-
 }
 
-
-
-#last_col {}
-
 .col {
-    /*border: 1px solid blue;*/
     width: 24%;
     height: 32%;
-    
     position: relative;
 
 }
@@ -63,16 +106,13 @@ body {
     border-style: ridge;
     line-height: 1.5em;
     flex-wrap: wrap;
-        height: 22%;
-        margin: 16%;
+    height: 22%;
+    margin: 16%;
     min-width: 92%;
-      min-height: 190px;
+    min-height: 190px;
     position: relative;
     display: table;
     text-align: center;
-
-
-
 }
 
 #paper::after {
@@ -113,31 +153,6 @@ body {
     line-height: 1.5em;
     background-color: #C1E6DF;
 }
-
-
-
-
-.title {
-
-}
-
-.text {
-    /*border: 1px solid orange;*/
-  
-}
-
-.title {
-    display: table-cell;
-    vertical-align: middle;
-    padding: 10%;
-        font-family: courier;
-        font-size: 120%;
-
-
-}
-
-
- 
 
 
 
