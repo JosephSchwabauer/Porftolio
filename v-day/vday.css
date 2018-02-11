@@ -3,3 +3,21 @@ body {
     background-size:cover; 
     
 }
+
+.pics {
+  min-height: 5%;
+    min-width: 5%;
+    max-height: 16%;
+    max-width: 16%;
+    margin: 0px;
+    padding: 0px;
+    border: 2px solid green;
+}
+
+#cancun {
+    max-height: 12%;
+}
+
+#grace {
+    min-height: 8%;
+}
